@@ -149,9 +149,39 @@ header{
     z-index: 10;
     filter: blur(45px);
 }
+
+.btnDownload{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    background: linear-gradient(to right, rgba(30, 100, 160, 0.56), rgba(227, 30, 67, 0.56));
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btnDownload:hover {
+    background: linear-gradient(to right, rgba(30, 100, 160, 0.66), rgba(227, 30, 67, 0.66));
+    transform: scale(1.05);
+}
+
+.btnDownload:active {
+    background: linear-gradient(to right, rgba(30, 100, 160, 1), rgba(227, 30, 67, 1));
+    transform: scale(0.9);
+}
+
+
+
 a{
     text-decoration: none;
 
+}
+
+.text-decor{
+    text-decoration: underline;
+    color: blue;
 }
 @keyframes fadeIn {
     from {
