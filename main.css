@@ -173,7 +173,10 @@ header{
     transform: scale(0.9);
 }
 
-
+.underline{
+    text-decoration: underline;
+    color: blue;
+}
 
 a{
     text-decoration: none;
