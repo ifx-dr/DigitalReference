@@ -2,85 +2,102 @@
     font-family: Glacial Indifference Reg;
     src: url("Fonts/GlacialIndifference-Regular.otf") format('woff2');
 }
+
 @font-face {
     font-family: Glacial Indifference Bol;
     src: url("Fonts/GlacialIndifference-Bold.otf") format('woff2');
 }
+
 @font-face {
     font-family: Arimo Reg;
     src: url("Fonts/Arimo-VariableFont_wght.ttf") format('woff2');
 }
 
 @keyframes slideInBottom {
-    from{
+    from {
         transform: translateY(100px);
         opacity: 0%;
     }
-    to{
-        transform: translateY(0px) ;
+
+    to {
+        transform: translateY(0px);
         opacity: 100%;
     }
 }
-.SlideInBottom{
+
+.SlideInBottom {
     animation: slideInBottom ease-out 1s forwards;
     opacity: 0%;
     animation-delay: var(--delay);
 }
+
 @keyframes slideInLeft {
-    from{
+    from {
         transform: translateX(-110px);
         opacity: 0%;
     }
-    to{
+
+    to {
         transform: translateX(0px);
         opacity: 100%;
     }
 
 }
+
 @keyframes slideInRight {
-    from{
+    from {
         transform: translateX(110px);
         opacity: 0%;
     }
-    to{
+
+    to {
         transform: translateX(0px);
         opacity: 100%;
     }
 
 }
-.SlideInRight{
+
+.SlideInRight {
     opacity: 0;
     animation: slideInRight 2.5s ease-out forwards;
-    animation-delay: var(--delay);  /* Apply delay using CSS variable */
+    animation-delay: var(--delay);
+    /* Apply delay using CSS variable */
 }
+
 :root {
-    --duration: 2.5s;  /* Animation duration */
-  }
+    --duration: 2.5s;
+    /* Animation duration */
+}
+
 .SlideInLeft {
     opacity: 0;
     animation: slideInLeft var(--duration) forwards;
-    animation-delay: var(--delay);  /* Apply delay using CSS variable */
-  }
-  
+    animation-delay: var(--delay);
+    /* Apply delay using CSS variable */
+}
+
 
 @keyframes animate-bande {
-    from{
+    from {
         opacity: 0%;
     }
-    to{
+
+    to {
         opacity: 56%;
-}
+    }
 }
 
 
-body, html{
+body,
+html {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
 }
-.animate-bande{
+
+.animate-bande {
     animation: animate-bande 3.5s forwards;
     opacity: 0%;
 }
@@ -91,6 +108,7 @@ body, html{
     color: #292928;
 
 }
+
 h1 {
     color: #202020;
     top: 343px;
@@ -99,58 +117,64 @@ h1 {
     text-align: center;
     position: relative;
     letter-spacing: 1rem;
-    transition: letter-spacing 1s; /* Apply transition to default state */
+    transition: letter-spacing 1s;
+    /* Apply transition to default state */
 }
 
 h1.SlideInBottom:hover {
     letter-spacing: 1.3rem;
 }
-h1.SlideInRight:hover{
+
+h1.SlideInRight:hover {
     letter-spacing: 1.3rem;
 }
-.Title{
+
+.Title {
     position: relative;
     margin-left: auto;
     margin-right: auto;
 
 }
-.bande{
+
+.bande {
     height: 35px;
     width: 55em;
     position: relative;
-    top : 240px;
+    top: 240px;
     margin-left: auto;
     margin-right: auto;
     left: 70px;
     z-index: -5;
-    background-image: linear-gradient(to right, #1e64a0, #e31e43 );
+    background-image: linear-gradient(to right, #1e64a0, #e31e43);
     opacity: 56%;
     border: 1px;
     border-radius: 40px;
 }
-header{
+
+header {
     position: fixed;
-    top : 0px;
+    top: 0px;
     left: 0px;
     height: 10em;
     width: 100%;
     display: flex;
     align-items: center;
     z-index: 100;
-    
+
 }
-.bgheader{
+
+.bgheader {
     position: fixed;
-    top : -5em;
+    top: -5em;
     left: -20px;
     width: 110%;
     height: 21.2em;
-    background-color:  white;
+    background-color: white;
     z-index: 10;
     filter: blur(45px);
 }
 
-.btnIndexPage{
+.btnIndexPage {
     display: inline-block;
     margin-top: 40px;
     margin: 15px 15px;
@@ -173,54 +197,63 @@ header{
     transform: scale(0.9);
 }
 
-.underline{
+.underline {
     text-decoration: underline;
     color: blue;
 }
 
-a{
+a {
     text-decoration: none;
 
 }
 
-.text-decor{
+.text-decor {
     text-decoration: underline;
     color: blue;
 }
+
 @keyframes fadeIn {
     from {
-      opacity: 0;
+        opacity: 0;
     }
+
     to {
-      opacity: 1;
+        opacity: 1;
     }
-  }
+}
+
 @keyframes zoomin {
     from {
-      font-size: 0%;
+        font-size: 0%;
     }
+
     to {
-      font-size: 0.9em;
+        font-size: 0.9em;
     }
-  }
+}
+
 @keyframes BtoR {
     from {
-      color: #202020;
+        color: #202020;
     }
+
     to {
-      color: #e31e43;
-      font-size: 1.1em;
+        color: #e31e43;
+        font-size: 1.1em;
     }
-  }
+}
+
 @keyframes letter-spaci {
     from {
         letter-spacing: 100%;
     }
+
     to {
-      letter-spacing: 120%;
+        letter-spacing: 120%;
     }
-  }
-nav{
+}
+
+nav {
     font-family: 'Glacial Indifference';
     height: 10%;
     width: 60%;
@@ -234,12 +267,13 @@ nav{
 }
 
 .divlobes a.Lobes {
-    position: relative; 
-    display: inline-block; 
+    position: relative;
+    display: inline-block;
     z-index: 10;
-  }
-.ab:hover{
-    font-weight:900 ;
+}
+
+.ab:hover {
+    font-weight: 900;
     transition: font-weight 0.4s;
 }
 
@@ -249,7 +283,7 @@ nav{
     width: 18em;
     position: absolute;
     list-style-type: none;
-    padding :1.75em;
+    padding: 1.75em;
     font-size: 0.85em;
     top: 0px;
     left: -6em;
@@ -260,49 +294,57 @@ nav{
     backdrop-filter: blur(45px);
     z-index: 5;
     column-count: 2;
-  }
-  .divlobes ul li {
-    width: calc(50% - 10%); /* Two columns with a small gap */
-    padding: 5px 0px; /* Adjust as needed */
-  }
-  .divlobes ul li a:hover {
+}
+
+.divlobes ul li {
+    width: calc(50% - 10%);
+    /* Two columns with a small gap */
+    padding: 5px 0px;
+    /* Adjust as needed */
+}
+
+.divlobes ul li a:hover {
     animation: BtoR 0.4s forwards;
-  }
+}
+
 .divlobes:hover ul,
 .divlobes:focus-within ul {
     opacity: 1;
-    pointer-events: auto; 
+    pointer-events: auto;
     animation: fadeIn 0.5s forwards;
     animation: zoomin 0.5s ease-in-out forwards;
-  }
-.head{
+}
+
+.head {
     margin-top: 50px;
 }
 
-span{
+span {
     font-size: 30px;
     color: #1F487E;
 }
 
-.Introsection{
+.Introsection {
     display: flex;
     position: relative;
     width: 100%;
-    top : 500px;
+    top: 500px;
     height: 900px;
     flex-direction: column;
     flex: 1;
 
 }
-.Logo_infineon{
+
+.Logo_infineon {
     position: absolute;
     width: 10em;
     height: 5em;
     left: 3.5%;
-    top : 40%;
+    top: 40%;
 
 }
-main{
+
+main {
     padding-left: 12.5em;
     padding-right: 12.5em;
     display: flex;
@@ -311,9 +353,10 @@ main{
     justify-content: center;
 
 }
-.smallintro{
+
+.smallintro {
     position: relative;
-    top : 310px;
+    top: 310px;
     text-align: center;
     font-size: 1em;
     max-width: 60%;
@@ -326,14 +369,16 @@ main{
     z-index: 0;
 
 }
-.Intro{
+
+.Intro {
     position: relative;
     font-size: 3.25em;
 }
-.midintro{
+
+.midintro {
     position: relative;
     text-align: center;
-    top : 350px;
+    top: 350px;
     font-size: 1.5em;
     max-width: 95%;
     margin-left: auto;
@@ -344,46 +389,51 @@ main{
     line-height: 1.5em;
     z-index: 0;
 }
-.bigintro{
+
+.bigintro {
     position: relative;
     font-size: 1.25em;
     left: 1.5em;
-    top:-41px;
+    top: -41px;
     max-width: 95%;
 }
-.smallgraphe{
+
+.smallgraphe {
     opacity: 90%;
     position: absolute;
     display: flex;
     position: relative;
-    top : 195px;
+    top: 195px;
     justify-content: center;
     z-index: -5;
 }
-.smpng{
+
+.smpng {
     width: 150px;
 }
-.line{
+
+.line {
     width: 22.5em;
     height: 1.85em;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top : 16.5em;
+    top: 16.5em;
 
 
 }
 
 
-footer{
+footer {
     position: relative;
     bottom: -60em;
     height: 150px;
     width: 100%;
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
-.divfoot{
+
+.divfoot {
     position: relative;
     bottom: 2.25em;
     margin-left: 2em;
@@ -392,77 +442,130 @@ footer{
     height: 100%;
     background-color: rgba(30, 100, 160, 0.2);
     display: flex;
-    align-items:center;
+    align-items: center;
 }
 
 
-.map{
+.map {
     position: relative;
-    top:35em;
+    top: 35em;
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 20em;
     flex: 1;
 }
-.Map{
+
+.Map {
     position: relative;
     font-size: 3.25em;
 }
-.mappng{
+
+.mappng {
     position: relative;
-    top:4em;
+    top: 4em;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 
-    transition: transform  1.5s ;
+    transition: transform 1.5s;
 }
+
 .mappng:hover {
     transform: scale(1.06);
 }
-.webvowl{
+
+#fullScreenBtn{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 15em;
+    margin-bottom: 1em;
+    display: block;
+    text-align: center;
+    
+}
+
+.webvowl {
     position: relative;
-    top : 20em;
     border: 1px solid #202020;
     border-radius: 25px;
 }
-.infosss{
+
+.fullscreen-container{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+}
+
+.close-button{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10001;
+    width: 2em;
+}
+
+.fullscreen-container iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.infosss {
     display: flex;
     flex-direction: column;
 }
-.BTH{
+
+.BTH {
     position: relative;
     width: 2em;
     left: -30px;
 
 }
-.aBTH{  
+
+.aBTH {
     display: flex;
     justify-content: center;
     position: relative;
     z-index: 8;
-    
+
 }
-.tit{
+
+.tit {
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
-    top:16em ;
+    top: 16em;
     left: -16px;
 
 }
-.Bintro{
+
+.Bintro {
     list-style-type: none;
 }
-.pindex{
+
+.pindex {
     font-size: 153%;
     position: relative;
 
 }
+
 .Bintro li::before {
-    content: "-"; 
+    content: "-";
     margin-right: -10px;
     position: relative;
     top: 7px;
@@ -478,13 +581,14 @@ footer{
 
 
 
-h4{
+h4 {
     position: relative;
     font-weight: 900;
     text-align: center;
     font-size: 1.5em;
 }
-.ns{
+
+.ns {
     display: flex;
 
     column-gap: 0em;
@@ -494,22 +598,27 @@ h4{
 
     justify-content: center;
 }
-.Namespacestit{
+
+.Namespacestit {
     font-size: 3em;
     width: auto;
-    top:0px;
+    top: 0px;
 }
-.nslinks{
+
+.nslinks {
     padding-left: 0px;
 }
-.nslinks a{
+
+.nslinks a {
     color: #1e64a0;
     transform: animation;
 }
-.nslinks a:hover{
-    animation: BtoR 0.3s ease-in-out forwards ;
+
+.nslinks a:hover {
+    animation: BtoR 0.3s ease-in-out forwards;
 }
-.col_me{
+
+.col_me {
     width: 28em;
 }
 
@@ -529,7 +638,8 @@ dd {
     padding-top: 7px;
     font-size: 16px;
 }
-.bodyupd{
+
+.bodyupd {
     padding: 2em 70px 2em 70px;
     margin: 0;
     font-family: Glacial Indifference Reg;
@@ -551,50 +661,58 @@ section {
 sup {
     margin-left: -3px;
 }
+
 code {
     font-size: large;
     color: darkred;
 }
 
 .container_1 {
-   display: grid;
-   justify-content: center;
-   grid-template-columns: 50% 57%;
-   column-gap: 7em;
-   width: 100%;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   top: 22em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 57%;
+    column-gap: 7em;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 22em;
 }
-.dlupd{
+
+.dlupd {
     font-size: 1.5em;
     position: relative;
     text-align: left;
 }
-.ddupd{
+
+.ddupd {
     font-size: 1em;
 }
-.dtupd{
+
+.dtupd {
     font-size: 2rem;
 }
-dt{
+
+dt {
     margin-bottom: 15px;
     margin-top: 45px;
     font-weight: bold;
 }
-.logi{
+
+.logi {
     position: relative;
-    top : 0px;
+    top: 0px;
     width: 40em;
     justify-self: center;
-    align-self:center;
+    align-self: center;
 }
-.update{
+
+.update {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .block {
     border: 1.5px solid #202020;
     border-radius: 10px;
@@ -602,28 +720,32 @@ dt{
     padding-left: 50px;
     margin-bottom: 20px;
 
-  }
-#data{
+}
+
+#data {
     position: relative;
     font-size: 1.25em;
     top: 35em;
     margin-left: 0rem;
     margin-right: 0rem;
 }
-.h1up{
+
+.h1up {
     position: relative;
     width: auto;
     margin-right: 0 auto;
     text-align: center;
-    top:0px;
+    top: 0px;
     font-size: 3em;
 }
-.divh2his{
+
+.divh2his {
     position: relative;
     display: inline-block;
     top: 40em;
 }
-.h2his{
+
+.h2his {
     position: relative;
     top: 0em;
     font-size: 2em;
@@ -631,19 +753,22 @@ dt{
     letter-spacing: 0.6rem;
     transition: letter-spacing 1s;
 }
-.h2his:hover{
+
+.h2his:hover {
     letter-spacing: 1.2rem;
 }
-.BTT{
+
+.BTT {
     rotate: 90deg;
     position: relative;
     width: 3em;
 }
-.aBTT{
+
+.aBTT {
     display: flex;
     justify-content: center;
     position: relative;
-    top:50em ;
+    top: 50em;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -655,12 +780,13 @@ dt{
 
 
 
-.Metadatatit{
+.Metadatatit {
     font-size: 3em;
     width: auto;
-    top:0px;
+    top: 0px;
 }
-.infos{
+
+.infos {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -673,33 +799,37 @@ dt{
     opacity: 0%;
 
 }
-.metaa{
+
+.metaa {
     font-size: 220%;
     text-decoration: underline;
-    text-decoration-skip-ink: none; 
+    text-decoration-skip-ink: none;
     padding-bottom: 2px;
 }
 
-.col:first-child{
+.col:first-child {
     flex-grow: 1;
     max-width: 23em;
 }
-.col:last-child{
+
+.col:last-child {
     flex-grow: 2;
     margin-top: 0;
-    max-width: 23em; 
+    max-width: 23em;
 
 }
-.pmeta{
+
+.pmeta {
     font-size: 150%;
     color: #1e64a0;
     padding-left: 0px;
 }
 
-ul{
+ul {
     padding-left: 3em;
 }
-.metaaa{
+
+.metaaa {
     color: #1e64a0;
     font-size: 150%;
 }
@@ -712,11 +842,12 @@ ul{
 
 
 
-.Lobestit{
+.Lobestit {
     font-size: 3em;
     width: auto;
-    top:0px;
+    top: 0px;
 }
+
 .map-container {
     position: relative;
     width: auto;
@@ -725,28 +856,31 @@ ul{
     letter-spacing: 0.1em;
     display: flex;
     justify-content: space-between;
-  }
+}
 
-.Lobescol1{
+.Lobescol1 {
     position: relative;
     left: 7vw;
     font-size: 0.7em;
     padding-bottom: 20em;
 }
-.Lobescol2{
+
+.Lobescol2 {
     position: relative;
-    top :27.5em;
+    top: 27.5em;
     margin-left: auto;
     margin-right: auto;
     height: 130%;
     z-index: 5;
 }
+
 .Lobescol2 .reponsive-img {
-    width: 100%; 
-    height: auto; 
-    max-width: 600px; 
-    max-height: 400px; 
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    max-height: 400px;
 }
+
 .Lobescol3 {
     text-align: right;
     position: relative;
@@ -758,54 +892,67 @@ ul{
 .idc {
     font-size: 1em;
     position: relative;
-  }
-.Lobescol1 details[open]{
+}
+
+.Lobescol1 details[open] {
     padding-bottom: 1.25em;
     padding-top: 1.25em;
-    margin-left: 0px; 
-    position: relative;  
+    margin-left: 0px;
+    position: relative;
     max-width: 45em;
     z-index: 10;
 }
-.Lobescol3 details[open]{
+
+.Lobescol3 details[open] {
     padding-bottom: 1.25em;
     padding-top: 1.25em;
     position: relative;
-    margin-right: 0px;  
+    margin-right: 0px;
     max-width: 45em;
     z-index: 10;
 }
-.Lobescol1 details{
+
+.Lobescol1 details {
     padding-bottom: 1.25em;
     padding-top: 1.25em;
     transition: all 0.3s ease;
-    margin-left: 0px;     
-    
+    margin-left: 0px;
+
 }
-summary{
+
+summary {
     font-size: 1.75vh;
 }
-.Lobescol3 details{
+
+.Lobescol3 details {
     padding-bottom: 1.25em;
     padding-top: 1.25em;
-    transition: all 0.3s ease;  
+    transition: all 0.3s ease;
     margin-right: 0px;
 }
+
 .Lobescol1 details p {
-    width: 100%; /* Ajustez la largeur du paragraphe selon vos besoins */
-    margin-left: 0px; /* Centre le paragraphe à droite */
+    width: 100%;
+    /* Ajustez la largeur du paragraphe selon vos besoins */
+    margin-left: 0px;
+    /* Centre le paragraphe à droite */
     padding-bottom: 1em;
     padding-top: 1em;
     padding-right: 2.1em;
     font-size: 2.5ex;
     line-height: 1.6;
-    background-color: #fff; /* Couleur de fond du paragraphe */
-    border-radius: 5px; /* Coins arrondis pour le paragraphe */
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2); /* Optionnel : ajout d'une ombre pour l'effet de profondeur */
+    background-color: #fff;
+    /* Couleur de fond du paragraphe */
+    border-radius: 5px;
+    /* Coins arrondis pour le paragraphe */
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+    /* Optionnel : ajout d'une ombre pour l'effet de profondeur */
     position: relative;
-  }
-  .Lobescol3 details p {
-    width: 100%; /* Ajustez la largeur du paragraphe selon vos besoins */
+}
+
+.Lobescol3 details p {
+    width: 100%;
+    /* Ajustez la largeur du paragraphe selon vos besoins */
     margin-left: auto;
     margin-right: 0px;
     line-height: 1.6;
@@ -813,66 +960,82 @@ summary{
     padding-top: 1em;
     padding-right: 2.1em;
     font-size: 2.5ex;
-    background-color: #fff; /* Couleur de fond du paragraphe */
-    border-radius: 5px; /* Coins arrondis pour le paragraphe */
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2); /* Optionnel : ajout d'une ombre pour l'effet de profondeur */
+    background-color: #fff;
+    /* Couleur de fond du paragraphe */
+    border-radius: 5px;
+    /* Coins arrondis pour le paragraphe */
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+    /* Optionnel : ajout d'une ombre pour l'effet de profondeur */
     position: relative;
-  }
-h3{
+}
+
+h3 {
     font-size: 1.7em;
 }
 
-p{
+p {
     font-size: 1.3rem;
     padding-left: 2.1em;
 
 }
-dt{
+
+dt {
     font-size: 1.7em;
 }
-#classes{
-    position: relative ;
+
+#classes {
+    position: relative;
 }
+
 dd ul li span a {
     font-size: 0.8em;
 }
-th{
+
+th {
     font-size: 1.5em;
     text-align: right;
     padding-right: 2em;
 }
-code{
+
+code {
     color: #e31e43;
 }
-table{
+
+table {
     padding-left: 2.5em;
 }
-.ssp{
+
+.ssp {
     font-weight: bold;
     font-size: 1.3rem;
 }
-dl{
+
+dl {
     width: 90%;
     padding-bottom: 0.5em;
 }
 
-dd ul{
+dd ul {
     column-count: 4;
     height: auto;
     column-gap: 6em;
     width: 100%;
 }
-.aL{
+
+.aL {
     position: relative;
     top: -18em;
 }
-.aLo{
+
+.aLo {
     position: relative;
     top: -18em;
 }
-.stdes{
+
+.stdes {
     padding-bottom: 2em;
 }
-strong{
+
+strong {
     color: #1e64a0;
 }
