@@ -1,0 +1,3255 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#Duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#day",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#days",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#weeks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr#Process_Lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr#Product_Lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobes: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Process_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Etching",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_capacity" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap1"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_resources" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Aligner"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Oxide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_capacity" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_resources" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Implanter"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Photo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_capacity" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap3"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_resources" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Stepper_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity_UV_Bake",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_capacity" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap4"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_resources" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Stepper_2"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#All_Planning_Objects_have_to_be_positive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#sc3:formula" : [ {
+    "@value" : "forall($g in Products, $t in PlanningHorizon, $j in Frontends) -> FE_Y($j, $g, $t) >= 0;\r\nforall($g in Products, $t in PlanningHorizon, $j in Frontends) -> FE_X($j, $g, $t) >= 0;\r\nforall($g in Products, $t in PlanningHorizon, $j in Frontends) -> FE_Wip($j, $g, $t) >= 0;\r\nforall($g in Products, $t in PlanningHorizon) -> FE_Inventory($g, $t) >= 0;\r\nforall($g in Products, $t in PlanningHorizon) -> FE_Backlog($g, $t) >= 0;"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Automated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Maker_Type"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Autonomous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Initiative"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ": The AVAILABLE CAPACITY describes the ability of a resource within a period of time to perform activities or processes. Elmaghraby (2011) refers to this as operational capacity, i.e. the productive capacity that is obtained from the nominal capacity by subtracting the anticipated and unavoidable loss in productivity, for instance, due to machine breakdowns in a wafer fab."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Available Capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "A BILL OF MATERIALS (BOM) describes the component products used to make another product. Substitution, often associated with binning, is based on the possibility that alternative items might be used to finish a process step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bill Of Material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Product_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Product_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Binning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "BINNING refers to the process of testing and categorizing parts against defined measures and sort them into different bins (Degbotse 2013). Each bin belongs to certain levels of defined measures (e.g. chip speed, current, voltage, energy consumption). Binning is often combined with SUBSTITUTION."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Product_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bom_Product_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Borderless_FE1_zu_FE2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#due_date" : [ {
+    "@value" : "1 week"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_activities" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Photo"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_owner" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE1"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#quantity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Semiconductor Production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-SO#Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity_Restriction_Equation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#sc3:formula" : [ {
+    "@value" : "forall($k in WorkCenters, $j in Frontends, t in PlanningHorizon) sum($g in Products, $l in OperationCountOnWorkCenter($j, $k, $g) ->\r\n\t\tFE_Y($j, $g, $t, OperationsOnWorkCenter($j, $k, $g, $l)) * alpha($j, $g, OperationsOnWorkCenter($j, $k, $g, $l)) <= WorkCenterCapacity($t, $j, $k);\r\n\r\n\r\nWorkCenters (Resources)=FE_Aligner, FE_Stepper_2, FE_Stepper_1, FE_Implanter\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;\r\nOperationCountOnWorkCenter=Product($numberOfOperationsOnSameResource);\r\nalpha= Activity($hasRequiredCapacity(Product($hasActivities)));\r\nWorkCenterCapacity= FE_Aligner($hasAvailableCapacity, $hasLocation), FE_Stepper_2($hasAvailableCapacity, $hasLocation), FE_Stepper_1($hasAvailableCapacity, $hasLocation), FE_Implanter($hasAvailableCapacity, $hasLocation);"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Component_Part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Component Part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Criteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Typical criteria are maximization, minimization, i.e. if an optimization problem is considered, or larger or smaller than a prescribed value of the certain performance measure, a so-called target, i.e. if a satisfaction problem is solved. In a multi-criteria setting, the dominance concept for plans is of interest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Maker_Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "We distinguish human decision-makers (human DECISION-MAKING UNITS) from fully automated DECISION-MAKING UNITS where computers make fully automated decisions. Between these two extremes there are semi-automated decisions, where a computer provides several decision alternatives and a human decision-maker chooses among them. Note that the decision-maker type can change over time."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Decision Maker Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Initiative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "We distinguish fully autonomous DECISION-MAKING UNITS from DECISION-MAKING UNITS where the decision-making activities are triggered by other DECISION-MAKING UNITS. Note that the decision-making initiative can change over time in a situation-dependent manner."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Decision Making Initiative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The DECISION-MAKING UNIT specifies an instance that makes decisions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Decision Making Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decison_Making_Unit_Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "In an ANTAGO¬NISTIC SETTING, the different DECISION-MAKING UNITS try to meet their own objectives which are in conflict. In a non-antagonistic setting, the DECISION-MAKING UNITS do not exploit their private knowledge in an opportunistic way."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Decison Making Unit Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Demand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Dependent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Initiative"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Distributed_Hierarchical_Situation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "In this situation, edges referring to instructions and reactions are possible."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Distributed Hierarchical Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Hierarchical_Situation"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Edge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Owner"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE1_CostMinimization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_costs" : [ {
+    "@value" : "backlog=150"
+  }, {
+    "@value" : "inventory=15"
+  }, {
+    "@value" : "wip=50"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_criterias" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Minimization"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_performance_measures" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#MinimizeBacklog"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#MinimizeInventoryLevel"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#MinimizeWipCosts"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_planning_objects" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Backlog"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Inventory"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Wip"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_X"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Y"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_planning_window" : [ {
+    "@value" : "12 weeks"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#sc3:formula" : [ {
+    "@value" : "sum($g in Products, $t in PlanningHorizon)--> sum($j in Frontends) (WipCosts($g, $t) * FE_Wip($j, $g, $t)) + InventoryCosts($g, $t) * FE_Inventory($g, $t) + BacklogCosts($g, $t) * FE_Backlog($g, $t);\r\n\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;\r\nInventoryCosts= $(hasCosts($inventory));\r\nBacklogCosts= $(hasCosts($backlog));\r\nWipCosts= $(hasCosts($wip));"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Owner"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Aligner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Resource"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_capacity" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap1"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Backlog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2006/time#day" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_period" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Implanter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Resource"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_capacity" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Inventory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2006/time#day" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_period" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_2"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Stepper_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Resource"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_capacity" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap3"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Stepper_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Resource"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_capacity" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap4"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Wip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2006/time#day" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_period" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_2"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_X",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2006/time#day" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_period" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_2"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#FE_Y",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2006/time#day" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_period" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_2"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frozen_Fence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "FROZEN FENCE is used to set a frozen interval  in which decision making is not allowed to change the previously determined values."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Frozen Fence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Heterarchical_Situation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "All the vertices have level 1."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Heterarchical Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Hierarchical_Situation"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Hierarchical_Situation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hierarchical Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Human",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Maker_Type"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#In_Transit_Inventory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "The IN-TRANSIT INVENTORY describes the quantity of a certain product that is shipped from one location to another. This quantity has left the inventory of one location, but has not yet been received into the inventory of the receiving location."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "In-Transit Inventory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Balance_Equation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#sc3:formula" : [ {
+    "@value" : "forall($g in Products, $t in PlanningHorizon) -> FE_Inventory($p, $t) = FE_Inventory($g, $t-1) + sum(j in Frontends)(FE_Y($j,$g,$t) - FE_Backlog($g, $t-1) + FE_Backlog($g, $t) + sum(j in Frontends)(Inventory_DB($j, $g, $t) - Demand($g, $t);\r\n\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_DB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory"
+  } ],
+  "http://www.w3.org/2006/time#day" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_period" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_2"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Policy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Lot_Sizing_Rule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "A LOT SIZING RULE defines a rule to specify the lot size for a specific part. The lot size on the other hand defines the number of pieces belonging to a part. The lot size is the result of applying lot sizing rules."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lot Sizing Rule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Macro_Operation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Macro Operation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Material_Flow_Equation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#sc3:formula" : [ {
+    "@value" : "forall($g in Products, $j in Frontends, $t in PlanningHorizon, $l in Steps($j, $g) -> FE_Y($j, $g, $t, $l) = FE_X($j, $g, $t - LeadTime($g, $l));\r\n\r\n\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;\r\nSteps= Product($hasActivities);\r\nLeadTime= Product($hasLeadTime);"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Minimization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Criteria"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#MinimizeBacklog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#MinimizeInventoryLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#MinimizeWipCosts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Owner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "A PART represents a physical instance of a product in the manufacturing process. It therefore realizes a product. A part moves through the system and is manufactured according to its product specification. A part is associated to exactly one product. During the production process it is typically tested several times. The binning rules of the associated product specification can be applied to the respective part. A part can be substituted by another part according to the associated product specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Product_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part1_Product_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_due_date" : [ {
+    "@value" : "1 week"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_planning_object" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Borderless_FE1_zu_FE2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part2_Product_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_due_date" : [ {
+    "@value" : "1 week"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_planning_object" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Borderless_FE1_zu_FE2"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part3_Product_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_due_date" : [ {
+    "@value" : "3 weeks"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part4_Product_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_due_date" : [ {
+    "@value" : "4 weeks"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part5_Product_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_due_date" : [ {
+    "@value" : "5 weeks"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Performance_Measure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Each measure is defined by a calculation procedure. Performance measures can be blended using weights to express the importance of the different measures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Performance Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#PeriodLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2006/time#Interval"
+  } ],
+  "http://www.w3.org/2006/time#days" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A PLAN is an activity specification with an intended purpose."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Plan_Execution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A PLAN EXECUTION is related to performing the activities according to a PLAN either directly in the base system, for instance, releasing lots into a wafer fab, or as instructions for another DECISION-MAKING UNIT."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Plan Execution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The PLANNING PURPOSE specifies the objectives of a certain planning activity. It is given by a set of performance measures that are related to a set of PLANNING OBJECTS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Planing Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#PlanningInstance_Frontend_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Instance"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_constraint" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity_Restriction_Equation"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Balance_Equation"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Material_Flow_Equation"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Wip_Balance_Equation"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Approach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Specific planning algorithm which is used in a deticated planning process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Planning Approach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A PLANNING CONSTRAINT restricts the action space. This space is formed by alternative actions that are a result of the planning decisions (Schneeweis 2003). In the planning domain, PLANNING CONSTRAINTS, often the capacity offered by resources, limit the quantities that are assigned to the PLANNING OBJECTS or impact the temporal properties of PLANNING OBJECTS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Planning Constraint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Decision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Decisions determined by a Decision Making Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Planning Decision"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Function",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the different functions and its properies follwing the supply chain planning matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Planning Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Instance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A PLANNING INSTANCE specifies the PLANNING OBJECTS and the values of related PLANNING CONSTRAINTS that form the basis for a planning decision."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Planning Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A PLANNING OBJECT specifies what has to be planned as an atomic unit. A single PLANNING OBJECT typically represents a quantity of a certain product or product aggregate to be released or completed within a certain period in a certain node of the semiconductor supply chain. Other PLANNING OBJECTS can be orders or lots. Values are assigned to the attributes of a PLANNING OBJECT as a result of a planning decision."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Planning Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The PLANNING PROCESS specifies under which circumstances which (re)planning activities are performed by a DECISION-MAKING UNIT."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Planning Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Situation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The PLANNING SITUATION describes the organization of several DECISION-MAKING UNITS and also its environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Planning Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A PROCESS specifies a method of making a product at a location. The process is expressed at a coarse level of granularity suitable for use in production planning."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process_Product_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional Lobe: Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_activities" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Etching"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Oxide"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Photo"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity_UV_Bake"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_location" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_process" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process_Product_1"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#has_product" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_1"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_Aggregate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Product"
+  }, {
+    "@value" : "A PRODUCT AGGREGATE combines individual products into a few logical products groups. This results in a reduction of complexity, which enables a better overview."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Product Aggregate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_Hierarchy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Product"
+  }, {
+    "@value" : "A PRODUCT HIERARCHY characterizes the top-down and bottom-up relationship between different product aggregates. It organizes the product aggregates according to defined criteria. A product aggregate is used to group different products based on certain criteria. The grouping criteria depend on the planning purpose (e.g. controlling, production). It is a certain view on a set of products."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Product Hierarchy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Projected_WIP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "The PROJECTED WIP describes the quantity of a certain product that is anticipated to be received into inventory at a particular location at a particular time."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Projected WIP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Product_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Replanning_Degree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The degree distinguishes replanning from scratch and repair of existing plans (Vieria et al. 2003)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Replanning Degree"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Required Capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Resource_Availability_Constraints",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This type of constraints has an impact on the assignment of activities to RESOURCES and to START/END TIMES to ACTIVITIES."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Resource Availability Constraints"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Resource_Compatibility_Constraints",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This type of constraints ensures that only allowed activities are performed using a given RESOURCE."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Resource Compatibility Constraints"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Route",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Semi_Automated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Between these two extremes there are semi-automated decisions, where a computer provides several decision alternatives and a human decision-maker chooses among them."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Semi Automated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Maker_Type"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#SimulationHorizon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2006/time#Duration"
+  } ],
+  "http://www.w3.org/2006/time#weeks" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "26"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Strict_Hierarchical_Situation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "There are only edges between vertices of level k and vertices of level k-1, where k≥2."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Hierarchical_Situation"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Substitution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "SUBSTITUTION refers to using alternative parts. Depending on the product, each one could be replaced by using specific alternatives at the same stage of production, e.g. final product, raw material, or semi-finished products (Degbotse 2013) in order to complete a manufacturing step or fulfill a customer order."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Product_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Supply_Information",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "SUPPLY INFORMATION provides information of the used and unused supply of a supply chain network."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Supply Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Target",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Targets are prescribed values for the different performance measures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Temporal-Constraints",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This type of constraints restricts the values of temporal attributes, modeled by the property TIME, that belong to PLANNING OBJECTS. For instance, there might be a minimum amount of time between two consecutive operations of a certain product."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Trigger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "A mechanism that initiates an action when an event occurs such as reaching a certain time or date or upon receiving some type of input. A trigger generally causes a program routine to be executed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Process_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Vertex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Planning_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Wip_Balance_Equation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3id.org/ecsel-dr-Planning#sc3:formula" : [ {
+    "@value" : "forall($g in Products, $t in PlanningHorizon, $j in Frontends) -> FE_Wip($j, $g, $t) = FE_X($j, $g, $t) - FE_Y($j, $g, $t) + FE_Wip($j, $g, $t-1)\r\n\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#Yield",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Additional lobe: Planning"
+  }, {
+    "@value" : "YIELD could be the fraction (percentage) of good dies resulting from total dies released."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Product_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#anticipation_capabilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Anticipatory activities are used by a DECISION-MAKING UNIT to take into account the characteristics and the situation of other DECISION-MAKING UNITs in course of its own decision making (Schneeweiss 2003)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has anticipation capabilities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#availability_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Supply_Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "availability date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#binning_percentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "binning percentage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#capacity_unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "capacity unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#commit_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "commit date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#consumed_qantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "consumed qantity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#costs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Cost refers to the amount of money that is needed to do a certain action for a unit of a certain good, for instance, store or produce a unit of a product."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Substitution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "costs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#current_stock_level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "current stock level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#decision_rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property will allow a DECISION-MAKING UNIT to negotiate the instruction provided by other DECISION-MAKING UNIT. In a conventional or strict hierarchical setting, negotiations of instruction provided by superior DECISION-MAKING UNITs are impossible. In a distributed hierarchical setting in the sense of Schneeweiss (2003) reactions of the DECISION-MAKING UNIT which can lead to negotiations are possible (Schneeweiss 2003)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "decision rights"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#decision_time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property describes the point of time when a decision is made by the DECISION-MAKING UNIT."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "decision time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#demand_class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "demand class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#distribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Binning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "distribution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#due_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is the latest time where the activities associated with a PLANNING OBJECT have to be finished. Note that the parameter DUE DATE is exogenous, i.e. given, in contrast to the property TIME."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Supply_Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "due date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#earliest_release_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is the earliest time where the activities associated with a PLANNING OBJECT can start. Note that the parameter RELEASE DATE is exogenous, i.e. given, in contrast to the property TIME."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "earliest release date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#effective_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Yield"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "effective date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#effective_start_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "effective start date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#end_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Binning"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frozen_Fence"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Policy"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Lot_Sizing_Rule"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Substitution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "end date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#end_time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is the latest point in time when the PLANNING CONSTRAINT is active."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "end time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#feasibility_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A PLAN is feasible if all PLANNING CONSTAINTS of the PLANNING INSTANCE on which the plan is based are fulfilled, otherwise, the plan is infeasible."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "feasibility status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#hard_constraints",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "PLANNING CONSTRAINTS with this property cannot be violated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hard constraints"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_DMUa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "First DMU of the Vertex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Vertex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has DMUa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_DMUb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Second DMU of the Vertex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Edge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has DMUb"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_activities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property describes the set of activities that must be carried out to produce the goods that are associated with the PLANNING OBJECT.\r\n\r\nMoreover, there are additional parameters for most types of PLANNING OBJECTS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has activities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_bill_of_material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A set of potentially alternative BOMs can be used to meet the demand of a certain product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has bill of material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_bin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Binning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has bin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bin"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_capacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_child_product_aggregate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_Hierarchy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has child product aggregate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_Hierarchy"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_component_location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_component_part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Component_Part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_component_process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_connection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "If a vertex provides instruction or a reaction to another vertex than the two vertices are connected by a directed edge."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has connection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Edge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_constraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has constraint"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_costs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_criterias",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A criterion is assigned to each performance measure that belongs to a PLANNING PURPOSE. Typical criteria are maximization, minimization, i.e. if an optimization problem is considered, or larger or smaller than a prescribed value of the certain performance measure, a so-called target, i.e. if a satisfaction problem is solved. In a multi-criteria setting, the dominance concept for plans is of interest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has criterias"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Criteria"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_decision_maker_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Specifies the concrete type of a DMU"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has decision maker type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Maker_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_decision_making_initiative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "We distinguish fully autonomous DECISION-MAKING UNITS from DECISION-MAKING UNITS where the decision-making activities are triggered by other DECISION-MAKING UNITS. Note that the decision-making initiative can change over time in a situation-dependent manner."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has decision making initiative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Initiative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_decision_making_unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property describes the set of DECISION-MAKING UNITS that constitutes the planning situation. We refer to the elements of the set as vertices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Situation"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Vertex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has decision making unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_decision_making_unit_charcters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has decision making unit charcters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decison_Making_Unit_Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_defined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Values for certain PERFORMANCE MEASURES can be computed after a plan is executed. This always requires that the consequences of a PLAN are assessed in the base system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Plan_Execution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has defined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Performance_Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_due_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_event_trigger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property determines which events result in replanning (Vieria et al. 2003). For instance, replanning can be the result of the breakdown of a bottleneck resource."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has event trigger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Trigger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_frozen_fence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property specifies which planning decisions are remain unchanged in the case of replanning activities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has frozen fence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Decision"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_hierarchical_situation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has hierarchical situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Hierarchical_Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_involved_planning_objects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property specifies the involved PLANNING OBJECTS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has involved planning objects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property describes the place or places, for instance nodes of the semiconductor supply chain or specific machines of a work center where the ACTIVITIES associated with the PLANNING OBJECT have to be executed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Binning"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frozen_Fence"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Policy"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Lot_Sizing_Rule"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Projected_WIP"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Substitution"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Supply_Information"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Yield"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_objectives",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ": The property specifies the objectives of a certain planning activity.\r\nMoreover, there are additional parameters for most types of PLANNING PROCESS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has objectives"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_operations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Route"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has operations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Macro_Operation"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#In_Transit_Inventory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Order"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_owner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A PLANNING OBJECT is rarely considered in isolation. Usually it belongs to a set of PLANNING OBJECTS, for example, a planning instance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has owner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Owner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_parent_product_aggregate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_Hierarchy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has parent product aggregate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_Hierarchy"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bin"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Binning"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Projected_WIP"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Yield"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_performance_measures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Each PLANNING PURPOSE is determined by a set of performance measures. Each measure is defined by a calculation procedure. Performance measures can be blended using weights to express the importance of the different measures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has performance measures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Performance_Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_period",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_periodic_trigger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property defines after which amount of time a replanning activity is initiated in a periodic manner (Vieria et al. 2003). Rolling horizon approaches are triggered by such a periodic approach."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has periodic trigger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Trigger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Activities associated with a PLANNING PROCESS require an instance of the concept PLAN."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_constraints",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property specifies which constraints must be ensured."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has planning constraints"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_instance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Activities associated with PLANNING PROCESS require an instance of the concept PLANNING INSTANCE."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has planning instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Frozen_Fence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has planning object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_objects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A set of planning objects is required to determine the performance measure values belonging to the PLANNING PURPOSE. The set of planning objects is often determined by the planning window."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has planning objects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property specifies under which circumstances which (re)planning activities are performed by a DECISION-MAKING UNIT."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has planning process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_purpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has planning purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_window",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_predecessor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has predecessor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Binning"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Yield"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_product",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Binning"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Demand"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#In_Transit_Inventory"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Policy"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Lot_Sizing_Rule"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Part"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product_Aggregate"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Projected_WIP"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Substitution"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Supply_Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_receiving_location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#In_Transit_Inventory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has receiving location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_replanning_degree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "he degree distinguishes replanning from scratch and repair of existing plans (Vieria et al. 2003)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has replanning degree"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Replanning_Degree"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_resources",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "the  set  of  resources  that  can be  utilized  to  execute  various  ACTIVITIES  of  the PRODUCT  plan."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Capacity"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has resources"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_scope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property defines which planning function is addressed by the DECISION-MAKING UNIT (planning scope). It also described to which part of the base system the DECISION-MAKING UNIT belongs (physical scope)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has scope"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_set_of_planning_objects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property specifies a set of planning objects from a given planning instance where all attributes are supplied with values that are determined as the result of a planning decisions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has set of planning objects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_sub_processes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has sub processes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_substitutes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Substitution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has substitutes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_successor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has successor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_supplying_location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#In_Transit_Inventory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has supplying location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Location"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_targets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has targets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Target"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_trigger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has trigger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Trigger"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_vertex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has vertex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Vertex"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#has_yield",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has yield"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Yield"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Each PLANNING OBJECT has a unique identifier, abbreviated by ID."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#information_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property describes the own internal, but also the external situation of the DECISION-MAKING UNIT. At the same time, it describes information about the internal and external situation of other DECISION-MAKING UNITs and their information status (Schneeweiss 2003)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "information status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#lead_time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lead time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Each vertex has a level. The highest level is assigned to vertices that do not receive instructions from other vertices. The vertices belonging to the second highest level receive instructions only from vertices of the highest level. This definition can be repeated in a recursive manner. Reactions are only possible from vertices of level k-1 to vertices of level k or level k-1."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Edge"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#maximum_capacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximum capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#maximum_computing_time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property specifies which maximum time is allowed to perform a certain planning activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximum computing time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#maximum_lot_size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Lot_Sizing_Rule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximum lot size"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#maximum_supply",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Supply_Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximum supply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#minimum_capacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "minimum capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#minimum_lot_size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Lot_Sizing_Rule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "minimum lot size"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#minimum_supply",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Supply_Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "minimum supply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#number_of_operations_on_same_resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of operations on same resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#offset_periods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "offset periods"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#origin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#part_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Projected_WIP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "part type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#penality_costs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "If CONSTRAINTS are violated by a plan penalties might be used to change the performance measure values to express that the violations are undesired."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "penality costs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#performance_criteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "performance criteria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#performance_measure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "performance measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#period",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#planning_period",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property defines a certain fraction of a planning window. Equidistant periods are common for many supply chain planning problems."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "planning period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#planning_window",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A planning window described for which amount of periods or which time span the performance measure values have to be calculated. In some situations, the planning window will determine the set of planning objects, for instance, lots completed within the planning window."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "planning window"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#priority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property describes the relative importance of the PLANNING OBJECT. It provided the base for establishing a partial ordering of the importance of the set of planning objects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "priority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#projected_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#In_Transit_Inventory"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Projected_WIP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "projected date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#projected_quantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#In_Transit_Inventory"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Projected_WIP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "projected quantity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#quantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property describes given, i.e. fixed, size of a PLANNING OBJECT, for instance, the number of wafers that belong to a lot. Note that the parameter QUANTITY is exogenous, i.e. given, in contrast to the property QUANTITY where the amount of the quantity has to be decided."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Demand"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "quantity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#release_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Activity"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "release date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#requested_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "requested date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#revenue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Revenue refers to the amount of income, earning generated by the sale of one unit of a certain good."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "revenue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#safety_stock_level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "safety stock level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#safety_stock_time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "safety stock time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#sc3:formula",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#set_of_connections",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "set of connections"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#soft_constraints",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "PLANNING CONSTRAINTS with this property can be violated. This means that the degree of violation is typically penalized in a related criterion or performance measure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "soft constraints"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#start_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Binning"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Policy"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Lot_Sizing_Rule"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Substitution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "start date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#start_time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is the earliest point in time when the PLANNING CONSTRAINT is active."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "start time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#substitution_quantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Substitution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "substitution quantity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property is required to manage timing aspects of a PLANNING OBJECT. It can be a release time, a finishing time, a single start time, or a set of start time for certain ACTIVITIES to be fulfilled."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Policy"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Order"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Supply_Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#uses_planning_approach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property defines which algorithm is used to make the required decisions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uses planning approach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Approach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Planning#weights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Weights can be used to express preferences of the decision makers among the different performance measures and related criteria. This is, for instance, useful if a lexicographic approach is used."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "weights"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-SO#Capacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

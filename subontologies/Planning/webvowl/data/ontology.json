@@ -1,0 +1,4731 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://www.w3id.org/ecsel-dr-SO", "http://www.w3.org/2006/time", "http://www.w3id.org/ecsel-dr-Planning" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "237",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "278",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "235",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "216",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "280",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "284",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "285",
+    "type" : "owl:Class"
+  }, {
+    "id" : "273",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "266",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "249",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "254",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "275",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "287",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "308",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "293",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "313",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "230",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "229",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "221",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "owl:Class"
+  }, {
+    "id" : "307",
+    "type" : "owl:Class"
+  }, {
+    "id" : "310",
+    "type" : "owl:Class"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Route",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Route"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Decision",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Decision",
+      "en" : "Planning Decision"
+    },
+    "comment" : {
+      "undefined" : "Decisions determined by a Decision Making Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Process",
+      "en" : "Planning Process"
+    },
+    "comment" : {
+      "undefined" : "The PLANNING PROCESS specifies under which circumstances which (re)planning activities are performed by a DECISION-MAKING UNIT."
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Binning",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Binning"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "BINNING refers to the process of testing and categorizing parts against defined measures and sort them into different bins (Degbotse 2013). Each bin belongs to certain levels of defined measures (e.g. chip speed, current, voltage, energy consumption). Binning is often combined with SUBSTITUTION."
+    },
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Projected_WIP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Projected_WIP",
+      "en" : "Projected WIP"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "The PROJECTED WIP describes the quantity of a certain product that is anticipated to be received into inventory at a particular location at a particular time."
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Resource_Availability_Constraints",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource_Availability_Constraints",
+      "en" : "Resource Availability Constraints"
+    },
+    "comment" : {
+      "undefined" : "This type of constraints has an impact on the assignment of activities to RESOURCES and to START/END TIMES to ACTIVITIES."
+    },
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Macro_Operation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Macro_Operation",
+      "en" : "Macro Operation"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Lot_Sizing_Rule",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lot_Sizing_Rule",
+      "en" : "Lot Sizing Rule"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "A LOT SIZING RULE defines a rule to specify the lot size for a specific part. The lot size on the other hand defines the number of pieces belonging to a part. The lot size is the result of applying lot sizing rules."
+    },
+    "attributes" : [ "external" ],
+    "id" : "114",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Edge",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Edge"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Performance_Measure",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Performance_Measure",
+      "en" : "Performance Measure"
+    },
+    "comment" : {
+      "undefined" : "Each measure is defined by a calculation procedure. Performance measures can be blended using weights to express the importance of the different measures."
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Vertex",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vertex"
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Process_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process_Lobe"
+    },
+    "subClasses" : [ "120", "112" ],
+    "attributes" : [ "external" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Dependent",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dependent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "130",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process"
+    },
+    "comment" : {
+      "undefined" : "A PROCESS specifies a method of making a product at a location. The process is expressed at a coarse level of granularity suitable for use in production planning."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Capacity",
+    "equivalent" : [ "21" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Capacity"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Product_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Lobe"
+    },
+    "subClasses" : [ "142", "79", "81", "143", "144", "140", "96" ],
+    "attributes" : [ "external" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Available_Capacity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Available_Capacity",
+      "en" : "Available Capacity"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap3",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "AvailableCap3"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap2",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "AvailableCap2"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "AvailableCap1"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap5",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "AvailableCap5"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#AvailableCap4",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "AvailableCap4"
+      }
+    } ],
+    "comment" : {
+      "undefined" : ": The AVAILABLE CAPACITY describes the ability of a resource within a period of time to perform activities or processes. Elmaghraby (2011) refers to this as operational capacity, i.e. the productive capacity that is obtained from the nominal capacity by subtracting the anticipated and unavoidable loss in productivity, for instance, due to machine breakdowns in a wafer fab."
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Supply_Information",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Information",
+      "en" : "Supply Information"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "SUPPLY INFORMATION provides information of the used and unused supply of a supply chain network."
+    },
+    "attributes" : [ "external" ],
+    "id" : "127",
+    "superClasses" : [ "149" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Maker_Type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Decision_Maker_Type",
+      "en" : "Decision Maker Type"
+    },
+    "subClasses" : [ "152", "153", "154" ],
+    "comment" : {
+      "undefined" : "We distinguish human decision-makers (human DECISION-MAKING UNITS) from fully automated DECISION-MAKING UNITS where computers make fully automated decisions. Between these two extremes there are semi-automated decisions, where a computer provides several decision alternatives and a human decision-maker chooses among them. Note that the decision-maker type can change over time."
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Function",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Function",
+      "en" : "Planning Function"
+    },
+    "comment" : {
+      "undefined" : "Describes the different functions and its properies follwing the supply chain planning matrix."
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Instance",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Instance",
+      "en" : "Planning Instance"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#PlanningInstance_Frontend_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "PlanningInstance_Frontend_1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A PLANNING INSTANCE specifies the PLANNING OBJECTS and the values of related PLANNING CONSTRAINTS that form the basis for a planning decision."
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Duration",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Duration"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#SimulationHorizon",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "weeks" : [ {
+          "identifier" : "weeks",
+          "language" : "undefined",
+          "value" : "26",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "SimulationHorizon"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Resource_Compatibility_Constraints",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource_Compatibility_Constraints",
+      "en" : "Resource Compatibility Constraints"
+    },
+    "comment" : {
+      "undefined" : "This type of constraints ensures that only allowed activities are performed using a given RESOURCE."
+    },
+    "attributes" : [ "external" ],
+    "id" : "163",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Product_Aggregate",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Aggregate",
+      "en" : "Product Aggregate"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Product",
+      "undefined" : "A PRODUCT AGGREGATE combines individual products into a few logical products groups. This results in a reduction of complexity, which enables a better overview."
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Autonomous",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Autonomous"
+    },
+    "attributes" : [ "external" ],
+    "id" : "166",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Temporal-Constraints",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Temporal-Constraints"
+    },
+    "comment" : {
+      "undefined" : "This type of constraints restricts the values of temporal attributes, modeled by the property TIME, that belong to PLANNING OBJECTS. For instance, there might be a minimum amount of time between two consecutive operations of a certain product."
+    },
+    "attributes" : [ "external" ],
+    "id" : "171",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Product_Hierarchy",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Hierarchy",
+      "en" : "Product Hierarchy"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Product",
+      "undefined" : "A PRODUCT HIERARCHY characterizes the top-down and bottom-up relationship between different product aggregates. It organizes the product aggregates according to defined criteria. A product aggregate is used to group different products based on certain criteria. The grouping criteria depend on the planning purpose (e.g. controlling, production). It is a certain view on a set of products."
+    },
+    "attributes" : [ "external" ],
+    "id" : "176",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Plan",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plan"
+    },
+    "comment" : {
+      "undefined" : "A PLAN is an activity specification with an intended purpose."
+    },
+    "attributes" : [ "external" ],
+    "id" : "129",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bill_Of_Material",
+      "en" : "Bill Of Material"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Bom_Product_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Bom_Product_1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "A BILL OF MATERIALS (BOM) describes the component products used to make another product. Substitution, often associated with binning, is based on the possibility that alternative items might be used to finish a process step."
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Required_Capacity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Required_Capacity",
+      "en" : "Required Capacity"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "RequiredCap1"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap4",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "RequiredCap4"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap2",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "RequiredCap2"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#RequiredCap3",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "RequiredCap3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "178",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Semi_Automated",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semi_Automated",
+      "en" : "Semi Automated"
+    },
+    "comment" : {
+      "undefined" : "Between these two extremes there are semi-automated decisions, where a computer provides several decision alternatives and a human decision-maker chooses among them."
+    },
+    "attributes" : [ "external" ],
+    "id" : "154",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Initiative",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Decision_Making_Initiative",
+      "en" : "Decision Making Initiative"
+    },
+    "subClasses" : [ "130", "166" ],
+    "comment" : {
+      "undefined" : "We distinguish fully autonomous DECISION-MAKING UNITS from DECISION-MAKING UNITS where the decision-making activities are triggered by other DECISION-MAKING UNITS. Note that the decision-making initiative can change over time in a situation-dependent manner."
+    },
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Heterarchical_Situation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Heterarchical_Situation",
+      "en" : "Heterarchical Situation"
+    },
+    "comment" : {
+      "undefined" : "All the vertices have level 1."
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Trigger",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Trigger"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "A mechanism that initiates an action when an event occurs such as reaching a certain time or date or upon receiving some type of input. A trigger generally causes a program routine to be executed."
+    },
+    "attributes" : [ "external" ],
+    "id" : "120",
+    "superClasses" : [ "119" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Criteria",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Criteria"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Minimization",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Minimization"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Typical criteria are maximization, minimization, i.e. if an optimization problem is considered, or larger or smaller than a prescribed value of the certain performance measure, a so-called target, i.e. if a satisfaction problem is solved. In a multi-criteria setting, the dominance concept for plans is of interest."
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Object",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Object",
+      "en" : "Planning Object"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE_Backlog",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_period" : [ {
+          "identifier" : "has_period",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ],
+        "day" : [ {
+          "identifier" : "day",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "FE_Backlog"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Borderless_FE1_zu_FE2",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Borderless_FE1_zu_FE2"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE_Inventory",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_period" : [ {
+          "identifier" : "has_period",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ],
+        "day" : [ {
+          "identifier" : "day",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "FE_Inventory"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE_Wip",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_period" : [ {
+          "identifier" : "has_period",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ],
+        "day" : [ {
+          "identifier" : "day",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "FE_Wip"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE_X",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_period" : [ {
+          "identifier" : "has_period",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ],
+        "day" : [ {
+          "identifier" : "day",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "FE_X"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE_Y",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_period" : [ {
+          "identifier" : "has_period",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ],
+        "day" : [ {
+          "identifier" : "day",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "FE_Y"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A PLANNING OBJECT specifies what has to be planned as an atomic unit. A single PLANNING OBJECT typically represents a quantity of a certain product or product aggregate to be released or completed within a certain period in a certain node of the semiconductor supply chain. Other PLANNING OBJECTS can be orders or lots. Values are assigned to the attributes of a PLANNING OBJECT as a result of a planning decision."
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Product_2",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Product_2"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Product_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Product_1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Additional Lobe: Product"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Frozen_Fence",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Frozen_Fence",
+      "en" : "Frozen Fence"
+    },
+    "comment" : {
+      "undefined" : "FROZEN FENCE is used to set a frozen interval  in which decision making is not allowed to change the previously determined values."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "149" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Resource",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE_Stepper_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "FE_Stepper_1"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE_Stepper_2",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "FE_Stepper_2"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE_Aligner",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "FE_Aligner"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE_Implanter",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "FE_Implanter"
+      }
+    } ],
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Interval",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interval"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#PeriodLength",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "days" : [ {
+          "identifier" : "days",
+          "language" : "undefined",
+          "value" : "1",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "PeriodLength"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "237"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Decison_Making_Unit_Character",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Decison_Making_Unit_Character",
+      "en" : "Decison Making Unit Character"
+    },
+    "comment" : {
+      "undefined" : "In an ANTAGO¬NISTIC SETTING, the different DECISION-MAKING UNITS try to meet their own objectives which are in conflict. In a non-antagonistic setting, the DECISION-MAKING UNITS do not exploit their private knowledge in an opportunistic way."
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Automated",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Automated"
+    },
+    "attributes" : [ "external" ],
+    "id" : "152",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Hierarchical_Situation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hierarchical_Situation",
+      "en" : "Hierarchical Situation"
+    },
+    "subClasses" : [ "103", "101", "105" ],
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "245",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "148",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "228",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "165",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Planning_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Lobe"
+    },
+    "subClasses" : [ "107", "66", "68", "70", "31", "78", "83", "85", "87", "89", "32", "64", "4", "7", "16", "2", "19", "21", "26", "28", "1", "72", "235", "155", "216", "176", "23", "129" ],
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Yield",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Yield"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "YIELD could be the fraction (percentage) of good dies resulting from total dies released."
+    },
+    "attributes" : [ "external" ],
+    "id" : "140",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Replanning_Degree",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Replanning_Degree",
+      "en" : "Replanning Degree"
+    },
+    "comment" : {
+      "undefined" : "The degree distinguishes replanning from scratch and repair of existing plans (Vieria et al. 2003)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "155",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "257",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "241",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "151",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "261",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "263",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "199",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Plan_Execution",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plan_Execution",
+      "en" : "Plan Execution"
+    },
+    "comment" : {
+      "undefined" : "A PLAN EXECUTION is related to performing the activities according to a PLAN either directly in the base system, for instance, releasing lots into a wafer fab, or as instructions for another DECISION-MAKING UNIT."
+    },
+    "attributes" : [ "external" ],
+    "id" : "107",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Inventory",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inventory"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_DB",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_period" : [ {
+          "identifier" : "has_period",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ],
+        "day" : [ {
+          "identifier" : "day",
+          "language" : "undefined",
+          "value" : "",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Inventory_DB"
+      }
+    } ],
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "191",
+    "superClasses" : [ "149" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_2",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Frontend_2"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Frontend_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Frontend_1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "109",
+    "superClasses" : [ "149" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "271",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "243",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "276",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "277",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "222",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "174",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Constraint",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Constraint",
+      "en" : "Planning Constraint"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#All_Planning_Objects_have_to_be_positive",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "formula" : [ {
+          "identifier" : "formula",
+          "language" : "undefined",
+          "value" : "forall($g in Products, $t in PlanningHorizon, $j in Frontends) -> FE_Y($j, $g, $t) >= 0;\r\nforall($g in Products, $t in PlanningHorizon, $j in Frontends) -> FE_X($j, $g, $t) >= 0;\r\nforall($g in Products, $t in PlanningHorizon, $j in Frontends) -> FE_Wip($j, $g, $t) >= 0;\r\nforall($g in Products, $t in PlanningHorizon) -> FE_Inventory($g, $t) >= 0;\r\nforall($g in Products, $t in PlanningHorizon) -> FE_Backlog($g, $t) >= 0;",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "All_Planning_Objects_have_to_be_positive"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Balance_Equation",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "formula" : [ {
+          "identifier" : "formula",
+          "language" : "undefined",
+          "value" : "forall($g in Products, $t in PlanningHorizon) -> FE_Inventory($p, $t) = FE_Inventory($g, $t-1) + sum(j in Frontends)(FE_Y($j,$g,$t) - FE_Backlog($g, $t-1) + FE_Backlog($g, $t) + sum(j in Frontends)(Inventory_DB($j, $g, $t) - Demand($g, $t);\r\n\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Inventory_Balance_Equation"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Capacity_Restriction_Equation",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "formula" : [ {
+          "identifier" : "formula",
+          "language" : "undefined",
+          "value" : "forall($k in WorkCenters, $j in Frontends, t in PlanningHorizon) sum($g in Products, $l in OperationCountOnWorkCenter($j, $k, $g) ->\r\n\t\tFE_Y($j, $g, $t, OperationsOnWorkCenter($j, $k, $g, $l)) * alpha($j, $g, OperationsOnWorkCenter($j, $k, $g, $l)) <= WorkCenterCapacity($t, $j, $k);\r\n\r\n\r\nWorkCenters (Resources)=FE_Aligner, FE_Stepper_2, FE_Stepper_1, FE_Implanter\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;\r\nOperationCountOnWorkCenter=Product($numberOfOperationsOnSameResource);\r\nalpha= Activity($hasRequiredCapacity(Product($hasActivities)));\r\nWorkCenterCapacity= FE_Aligner($hasAvailableCapacity, $hasLocation), FE_Stepper_2($hasAvailableCapacity, $hasLocation), FE_Stepper_1($hasAvailableCapacity, $hasLocation), FE_Implanter($hasAvailableCapacity, $hasLocation);",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Capacity_Restriction_Equation"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Material_Flow_Equation",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "formula" : [ {
+          "identifier" : "formula",
+          "language" : "undefined",
+          "value" : "forall($g in Products, $j in Frontends, $t in PlanningHorizon, $l in Steps($j, $g) -> FE_Y($j, $g, $t, $l) = FE_X($j, $g, $t - LeadTime($g, $l));\r\n\r\n\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;\r\nSteps= Product($hasActivities);\r\nLeadTime= Product($hasLeadTime);",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Material_Flow_Equation"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Wip_Balance_Equation",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "formula" : [ {
+          "identifier" : "formula",
+          "language" : "undefined",
+          "value" : "forall($g in Products, $t in PlanningHorizon, $j in Frontends) -> FE_Wip($j, $g, $t) = FE_X($j, $g, $t) - FE_Y($j, $g, $t) + FE_Wip($j, $g, $t-1)\r\n\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Wip_Balance_Equation"
+      }
+    } ],
+    "subClasses" : [ "163", "171", "90" ],
+    "comment" : {
+      "undefined" : "A PLANNING CONSTRAINT restricts the action space. This space is formed by alternative actions that are a result of the planning decisions (Schneeweis 2003). In the planning domain, PLANNING CONSTRAINTS, often the capacity offered by resources, limit the quantities that are assigned to the PLANNING OBJECTS or impact the temporal properties of PLANNING OBJECTS."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "278",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Component_Part",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Component_Part",
+      "en" : "Component Part"
+    },
+    "attributes" : [ "external" ],
+    "id" : "208",
+    "superClasses" : [ "142" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Substitution",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Substitution"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "SUBSTITUTION refers to using alternative parts. Depending on the product, each one could be replaced by using specific alternatives at the same stage of production, e.g. final product, raw material, or semi-finished products (Degbotse 2013) in order to complete a manufacturing step or fulfill a customer order."
+    },
+    "attributes" : [ "external" ],
+    "id" : "143",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Situation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Situation",
+      "en" : "Planning Situation"
+    },
+    "comment" : {
+      "undefined" : "The PLANNING SITUATION describes the organization of several DECISION-MAKING UNITS and also its environment."
+    },
+    "attributes" : [ "external" ],
+    "id" : "235",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Human",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Human"
+    },
+    "attributes" : [ "external" ],
+    "id" : "153",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Owner",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Owner"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "FE1"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE2",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "FE2"
+      }
+    } ],
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "186",
+    "superClasses" : [ "149" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Planning_Approach",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Approach",
+      "en" : "Planning Approach"
+    },
+    "comment" : {
+      "undefined" : "Specific planning algorithm which is used in a deticated planning process"
+    },
+    "attributes" : [ "external" ],
+    "id" : "216",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Demand",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Demand"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "149" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "280",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "282",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "268",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Decision_Making_Unit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Decision_Making_Unit",
+      "en" : "Decision Making Unit"
+    },
+    "comment" : {
+      "undefined" : "The DECISION-MAKING UNIT specifies an instance that makes decisions."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "247",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "19", "96" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "284"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Part",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Part"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Part3_Product_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_due_date" : [ {
+          "identifier" : "has_due_date",
+          "language" : "undefined",
+          "value" : "3 weeks",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Part3_Product_1"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Part4_Product_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_due_date" : [ {
+          "identifier" : "has_due_date",
+          "language" : "undefined",
+          "value" : "4 weeks",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Part4_Product_1"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Part1_Product_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_due_date" : [ {
+          "identifier" : "has_due_date",
+          "language" : "undefined",
+          "value" : "1 week",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Part1_Product_1"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Part5_Product_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_due_date" : [ {
+          "identifier" : "has_due_date",
+          "language" : "undefined",
+          "value" : "5 weeks",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Part5_Product_1"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Part2_Product_1",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_due_date" : [ {
+          "identifier" : "has_due_date",
+          "language" : "undefined",
+          "value" : "1 week",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Part2_Product_1"
+      }
+    } ],
+    "subClasses" : [ "208" ],
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "A PART represents a physical instance of a product in the manufacturing process. It therefore realizes a product. A part moves through the system and is manufactured according to its product specification. A part is associated to exactly one product. During the production process it is typically tested several times. The binning rules of the associated product specification can be applied to the respective part. A part can be substituted by another part according to the associated product specification"
+    },
+    "attributes" : [ "external" ],
+    "id" : "142",
+    "superClasses" : [ "80" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "210", "79", "143", "114", "1" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Inventory_Policy",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inventory_Policy"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "210",
+    "superClasses" : [ "149" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "210", "14", "127" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "181"
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "122" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "173"
+  }, {
+    "instances" : 0,
+    "union" : [ "81", "79", "140", "144" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "285"
+  }, {
+    "instances" : 0,
+    "union" : [ "142", "2", "127", "112" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "273"
+  }, {
+    "instances" : 0,
+    "union" : [ "210", "2", "19", "127", "21", "26", "81", "79", "143", "114", "140", "1", "191", "96" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "118"
+  }, {
+    "instances" : 0,
+    "union" : [ "19", "10" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "98"
+  }, {
+    "instances" : 0,
+    "union" : [ "142", "26" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "95"
+  }, {
+    "instances" : 0,
+    "union" : [ "79", "140", "96", "178" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "266"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Strict_Hierarchical_Situation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Strict_Hierarchical_Situation"
+    },
+    "comment" : {
+      "undefined" : "There are only edges between vertices of level k and vertices of level k-1, where k?2."
+    },
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Chain_Lobe"
+    },
+    "subClasses" : [ "210", "14", "186", "127", "122", "13", "191", "109" ],
+    "attributes" : [ "external" ],
+    "id" : "149"
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "26", "178" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "111"
+  }, {
+    "instances" : 0,
+    "union" : [ "32", "23" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "249"
+  }, {
+    "instances" : 0,
+    "union" : [ "21", "26" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "9"
+  }, {
+    "instances" : 0,
+    "union" : [ "143", "72" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "254"
+  }, {
+    "instances" : 0,
+    "union" : [ "81", "13" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Activity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Photo",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Activity_Photo"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Activity_UV_Bake",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Activity_UV_Bake"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Oxide",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Activity_Oxide"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#Activity_Etching",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "labels" : {
+        "IRI-based" : "Activity_Etching"
+      }
+    } ],
+    "comment" : {
+      "en" : "Additional lobes: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "112",
+    "superClasses" : [ "119" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Planing_Purpose",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planing_Purpose",
+      "en" : "Planing Purpose"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Planning#FE1_CostMinimization",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+      "annotations" : {
+        "has_planning_window" : [ {
+          "identifier" : "has_planning_window",
+          "language" : "undefined",
+          "value" : "12 weeks",
+          "type" : "label"
+        } ],
+        "formula" : [ {
+          "identifier" : "formula",
+          "language" : "undefined",
+          "value" : "sum($g in Products, $t in PlanningHorizon)--> sum($j in Frontends) (WipCosts($g, $t) * FE_Wip($j, $g, $t)) + InventoryCosts($g, $t) * FE_Inventory($g, $t) + BacklogCosts($g, $t) * FE_Backlog($g, $t);\r\n\r\nFrontends= Frontend_1, Frontend_2;\r\nProducts= Product_1;\r\nInventoryCosts= $(hasCosts($inventory));\r\nBacklogCosts= $(hasCosts($backlog));\r\nWipCosts= $(hasCosts($wip));",
+          "type" : "label"
+        } ],
+        "has_costs" : [ {
+          "identifier" : "has_costs",
+          "language" : "undefined",
+          "value" : "wip=50",
+          "type" : "label"
+        }, {
+          "identifier" : "has_costs",
+          "language" : "undefined",
+          "value" : "inventory=15",
+          "type" : "label"
+        }, {
+          "identifier" : "has_costs",
+          "language" : "undefined",
+          "value" : "backlog=150",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "FE1_CostMinimization"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The PLANNING PURPOSE specifies the objectives of a certain planning activity. It is given by a set of performance measures that are related to a set of PLANNING OBJECTS."
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Bin",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bin"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "144",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "33",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#In_Transit_Inventory",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "In_Transit_Inventory",
+      "en" : "In-Transit Inventory"
+    },
+    "comment" : {
+      "en" : "Additional lobe: Planning",
+      "undefined" : "The IN-TRANSIT INVENTORY describes the quantity of a certain product that is shipped from one location to another. This quantity has left the inventory of one location, but has not yet been received into the inventory of the receiving location."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "149" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "275",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "298",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "182",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "252",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "287",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "290",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "308",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "255",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "293",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "205",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "313",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "193",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Target",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Target"
+    },
+    "comment" : {
+      "undefined" : "Targets are prescribed values for the different performance measures."
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "142", "72" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "230"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Capacity",
+    "equivalent" : [ "141" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Capacity"
+    },
+    "subClasses" : [ "99", "178" ],
+    "comment" : {
+      "en" : "Additional lobe: Semiconductor Production"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "21",
+    "superClasses" : [ "5" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "85", "235" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "229"
+  }, {
+    "instances" : 0,
+    "union" : [ "235", "70" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#Distributed_Hierarchical_Situation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Distributed_Hierarchical_Situation",
+      "en" : "Distributed Hierarchical Situation"
+    },
+    "comment" : {
+      "undefined" : "In this situation, edges referring to instructions and reactions are possible."
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semiconductor_Production_Lobe"
+    },
+    "subClasses" : [ "110", "114", "10", "29" ],
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "112" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "221"
+  }, {
+    "instances" : 0,
+    "union" : [ "142", "210", "2", "127", "19", "21", "79", "81", "143", "114", "28", "191", "96", "122", "13" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "196"
+  }, {
+    "instances" : 0,
+    "union" : [ "64", "72" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "307"
+  }, {
+    "instances" : 0,
+    "union" : [ "81", "13" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "310"
+  }, {
+    "instances" : 0,
+    "union" : [ "210", "79", "143", "114" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "198"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "200",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "204",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "225",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "240",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "246",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "251",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "256",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "258",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "265",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "267",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "269",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "270",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "274",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "281",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "283",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "286",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "288",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "289",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "291",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "292",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "294",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "295",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "296",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "297",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "299",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "301",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "302",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "303",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "304",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "305",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "306",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "309",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "311",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "312",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "314",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "315",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "316",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "317",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "318",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "319",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "320",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "321",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "322",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "323",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "324",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "325",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "326",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "327",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "328",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "329",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "330",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "331",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_object",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "has_planning_object",
+      "en" : "has planning object"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_resources",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "has_resources",
+      "en" : "has resources"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "the  set  of  resources  that  can be  utilized  to  execute  various  ACTIVITIES  of  the PRODUCT  plan."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "has_order",
+      "en" : "has order"
+    },
+    "domain" : "13",
+    "attributes" : [ "external", "object" ],
+    "id" : "12"
+  }, {
+    "range" : "5",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "5",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "5",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "5",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#decision_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "decision_time",
+      "en" : "decision time"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "This property describes the point of time when a decision is made by the DECISION-MAKING UNIT."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "22"
+  }, {
+    "range" : "5",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "5",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "33",
+    "subproperty" : [ "34", "35", "8", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "5",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "5",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "5",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "5",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "5",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#penality_costs",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "penality_costs",
+      "en" : "penality costs"
+    },
+    "domain" : "72",
+    "comment" : {
+      "undefined" : "If CONSTRAINTS are violated by a plan penalties might be used to change the performance measure values to express that the violations are undesired."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "71"
+  }, {
+    "range" : "5",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#performance_measure",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "performance_measure",
+      "en" : "performance measure"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "75"
+  }, {
+    "range" : "5",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "5",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "5",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_decision_maker_type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "has_decision_maker_type",
+      "en" : "has decision maker type"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Specifies the concrete type of a DMU"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "5",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "5",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#projected_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "projected_quantity",
+      "en" : "projected quantity"
+    },
+    "domain" : "92",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_bill_of_material",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "has_bill_of_material",
+      "en" : "has bill of material"
+    },
+    "domain" : "95",
+    "comment" : {
+      "undefined" : "A set of potentially alternative BOMs can be used to meet the demand of a certain product"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_capacity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "has_capacity",
+      "en" : "has capacity"
+    },
+    "domain" : "98",
+    "attributes" : [ "external", "object" ],
+    "id" : "97"
+  }, {
+    "range" : "87",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "87",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "87",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "5",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_predecessor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "has_predecessor",
+      "en" : "has predecessor"
+    },
+    "domain" : "109",
+    "attributes" : [ "external", "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_activities",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "has_activities",
+      "en" : "has activities"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "111",
+    "comment" : {
+      "undefined" : "This property describes the set of activities that must be carried out to produce the goods that are associated with the PLANNING OBJECT.\r\n\r\nMoreover, there are additional parameters for most types of PLANNING OBJECTS."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_criterias",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "has_criterias",
+      "en" : "has criterias"
+    },
+    "domain" : "72",
+    "comment" : {
+      "undefined" : "A criterion is assigned to each performance measure that belongs to a PLANNING PURPOSE. Typical criteria are maximization, minimization, i.e. if an optimization problem is considered, or larger or smaller than a prescribed value of the certain performance measure, a so-called target, i.e. if a satisfaction problem is solved. In a multi-criteria setting, the dominance concept for plans is of interest."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#maximum_computing_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "maximum_computing_time",
+      "en" : "maximum computing time"
+    },
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "This property specifies which maximum time is allowed to perform a certain planning activity."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_component_process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "has_component_process",
+      "en" : "has component process"
+    },
+    "domain" : "96",
+    "attributes" : [ "external", "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "has_location",
+      "en" : "has location"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "118",
+    "comment" : {
+      "undefined" : "This property describes the place or places, for instance nodes of the semiconductor supply chain or specific machines of a work center where the ACTIVITIES associated with the PLANNING OBJECT have to be executed."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#origin",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "origin",
+      "en" : "origin"
+    },
+    "domain" : "122",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#weights",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "weights",
+      "en" : "weights"
+    },
+    "domain" : "72",
+    "comment" : {
+      "undefined" : "Weights can be used to express preferences of the decision makers among the different performance measures and related criteria. This is, for instance, useful if a lexicographic approach is used."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#minimum_supply",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "minimum_supply",
+      "en" : "minimum supply"
+    },
+    "domain" : "127",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_plan",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "has_plan",
+      "en" : "has plan"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "Activities associated with a PLANNING PROCESS require an instance of the concept PLAN."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_decision_making_initiative",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "has_decision_making_initiative",
+      "en" : "has decision making initiative"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "We distinguish fully autonomous DECISION-MAKING UNITS from DECISION-MAKING UNITS where the decision-making activities are triggered by other DECISION-MAKING UNITS. Note that the decision-making initiative can change over time in a situation-dependent manner."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#effective_start_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "effective_start_date",
+      "en" : "effective start date"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#priority",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "priority",
+      "en" : "priority"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "This property describes the relative importance of the PLANNING OBJECT. It provided the base for establishing a partial ordering of the importance of the set of planning objects."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#planning_period",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "136",
+    "label" : {
+      "IRI-based" : "planning_period",
+      "en" : "planning period"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "This property defines a certain fraction of a planning window. Equidistant periods are common for many supply chain planning problems."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_yield",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "has_yield",
+      "en" : "has yield"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#part_type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "146",
+    "label" : {
+      "IRI-based" : "part_type",
+      "en" : "part type"
+    },
+    "domain" : "81",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#identifier",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "identifier",
+      "en" : "identifier"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Each PLANNING OBJECT has a unique identifier, abbreviated by ID."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_set_of_planning_objects",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "has_set_of_planning_objects",
+      "en" : "has set of planning objects"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "129",
+    "comment" : {
+      "undefined" : "This property specifies a set of planning objects from a given planning instance where all attributes are supplied with values that are determined as the result of a planning decisions."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#effective_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "151",
+    "label" : {
+      "IRI-based" : "effective_date",
+      "en" : "effective date"
+    },
+    "domain" : "140",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_frozen_fence",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "has_frozen_fence",
+      "en" : "has frozen fence"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "This property specifies which planning decisions are remain unchanged in the case of replanning activities."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_replanning_degree",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "has_replanning_degree",
+      "en" : "has replanning degree"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "he degree distinguishes replanning from scratch and repair of existing plans (Vieria et al. 2003)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#maximum_supply",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "maximum_supply",
+      "en" : "maximum supply"
+    },
+    "domain" : "127",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#feasibility_status",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "feasibility_status",
+      "en" : "feasibility status"
+    },
+    "domain" : "129",
+    "comment" : {
+      "undefined" : "A PLAN is feasible if all PLANNING CONSTAINTS of the PLANNING INSTANCE on which the plan is based are fulfilled, otherwise, the plan is infeasible."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_receiving_location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "has_receiving_location",
+      "en" : "has receiving location"
+    },
+    "domain" : "13",
+    "attributes" : [ "external", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "30",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#lead_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "165",
+    "label" : {
+      "IRI-based" : "lead_time",
+      "en" : "lead time"
+    },
+    "domain" : "19",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_purpose",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "has_planning_purpose",
+      "en" : "has planning purpose"
+    },
+    "domain" : "32",
+    "attributes" : [ "external", "object" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#end_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "end_date",
+      "en" : "end date"
+    },
+    "domain" : "169",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "174",
+    "label" : {
+      "IRI-based" : "quantity",
+      "en" : "quantity"
+    },
+    "domain" : "173",
+    "comment" : {
+      "undefined" : "This property describes given, i.e. fixed, size of a PLANNING OBJECT, for instance, the number of wafers that belong to a lot. Note that the parameter QUANTITY is exogenous, i.e. given, in contrast to the property QUANTITY where the amount of the quantity has to be decided."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "172"
+  }, {
+    "range" : "21",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "21",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "30",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "182",
+    "label" : {
+      "IRI-based" : "type",
+      "en" : "type"
+    },
+    "domain" : "181",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "180"
+  }, {
+    "range" : "30",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "30",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "149",
+    "domain" : "186",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "149",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_DMUb",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "has_DMUb",
+      "en" : "has DMUb"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "Second DMU of the Vertex"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "149",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "149",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "149",
+    "domain" : "191",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#availability_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "193",
+    "label" : {
+      "IRI-based" : "availability_date",
+      "en" : "availability date"
+    },
+    "domain" : "127",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_DMUa",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "has_DMUa",
+      "en" : "has DMUa"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "85",
+    "comment" : {
+      "undefined" : "First DMU of the Vertex"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "149",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "has_product",
+      "en" : "has product"
+    },
+    "domain" : "196",
+    "attributes" : [ "external", "object" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "has_planning_process",
+      "en" : "has planning process"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "This property specifies under which circumstances which (re)planning activities are performed by a DECISION-MAKING UNIT."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#start_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "199",
+    "label" : {
+      "IRI-based" : "start_date",
+      "en" : "start date"
+    },
+    "domain" : "198",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#demand_class",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "demand_class",
+      "en" : "demand class"
+    },
+    "domain" : "122",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "200"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#commit_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "commit_date",
+      "en" : "commit date"
+    },
+    "domain" : "122",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_defined",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "has_defined",
+      "en" : "has defined"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "107",
+    "comment" : {
+      "undefined" : "Values for certain PERFORMANCE MEASURES can be computed after a plan is executed. This always requires that the consequences of a PLAN are assessed in the base system."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#decision_rights",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "205",
+    "label" : {
+      "IRI-based" : "decision_rights",
+      "en" : "decision rights"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "This property will allow a DECISION-MAKING UNIT to negotiate the instruction provided by other DECISION-MAKING UNIT. In a conventional or strict hierarchical setting, negotiations of instruction provided by superior DECISION-MAKING UNITs are impossible. In a distributed hierarchical setting in the sense of Schneeweiss (2003) reactions of the DECISION-MAKING UNIT which can lead to negotiations are possible (Schneeweiss 2003)."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "204"
+  }, {
+    "range" : "4",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "142",
+    "domain" : "208",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "149",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "149",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#revenue",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "213",
+    "label" : {
+      "IRI-based" : "revenue",
+      "en" : "revenue"
+    },
+    "domain" : "72",
+    "comment" : {
+      "undefined" : "Revenue refers to the amount of income, earning generated by the sale of one unit of a certain good."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "212"
+  }, {
+    "range" : "5",
+    "domain" : "155",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "5",
+    "domain" : "216",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "5",
+    "domain" : "176",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "5",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "5",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#release_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "222",
+    "label" : {
+      "IRI-based" : "release_date",
+      "en" : "release date"
+    },
+    "domain" : "221",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "220"
+  }, {
+    "range" : "4",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "range" : "4",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_substitutes",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "has_substitutes",
+      "en" : "has substitutes"
+    },
+    "domain" : "143",
+    "attributes" : [ "external", "object" ],
+    "id" : "225"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#level",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "228",
+    "label" : {
+      "IRI-based" : "level",
+      "en" : "level"
+    },
+    "domain" : "227",
+    "comment" : {
+      "undefined" : "Each vertex has a level. The highest level is assigned to vertices that do not receive instructions from other vertices. The vertices belonging to the second highest level receive instructions only from vertices of the highest level. This definition can be repeated in a recursive manner. Reactions are only possible from vertices of level k-1 to vertices of level k or level k-1."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_decision_making_unit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "has_decision_making_unit",
+      "en" : "has decision making unit"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "229",
+    "comment" : {
+      "undefined" : "This property describes the set of DECISION-MAKING UNITS that constitutes the planning situation. We refer to the elements of the set as vertices."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_objects",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "has_planning_objects",
+      "en" : "has planning objects"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "230",
+    "comment" : {
+      "undefined" : "A set of planning objects is required to determine the performance measure values belonging to the PLANNING PURPOSE. The set of planning objects is often determined by the planning window."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "5",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_successor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "has_successor",
+      "en" : "has successor"
+    },
+    "domain" : "109",
+    "attributes" : [ "external", "object" ],
+    "id" : "232"
+  }, {
+    "range" : "5",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "5",
+    "domain" : "235",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_vertex",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "has_vertex",
+      "en" : "has vertex"
+    },
+    "domain" : "235",
+    "attributes" : [ "external", "object" ],
+    "id" : "236"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#maximum_lot_size",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "239",
+    "label" : {
+      "IRI-based" : "maximum_lot_size",
+      "en" : "maximum lot size"
+    },
+    "domain" : "114",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "238"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#hard_constraints",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "241",
+    "label" : {
+      "IRI-based" : "hard_constraints",
+      "en" : "hard constraints"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "PLANNING CONSTRAINTS with this property cannot be violated."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "240"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#safety_stock_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "243",
+    "label" : {
+      "IRI-based" : "safety_stock_time",
+      "en" : "safety stock time"
+    },
+    "domain" : "210",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "242"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#number_of_operations_on_same_resource",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "247",
+    "label" : {
+      "IRI-based" : "number_of_operations_on_same_resource",
+      "en" : "number of operations on same resource"
+    },
+    "domain" : "26",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "246"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_connection",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "has_connection",
+      "en" : "has connection"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "249",
+    "comment" : {
+      "undefined" : "If a vertex provides instruction or a reaction to another vertex than the two vertices are connected by a directed edge."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "252",
+    "label" : {
+      "IRI-based" : "time",
+      "en" : "time"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "This property is required to manage timing aspects of a PLANNING OBJECT. It can be a release time, a finishing time, a single start time, or a set of start time for certain ACTIVITIES to be fulfilled."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "251"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#costs",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "255",
+    "label" : {
+      "IRI-based" : "costs",
+      "en" : "costs"
+    },
+    "domain" : "254",
+    "comment" : {
+      "undefined" : "Cost refers to the amount of money that is needed to do a certain action for a unit of a certain good, for instance, store or produce a unit of a product."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_sub_processes",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "has_sub_processes",
+      "en" : "has sub processes"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "256"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_performance_measures",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "has_performance_measures",
+      "en" : "has performance measures"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "72",
+    "comment" : {
+      "undefined" : "Each PLANNING PURPOSE is determined by a set of performance measures. Each measure is defined by a calculation procedure. Performance measures can be blended using weights to express the importance of the different measures."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_trigger",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "has_trigger",
+      "en" : "has trigger"
+    },
+    "domain" : "32",
+    "attributes" : [ "external", "object" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_bin",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "144",
+    "label" : {
+      "IRI-based" : "has_bin",
+      "en" : "has bin"
+    },
+    "domain" : "79",
+    "attributes" : [ "external", "object" ],
+    "id" : "260"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "has_process",
+      "en" : "has process"
+    },
+    "domain" : "266",
+    "attributes" : [ "external", "object" ],
+    "id" : "265"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#offset_periods",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "268",
+    "label" : {
+      "IRI-based" : "offset_periods",
+      "en" : "offset periods"
+    },
+    "domain" : "178",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "267"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_child_product_aggregate",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "176",
+    "label" : {
+      "IRI-based" : "has_child_product_aggregate",
+      "en" : "has child product aggregate"
+    },
+    "domain" : "176",
+    "attributes" : [ "external", "object" ],
+    "id" : "269"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#distribution",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "262",
+    "label" : {
+      "IRI-based" : "distribution",
+      "en" : "distribution"
+    },
+    "domain" : "79",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_event_trigger",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "has_event_trigger",
+      "en" : "has event trigger"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "This property determines which events result in replanning (Vieria et al. 2003). For instance, replanning can be the result of the breakdown of a bottleneck resource."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#due_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "261",
+    "label" : {
+      "IRI-based" : "due_date",
+      "en" : "due date"
+    },
+    "domain" : "273",
+    "comment" : {
+      "undefined" : "This is the latest time where the activities associated with a PLANNING OBJECT have to be finished. Note that the parameter DUE DATE is exogenous, i.e. given, in contrast to the property TIME."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "272"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#substitution_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "275",
+    "label" : {
+      "IRI-based" : "substitution_quantity",
+      "en" : "substitution quantity"
+    },
+    "domain" : "143",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "274"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_hierarchical_situation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "has_hierarchical_situation",
+      "en" : "has hierarchical situation"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "235",
+    "attributes" : [ "external", "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_periodic_trigger",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "has_periodic_trigger",
+      "en" : "has periodic trigger"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "This property defines after which amount of time a replanning activity is initiated in a periodic manner (Vieria et al. 2003). Rolling horizon approaches are triggered by such a periodic approach."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#earliest_release_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "259",
+    "label" : {
+      "IRI-based" : "earliest_release_date",
+      "en" : "earliest release date"
+    },
+    "domain" : "33",
+    "comment" : {
+      "undefined" : "This is the earliest time where the activities associated with a PLANNING OBJECT can start. Note that the parameter RELEASE DATE is exogenous, i.e. given, in contrast to the property TIME."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "279"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_objectives",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "has_objectives",
+      "en" : "has objectives"
+    },
+    "domain" : "32",
+    "comment" : {
+      "undefined" : ": The property specifies the objectives of a certain planning activity.\r\nMoreover, there are additional parameters for most types of PLANNING PROCESS."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "281"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#soft_constraints",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "264",
+    "label" : {
+      "IRI-based" : "soft_constraints",
+      "en" : "soft constraints"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "PLANNING CONSTRAINTS with this property can be violated. This means that the degree of violation is typically penalized in a related criterion or performance measure."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "283"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_instance",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "has_planning_instance",
+      "en" : "has planning instance"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "Activities associated with PLANNING PROCESS require an instance of the concept PLANNING INSTANCE."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#uses_planning_approach",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "216",
+    "label" : {
+      "IRI-based" : "uses_planning_approach",
+      "en" : "uses planning approach"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "This property defines which algorithm is used to make the required decisions."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#binning_percentage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "287",
+    "label" : {
+      "IRI-based" : "binning_percentage",
+      "en" : "binning percentage"
+    },
+    "domain" : "19",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "286"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#safety_stock_level",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "safety_stock_level",
+      "en" : "safety stock level"
+    },
+    "domain" : "210",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "288"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#capacity_unit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "290",
+    "label" : {
+      "IRI-based" : "capacity_unit",
+      "en" : "capacity unit"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "289"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#end_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "257",
+    "label" : {
+      "IRI-based" : "end_time",
+      "en" : "end time"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "This is the latest point in time when the PLANNING CONSTRAINT is active."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_planning_constraints",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "has_planning_constraints",
+      "en" : "has planning constraints"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "This property specifies which constraints must be ensured."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#current_stock_level",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "293",
+    "label" : {
+      "IRI-based" : "current_stock_level",
+      "en" : "current stock level"
+    },
+    "domain" : "191",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "292"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_operations",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "has_operations",
+      "en" : "has operations"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "294"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_part",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "has_part",
+      "en" : "has part"
+    },
+    "domain" : "285",
+    "attributes" : [ "external", "object" ],
+    "id" : "295"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_component_part",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "208",
+    "label" : {
+      "IRI-based" : "has_component_part",
+      "en" : "has component part"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "284",
+    "attributes" : [ "external", "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#requested_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "271",
+    "label" : {
+      "IRI-based" : "requested_date",
+      "en" : "requested date"
+    },
+    "domain" : "122",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "296"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#minimum_lot_size",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "244",
+    "label" : {
+      "IRI-based" : "minimum_lot_size",
+      "en" : "minimum lot size"
+    },
+    "domain" : "114",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "297"
+  }, {
+    "range" : "66",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "299"
+  }, {
+    "range" : "66",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "300"
+  }, {
+    "range" : "78",
+    "domain" : "166",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "301"
+  }, {
+    "range" : "78",
+    "domain" : "130",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "302"
+  }, {
+    "range" : "80",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "303"
+  }, {
+    "range" : "66",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "range" : "80",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "305"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#planning_window",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "278",
+    "label" : {
+      "IRI-based" : "planning_window",
+      "en" : "planning window"
+    },
+    "domain" : "307",
+    "comment" : {
+      "undefined" : "A planning window described for which amount of periods or which time span the performance measure values have to be calculated. In some situations, the planning window will determine the set of planning objects, for instance, lots completed within the planning window."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "306"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#projected_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "277",
+    "label" : {
+      "IRI-based" : "projected_date",
+      "en" : "projected date"
+    },
+    "domain" : "310",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "309"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#set_of_connections",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "263",
+    "label" : {
+      "IRI-based" : "set_of_connections",
+      "en" : "set of connections"
+    },
+    "domain" : "235",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "311"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_parent_product_aggregate",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "176",
+    "label" : {
+      "IRI-based" : "has_parent_product_aggregate",
+      "en" : "has parent product aggregate"
+    },
+    "domain" : "176",
+    "attributes" : [ "external", "object" ],
+    "id" : "312"
+  }, {
+    "range" : "80",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "314"
+  }, {
+    "range" : "80",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "315"
+  }, {
+    "range" : "80",
+    "domain" : "144",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "316"
+  }, {
+    "range" : "80",
+    "domain" : "143",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "317"
+  }, {
+    "range" : "119",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "318"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#start_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "298",
+    "label" : {
+      "IRI-based" : "start_time",
+      "en" : "start time"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "This is the earliest point in time when the PLANNING CONSTRAINT is active."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "319"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#consumed_qantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "308",
+    "label" : {
+      "IRI-based" : "consumed_qantity",
+      "en" : "consumed qantity"
+    },
+    "domain" : "178",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "320"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_component_location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "has_component_location",
+      "en" : "has component location"
+    },
+    "domain" : "96",
+    "attributes" : [ "external", "object" ],
+    "id" : "321"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_constraint",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "has_constraint",
+      "en" : "has constraint"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "322"
+  }, {
+    "range" : "80",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "323"
+  }, {
+    "range" : "119",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "324"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_owner",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "186",
+    "label" : {
+      "IRI-based" : "has_owner",
+      "en" : "has owner"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "A PLANNING OBJECT is rarely considered in isolation. Usually it belongs to a set of PLANNING OBJECTS, for example, a planning instance."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_supplying_location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "has_supplying_location",
+      "en" : "has supplying location"
+    },
+    "domain" : "13",
+    "attributes" : [ "external", "object" ],
+    "id" : "325"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_involved_planning_objects",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "has_involved_planning_objects",
+      "en" : "has involved planning objects"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "This property specifies the involved PLANNING OBJECTS."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#information_status",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "250",
+    "label" : {
+      "IRI-based" : "information_status",
+      "en" : "information status"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "This property describes the own internal, but also the external situation of the DECISION-MAKING UNIT. At the same time, it describes information about the internal and external situation of other DECISION-MAKING UNITs and their information status (Schneeweiss 2003)."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "326"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_scope",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "has_scope",
+      "en" : "has scope"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "This property defines which planning function is addressed by the DECISION-MAKING UNIT (planning scope). It also described to which part of the base system the DECISION-MAKING UNIT belongs (physical scope)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#performance_criteria",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "280",
+    "label" : {
+      "IRI-based" : "performance_criteria",
+      "en" : "performance criteria"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "327"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#anticipation_capabilities",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "313",
+    "label" : {
+      "IRI-based" : "anticipation_capabilities",
+      "en" : "has anticipation capabilities"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Anticipatory activities are used by a DECISION-MAKING UNIT to take into account the characteristics and the situation of other DECISION-MAKING UNITs in course of its own decision making (Schneeweiss 2003)."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "328"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#minimum_capacity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "245",
+    "label" : {
+      "IRI-based" : "minimum_capacity",
+      "en" : "minimum capacity"
+    },
+    "domain" : "99",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "329"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#maximum_capacity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "248",
+    "label" : {
+      "IRI-based" : "maximum_capacity",
+      "en" : "maximum capacity"
+    },
+    "domain" : "99",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "330"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#period",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "282",
+    "label" : {
+      "IRI-based" : "period",
+      "en" : "period"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "331"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_targets",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "has_targets",
+      "en" : "has targets"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "72",
+    "attributes" : [ "external", "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Planning#has_decision_making_unit_charcters",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Planning",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "has_decision_making_unit_charcters",
+      "en" : "has decision making unit charcters"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "235",
+    "attributes" : [ "external", "object" ],
+    "id" : "59"
+  } ]
+}
