@@ -1043,3 +1043,96 @@ dd ul {
 strong {
     color: #1e64a0;
 }
+
+
+.property.entity th {
+    font-weight: bold;
+    color: #1F487E;
+}
+
+.property.entity th.noblue {
+    color: #292928;
+    font-weight: bold;
+}
+
+.depth-level-1 {
+    margin-left: 2em; 
+    position: relative;
+}
+
+.depth-level-2 {
+    margin-left: 4em; 
+    position: relative;
+}
+
+.depth-level-3 {
+    margin-left: 6em;
+    position: relative;
+}
+
+.depth-level-4 {
+    margin-left: 8em; 
+    position: relative;
+}
+
+.depth-level-5 {
+    margin-left: 10em;
+    position: relative;
+}
+
+.depth-level-6 {
+    margin-left: 12em;
+    position: relative;
+}
+
+.property.entity {
+    padding-left: 1em; 
+}
+
+.property.entity:before {
+    content: "";
+    position: absolute;
+    left: 0; 
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: rgba(200, 200, 200, 0.7); 
+    filter: blur(1px);
+}
+
+
+.property.entity table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.property.entity th,
+.property.entity td {
+    text-align: left;
+    padding: 0.5em;
+}
+
+.property.entity th {
+    font-weight: bold;
+    width: 15%;
+}
+
+.property.entity td span.inline-list {
+    display: inline; 
+}
+
+.property.entity td span.inline-list a:after {
+    content: ", "; 
+}
+
+.property.entity td span.inline-list a:last-child:after {
+    content: ""; 
+}
+
+span.inline-list{
+    font-size: 1.3rem;
+}
+
+.description{
+    padding-left: 0;
+}
