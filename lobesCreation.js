@@ -1,4 +1,28 @@
-fetch('lobes_classes.json')
+// Map highlighting on hover
+$(document).ready(function() {
+    $('a[data-map-target]').hover(
+        function(e) {
+            e.preventDefault();
+            // On mouse enter - trigger highlight
+            const mapTarget = $(this).data('map-target');
+            const area = $('area#' + mapTarget);
+            if (area.length) {
+                area.trigger('mouseover').trigger('alwaysOn');
+            }
+        },
+        function(e) {
+            e.preventDefault();
+            // On mouse leave - remove highlight
+            const mapTarget = $(this).data('map-target');
+            const area = $('area#' + mapTarget);
+            if (area.length) {
+                area.trigger('mouseout');
+            }
+        }
+    );
+});
+
+fetch('tree_structure.json')
     .then(response => response.json())
     .then(data => {
         renderOntology(data);

@@ -867,6 +867,9 @@ ul {
     left: 7vw;
     font-size: 0.7em;
     padding-bottom: 20em;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in forwards;
+    animation-delay: 2s;
 }
 
 .Lobescol2 {
@@ -876,6 +879,8 @@ ul {
     margin-right: auto;
     height: 130%;
     z-index: 5;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
 }
 
 .Lobescol2 .reponsive-img {
@@ -891,6 +896,9 @@ ul {
     right: 7vw;
     font-size: 0.7em;
     padding-bottom: 20em;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in forwards;
+    animation-delay: 2s;
 }
 
 .idc {

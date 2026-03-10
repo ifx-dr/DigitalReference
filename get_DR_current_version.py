@@ -1,4 +1,4 @@
-from rdflib import Graph, RDF, RDFS, OWL
+from rdflib import Graph, RDF, RDFS, OWL, Namespace, URIRef
 from rdflib.term import BNode
 import json
 
@@ -9,6 +9,10 @@ print(len(g))
 OWL_NS = OWL
 RDF_NS = RDF
 RDFS_NS = RDFS
+DC = Namespace("http://purl.org/dc/elements/1.1/")
+DCT = Namespace("http://purl.org/dc/terms/")
+SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
+RDFS_description = URIRef("http://www.w3.org/2000/01/rdf-schema#description")
 
 def extract_local_name(iri):
     name = iri.split("#")[-1] if "#" in iri else iri.split("/")[-1]
@@ -21,6 +25,7 @@ lobe_order = [
     "Power_Lobe",
     "Process_Lobe",
     "Product_Lobe",
+    "Quality_Management_Lobe",
     "Semiconductor_Development_Lobe",
     "Semiconductor_Production_Lobe",
     "Sensor_Lobe",
@@ -74,11 +79,21 @@ def process_class(cls, visited):
 
     visited.add(cls)
     
+    # Get description from multiple possible predicates
+    description = (
+        g.value(subject=cls, predicate=RDFS.comment) or
+        g.value(subject=cls, predicate=RDFS_description) or
+        g.value(subject=cls, predicate=DCT.description) or
+        g.value(subject=cls, predicate=DC.description) or
+        g.value(subject=cls, predicate=SKOS.definition) or
+        "No description yet"
+    )
+    
     class_data = {
         
         "name": extract_local_name(cls),
         "iri": str(cls),
-        "description": g.value(subject=cls, predicate=RDFS.comment) or "No description yet",
+        "description": str(description),
         "subclasses": [],
         "object_properties": [],
         "datatype_properties": [],
@@ -89,6 +104,9 @@ def process_class(cls, visited):
     
     subclasses = list(g.subjects(predicate=RDFS.subClassOf, object=cls))
     for subclass in subclasses:
+        # Skip blank nodes
+        if isinstance(subclass, BNode):
+            continue
         subclass_data = process_class(subclass, visited) 
         if subclass_data:
             class_data["subclasses"].append(subclass_data)
@@ -120,6 +138,10 @@ data = []
 visited = set()
 
 for cls in g.subjects(predicate=RDF.type, object=OWL.Class):
+    # Skip blank nodes (anonymous classes)
+    if isinstance(cls, BNode):
+        continue
+    
     lobe = find_lobe(cls, lobes)
     if not lobe:
         print(f"Warning: Class {cls} does not belong to any lobe.") # "Ghost classes"
@@ -134,6 +156,9 @@ for cls in g.subjects(predicate=RDF.type, object=OWL.Class):
             data.append(lobe_data)
 
     if cls != lobe:
+        # Skip blank nodes
+        if isinstance(cls, BNode):
+            continue
         class_data = process_class(cls, visited)
         if class_data:
             lobe_data["subclasses"].append(class_data)
@@ -145,4 +170,5 @@ output_file = "tree_structure.json"
 with open(output_file, "w") as f:
     json.dump(data, f, indent=4)
 
-print(f"Ontology data has been saved to {output_file}")
+print(f"\nOntology data has been saved to {output_file}")
+print(f"Total lobes processed: {len(data)}")
