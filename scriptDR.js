@@ -1,31 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll('.map-container .idc');
     const fullScreenBtn = document.getElementById('fullScreenBtn');
     const fullContainer = document.getElementById('fullScreenContainer');
     const closeBtn = document.getElementById('closeBtn');
+    const fullScreenIframe = document.getElementById('fullScreenIframe');
+    const loadingIndicator = document.getElementById('loadingIndicator');
 
     fullScreenBtn.addEventListener('click', () => {
         fullContainer.style.display = "block";
+        
+        // Only load iframe if not already loaded
+        if (!fullScreenIframe.src) {
+            loadingIndicator.style.display = "block";
+            fullScreenIframe.src = "https://ifx-dr.github.io/WebVOWL/#digitalreference";
+        }
     });
+    
     closeBtn.addEventListener('click', () => {
         fullContainer.style.display = "none";
-    });
-
-    links.forEach(link => {
-        link.addEventListener('mouseenter', function () {
-            const mapId = this.dataset.mapId;
-            const mapArea = document.getElementById(mapId);
-            if (mapArea) {
-                mapArea.classList.add('highlight');
-            }
-        });
-
-        link.addEventListener('mouseleave', function () {
-            const mapId = this.dataset.mapId;
-            const mapArea = document.getElementById(mapId);
-            if (mapArea) {
-                mapArea.classList.remove('highlight');
-            }
-        });
     });
 });
