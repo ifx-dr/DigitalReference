@@ -1676,8 +1676,8 @@
                 ],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb563",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb563"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b563",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b563"
                     }
                 ],
                 "disjoint_classes": []
@@ -1802,8 +1802,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb567",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb567"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b567",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b567"
                     }
                 ],
                 "disjoint_classes": []
@@ -1977,6 +1977,276 @@
         "iri": "http://www.w3id.org/ecsel-dr#Planning_Lobe",
         "description": "Lobe owner: Hans Ehm",
         "subclasses": [
+            {
+                "name": "Customer",
+                "iri": "http://www.w3id.org/ecsel-dr#Customer",
+                "description": "CUSTOMER is a person, organization, or business entity that generates demand by placing an order or making a request for a specific product or service. A customer may also fulfill their obligations by facilitating payment for the goods or services received.\n\nCustomers can be categorized into two main types: \n\u2022\tExternal Customers: Entities outside the organization that purchase goods or services, often governed by agreements like Incoterms.\n\u2022\tInternal Customers: Stakeholders or departments within the organization that raise internal demand for products or services to support internal processes.\n\nA customer interacts with the organization through actions such as order placement, demand generation, and the completion of financial transactions. Customers are central to both demand creation in the supply chain and the fulfillment processes that ensure the delivery of goods or services.",
+                "subclasses": [
+                    {
+                        "name": "End Customer",
+                        "iri": "http://www.w3id.org/ecsel-dr#End_Customer",
+                        "description": "No description yet",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    },
+                    {
+                        "name": "Sales Channel",
+                        "iri": "http://www.w3id.org/ecsel-dr#Sales_Channel",
+                        "description": "No description yet",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    },
+                    {
+                        "name": "General Customer",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#General_Customer",
+                        "description": "No description yet",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    },
+                    {
+                        "name": "Private Customer",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Private_Customer",
+                        "description": "No description yet",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    }
+                ],
+                "object_properties": [
+                    {
+                        "name": "places order",
+                        "iri": "http://www.w3id.org/ecsel-dr#places_order"
+                    },
+                    {
+                        "name": "has customer class",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_customer_class"
+                    },
+                    {
+                        "name": "purchases",
+                        "iri": "http://www.w3id.org/ecsel-dr-Incoterms#purchases"
+                    },
+                    {
+                        "name": "receives",
+                        "iri": "http://www.w3id.org/ecsel-dr-Incoterms#receives"
+                    },
+                    {
+                        "name": "uses to location",
+                        "iri": "http://www.w3id.org/ecsel-dr-Incoterms#uses_to_location"
+                    },
+                    {
+                        "name": "owns customer plant",
+                        "iri": "http://www.w3id.org/ecsel-dr-OM#owns_customer_plant"
+                    },
+                    {
+                        "name": "requests order change request",
+                        "iri": "http://www.w3id.org/ecsel-dr-OM#requests_order_change_request"
+                    },
+                    {
+                        "name": "is place orders",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#is_place_orders"
+                    },
+                    {
+                        "name": "can raise",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/can_raise"
+                    },
+                    {
+                        "name": "has a customer",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/has_a_customer"
+                    }
+                ],
+                "datatype_properties": [
+                    {
+                        "name": "customer identifier",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#customer_identifier"
+                    },
+                    {
+                        "name": "customer name",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#customer_name"
+                    },
+                    {
+                        "name": "customer priority",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#customer_priority"
+                    },
+                    {
+                        "name": "customer location",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#customer_location"
+                    },
+                    {
+                        "name": "customers ID",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#customers_ID"
+                    },
+                    {
+                        "name": "granularity",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#granularity"
+                    }
+                ],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
+            {
+                "name": "Order",
+                "iri": "http://www.w3id.org/ecsel-dr#Order",
+                "description": "DF and Planning definition: An ORDER contains at least one order position. An ORDER has an order type and is associated to DEMAND.",
+                "subclasses": [
+                    {
+                        "name": "Customer Order",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#Customer_Order",
+                        "description": "This is an order that is initiated by a customer.",
+                        "subclasses": [],
+                        "object_properties": [
+                            {
+                                "name": "has customer",
+                                "iri": "http://www.w3id.org/ecsel-dr-DF#has_customer"
+                            }
+                        ],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": [
+                            {
+                                "name": "Replenishment Order",
+                                "iri": "http://www.w3id.org/ecsel-dr-DF#Replenishment_Order"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Replenishment Order",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#Replenishment_Order",
+                        "description": "This is an order that is initiated by an internal request of the semiconductor manufacturer to produce the order according to a MTS strategy. The replenishment order can be divided into different sub order types, depending on the purpose of order creation.",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    },
+                    {
+                        "name": "Split Order",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#Split_Order",
+                        "description": "This is an order that results from a split delivery. When an order position of an order is delivered in several portions, each portion starting from the second one is considered as a separate suborder which is called scheduled order position. The original order also exists after the split.",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    },
+                    {
+                        "name": "Buffer Stock Order",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Buffer_Stock_Order",
+                        "description": "No description yet",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    },
+                    {
+                        "name": "Consignment Order",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Consignment_Order",
+                        "description": "Consignment Stock is a logistics concept where the supplier (Vendor) owned goods are stored at a customer location.\n\nThe supplier (Vendor) is responsible to maintain his stock within a defined min/max level.",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    },
+                    {
+                        "name": "EDI Forecast",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast",
+                        "description": "The EDI Forecast Universe is a Data Mart that was started in 2010 (?) to support Forecast Accuracy  analysis",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    },
+                    {
+                        "name": "Standard Order",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Standard_Order",
+                        "description": "EDI or manually entered, can be shipped, can contain several products.",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    }
+                ],
+                "object_properties": [
+                    {
+                        "name": "has delivery concept",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_delivery_concept"
+                    },
+                    {
+                        "name": "has order class",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_order_class"
+                    },
+                    {
+                        "name": "has order demand",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_order_demand"
+                    },
+                    {
+                        "name": "has order position",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_order_position"
+                    },
+                    {
+                        "name": "is fulfilled by",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#is_fulfilled_by"
+                    },
+                    {
+                        "name": "constitutes",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#constitutes"
+                    },
+                    {
+                        "name": "contributes to prioritized order",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order"
+                    },
+                    {
+                        "name": "entered to",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#entered_to"
+                    },
+                    {
+                        "name": "sort to",
+                        "iri": "http://www.w3id.org/ecsel-dr-SCP#sort_to"
+                    }
+                ],
+                "datatype_properties": [
+                    {
+                        "name": "batching interval",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#batching_interval"
+                    },
+                    {
+                        "name": "has order position",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_order_position"
+                    },
+                    {
+                        "name": "order date",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#order_date"
+                    },
+                    {
+                        "name": "order name",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#order_name"
+                    },
+                    {
+                        "name": "order priority",
+                        "iri": "http://www.w3id.org/ecsel-dr-DF#order_priority"
+                    },
+                    {
+                        "name": "type",
+                        "iri": "http://www.w3id.org/ecsel-dr-Planning#type"
+                    }
+                ],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
             {
                 "name": "Plan",
                 "iri": "http://www.w3id.org/ecsel-dr-DF#Plan",
@@ -2980,55 +3250,6 @@
                 "disjoint_classes": []
             },
             {
-                "name": "Customer",
-                "iri": "http://www.w3id.org/ecsel-dr-SCP#Customer",
-                "description": "CUSTOMER is a person, organization, or business entity that generates demand by placing an order or making a request for a specific product or service. A customer may also fulfill their obligations by facilitating payment for the goods or services received.\n\nCustomers can be categorized into two main types: \n\u2022\tExternal Customers: Entities outside the organization that purchase goods or services, often governed by agreements like Incoterms.\n\u2022\tInternal Customers: Stakeholders or departments within the organization that raise internal demand for products or services to support internal processes.\n\nA customer interacts with the organization through actions such as order placement, demand generation, and the completion of financial transactions. Customers are central to both demand creation in the supply chain and the fulfillment processes that ensure the delivery of goods or services.",
-                "subclasses": [
-                    {
-                        "name": "General Customer",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#General_Customer",
-                        "description": "No description yet",
-                        "subclasses": [],
-                        "object_properties": [],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": []
-                    },
-                    {
-                        "name": "Private Customer",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Private_Customer",
-                        "description": "No description yet",
-                        "subclasses": [],
-                        "object_properties": [],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": []
-                    }
-                ],
-                "object_properties": [
-                    {
-                        "name": "is place orders",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#is_place_orders"
-                    }
-                ],
-                "datatype_properties": [
-                    {
-                        "name": "customer location",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#customer_location"
-                    },
-                    {
-                        "name": "customers ID",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#customers_ID"
-                    },
-                    {
-                        "name": "granularity",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#granularity"
-                    }
-                ],
-                "equivalent_classes": [],
-                "disjoint_classes": []
-            },
-            {
                 "name": "Customer Logistics Management Representative",
                 "iri": "http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative",
                 "description": "A CUSTOMER LOGISTICS MANAGEMENT REPRESENTATIVE (CLM) is a typical name for one \u201cface\u201d to the customer, taking care of all customers supply chain topics. He/she is responsible for the demand fulfilment process \u2013 Usage of ATP. It is his/her task to ensure in-time delivery to customers based on orders and forecasts. He/she is usually also taking care of forecast in a midterm time horizon (typical for that is the EDI FORECAST)",
@@ -3244,74 +3465,6 @@
                     {
                         "name": "transfer to",
                         "iri": "http://www.w3id.org/ecsel-dr-SCP#transfer_to"
-                    }
-                ],
-                "datatype_properties": [],
-                "equivalent_classes": [],
-                "disjoint_classes": []
-            },
-            {
-                "name": "Order",
-                "iri": "http://www.w3id.org/ecsel-dr-SCP#Order",
-                "description": "An ORDER is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.",
-                "subclasses": [
-                    {
-                        "name": "Buffer Stock Order",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Buffer_Stock_Order",
-                        "description": "No description yet",
-                        "subclasses": [],
-                        "object_properties": [],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": []
-                    },
-                    {
-                        "name": "Consignment Order",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Consignment_Order",
-                        "description": "Consignment Stock is a logistics concept where the supplier (Vendor) owned goods are stored at a customer location.\n\nThe supplier (Vendor) is responsible to maintain his stock within a defined min/max level.",
-                        "subclasses": [],
-                        "object_properties": [],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": []
-                    },
-                    {
-                        "name": "EDI Forecast",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast",
-                        "description": "The EDI Forecast Universe is a Data Mart that was started in 2010 (?) to support Forecast Accuracy  analysis",
-                        "subclasses": [],
-                        "object_properties": [],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": []
-                    },
-                    {
-                        "name": "Standard Order",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Standard_Order",
-                        "description": "EDI or manually entered, can be shipped, can contain several products.",
-                        "subclasses": [],
-                        "object_properties": [],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": []
-                    }
-                ],
-                "object_properties": [
-                    {
-                        "name": "constitutes",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#constitutes"
-                    },
-                    {
-                        "name": "contributes to prioritized order",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order"
-                    },
-                    {
-                        "name": "entered to",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#entered_to"
-                    },
-                    {
-                        "name": "sort to",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#sort_to"
                     }
                 ],
                 "datatype_properties": [],
@@ -4075,12 +4228,12 @@
                                         "datatype_properties": [],
                                         "equivalent_classes": [
                                             {
-                                                "name": "n36ed75f3685f40c999b2fbd40728099eb654",
-                                                "iri": "n36ed75f3685f40c999b2fbd40728099eb654"
+                                                "name": "n9a08d61ba4f245a1a8e07df273e10e67b654",
+                                                "iri": "n9a08d61ba4f245a1a8e07df273e10e67b654"
                                             },
                                             {
-                                                "name": "n36ed75f3685f40c999b2fbd40728099eb659",
-                                                "iri": "n36ed75f3685f40c999b2fbd40728099eb659"
+                                                "name": "n9a08d61ba4f245a1a8e07df273e10e67b659",
+                                                "iri": "n9a08d61ba4f245a1a8e07df273e10e67b659"
                                             }
                                         ],
                                         "disjoint_classes": []
@@ -6114,8 +6267,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb512",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb512"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b512",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b512"
                     }
                 ],
                 "disjoint_classes": []
@@ -6134,8 +6287,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb519",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb519"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b519",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b519"
                     }
                 ],
                 "disjoint_classes": []
@@ -6154,8 +6307,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb525",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb525"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b525",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b525"
                     }
                 ],
                 "disjoint_classes": []
@@ -6174,8 +6327,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb529",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb529"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b529",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b529"
                     }
                 ],
                 "disjoint_classes": []
@@ -6209,8 +6362,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb543",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb543"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b543",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b543"
                     }
                 ],
                 "disjoint_classes": []
@@ -6628,8 +6781,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb547",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb547"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b547",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b547"
                     }
                 ],
                 "disjoint_classes": []
@@ -6653,8 +6806,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n36ed75f3685f40c999b2fbd40728099eb509",
-                                "iri": "n36ed75f3685f40c999b2fbd40728099eb509"
+                                "name": "n9a08d61ba4f245a1a8e07df273e10e67b509",
+                                "iri": "n9a08d61ba4f245a1a8e07df273e10e67b509"
                             }
                         ],
                         "disjoint_classes": []
@@ -6673,8 +6826,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n36ed75f3685f40c999b2fbd40728099eb516",
-                                "iri": "n36ed75f3685f40c999b2fbd40728099eb516"
+                                "name": "n9a08d61ba4f245a1a8e07df273e10e67b516",
+                                "iri": "n9a08d61ba4f245a1a8e07df273e10e67b516"
                             }
                         ],
                         "disjoint_classes": []
@@ -6693,8 +6846,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n36ed75f3685f40c999b2fbd40728099eb538",
-                                "iri": "n36ed75f3685f40c999b2fbd40728099eb538"
+                                "name": "n9a08d61ba4f245a1a8e07df273e10e67b538",
+                                "iri": "n9a08d61ba4f245a1a8e07df273e10e67b538"
                             }
                         ],
                         "disjoint_classes": []
@@ -6713,8 +6866,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n36ed75f3685f40c999b2fbd40728099eb550",
-                                "iri": "n36ed75f3685f40c999b2fbd40728099eb550"
+                                "name": "n9a08d61ba4f245a1a8e07df273e10e67b550",
+                                "iri": "n9a08d61ba4f245a1a8e07df273e10e67b550"
                             }
                         ],
                         "disjoint_classes": []
@@ -6972,8 +7125,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb556",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb556"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b556",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b556"
                     }
                 ],
                 "disjoint_classes": []
@@ -7412,8 +7565,34 @@
                 "name": "Lot",
                 "iri": "http://www.w3id.org/digital-reference/quality/Lot",
                 "description": "Manufacturing lot details",
-                "subclasses": [],
-                "object_properties": [],
+                "subclasses": [
+                    {
+                        "name": "Diffusion Batch",
+                        "iri": "http://www.w3id.org/ecsel-dr#Diffusion_Batch",
+                        "description": "No description yet",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    },
+                    {
+                        "name": "Assembly Lot",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/Assembly_Lot",
+                        "description": "No description yet",
+                        "subclasses": [],
+                        "object_properties": [],
+                        "datatype_properties": [],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    }
+                ],
+                "object_properties": [
+                    {
+                        "name": "is derived from lot",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/is_derived_from_lot"
+                    }
+                ],
                 "datatype_properties": [
                     {
                         "name": "assy batch ID",
@@ -7520,6 +7699,14 @@
                     {
                         "name": "shipped in",
                         "iri": "http://www.w3id.org/digital-reference/quality/shipped_in"
+                    },
+                    {
+                        "name": "has a position on",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/has_a_position_on"
+                    },
+                    {
+                        "name": "shipped to",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/shipped_to"
                     }
                 ],
                 "datatype_properties": [
@@ -7580,124 +7767,13 @@
                 "iri": "http://www.w3id.org/digital-reference/quality/Product_Marking",
                 "description": "Marking details of a product / device. These marking details are used to identify the product and its manufacturing lot details",
                 "subclasses": [],
-                "object_properties": [],
-                "datatype_properties": [],
-                "equivalent_classes": [],
-                "disjoint_classes": []
-            },
-            {
-                "name": "Quality Complaint",
-                "iri": "http://www.w3id.org/digital-reference/quality/Quality_Complaint",
-                "description": "Technical complaint or Issue as reported by a customer about a (or more than 1) product / device. Helping to solve the customer issue whoever caused it and aligning to critical customer needs helps to drive positive customer scorecard results and enables future business growth.",
-                "subclasses": [],
                 "object_properties": [
                     {
-                        "name": "has complaint line item",
-                        "iri": "http://www.w3id.org/digital-reference/quality/has_complaint_line_item"
-                    },
-                    {
-                        "name": "reported via",
-                        "iri": "http://www.w3id.org/digital-reference/quality/reported_via"
+                        "name": "has a product instance",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/has_a_product_instance"
                     }
                 ],
-                "datatype_properties": [
-                    {
-                        "name": "comment 1",
-                        "iri": "http://www.w3id.org/digital-reference/quality/comment_1"
-                    },
-                    {
-                        "name": "comment 2",
-                        "iri": "http://www.w3id.org/digital-reference/quality/comment_2"
-                    },
-                    {
-                        "name": "creationDateTime",
-                        "iri": "http://www.w3id.org/digital-reference/quality/creationDateTime"
-                    },
-                    {
-                        "name": "customerCityName",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customerCityName"
-                    },
-                    {
-                        "name": "customerComplaint ID",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customerComplaint_ID"
-                    },
-                    {
-                        "name": "customerContact Email Address",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customerContact_Email_Address"
-                    },
-                    {
-                        "name": "customerContact ID",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customerContact_ID"
-                    },
-                    {
-                        "name": "customerContact Name",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customerContact_Name"
-                    },
-                    {
-                        "name": "customerContact PhoneNumber",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customerContact_PhoneNumber"
-                    },
-                    {
-                        "name": "customerContact Role",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customerContact_Role"
-                    },
-                    {
-                        "name": "customerLocation ID",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customerLocation_ID"
-                    },
-                    {
-                        "name": "customerName",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customerName"
-                    },
-                    {
-                        "name": "customer ID",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customer_ID"
-                    },
-                    {
-                        "name": "customer application ID",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customer_application_ID"
-                    },
-                    {
-                        "name": "customer application description",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customer_application_description"
-                    },
-                    {
-                        "name": "customer location name",
-                        "iri": "http://www.w3id.org/digital-reference/quality/customer_location_name"
-                    },
-                    {
-                        "name": "revisionDateTime",
-                        "iri": "http://www.w3id.org/digital-reference/quality/revisionDateTime"
-                    },
-                    {
-                        "name": "supplierComplaint ID",
-                        "iri": "http://www.w3id.org/digital-reference/quality/supplierComplaint_ID"
-                    },
-                    {
-                        "name": "supplierContact Email Address",
-                        "iri": "http://www.w3id.org/digital-reference/quality/supplierContact_Email_Address"
-                    },
-                    {
-                        "name": "supplierContact ID",
-                        "iri": "http://www.w3id.org/digital-reference/quality/supplierContact_ID"
-                    },
-                    {
-                        "name": "supplierContact Name",
-                        "iri": "http://www.w3id.org/digital-reference/quality/supplierContact_Name"
-                    },
-                    {
-                        "name": "supplierContact Role",
-                        "iri": "http://www.w3id.org/digital-reference/quality/supplierContact_Role"
-                    },
-                    {
-                        "name": "supplierName",
-                        "iri": "http://www.w3id.org/digital-reference/quality/supplierName"
-                    },
-                    {
-                        "name": "supplier ID",
-                        "iri": "http://www.w3id.org/digital-reference/quality/supplier_ID"
-                    }
-                ],
+                "datatype_properties": [],
                 "equivalent_classes": [],
                 "disjoint_classes": []
             },
@@ -8182,6 +8258,196 @@
                         "iri": "http://www.w3id.org/digital-reference/quality/transportLotID"
                     }
                 ],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
+            {
+                "name": "Failure Analysis Code",
+                "iri": "http://www.w3id.org/ecsel-dr#Failure_Analysis_Code",
+                "description": "No description yet",
+                "subclasses": [],
+                "object_properties": [
+                    {
+                        "name": "is reported as part of",
+                        "iri": "http://www.w3id.org/ecsel-dr#is_reported_as_part_of"
+                    }
+                ],
+                "datatype_properties": [],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
+            {
+                "name": "Failure Analysis",
+                "iri": "http://www.w3id.org/ecsel-dr/quality/Failure_Analysis",
+                "description": "No description yet",
+                "subclasses": [],
+                "object_properties": [
+                    {
+                        "name": "is executed for",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/is_executed_for"
+                    },
+                    {
+                        "name": "is executed on",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/is_executed_on"
+                    },
+                    {
+                        "name": "is executed on",
+                        "iri": "http://www.w3id.org/ecsel-dr/qualty/is_executed_on"
+                    }
+                ],
+                "datatype_properties": [],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
+            {
+                "name": "Quality Request",
+                "iri": "http://www.w3id.org/ecsel-dr/quality/Quality_Request",
+                "description": "No description yet",
+                "subclasses": [
+                    {
+                        "name": "Quality Complaint",
+                        "iri": "http://www.w3id.org/digital-reference/quality/Quality_Complaint",
+                        "description": "Technical complaint or Issue as reported by a customer about a (or more than 1) product / device. Helping to solve the customer issue whoever caused it and aligning to critical customer needs helps to drive positive customer scorecard results and enables future business growth.",
+                        "subclasses": [],
+                        "object_properties": [
+                            {
+                                "name": "has complaint line item",
+                                "iri": "http://www.w3id.org/digital-reference/quality/has_complaint_line_item"
+                            },
+                            {
+                                "name": "reported via",
+                                "iri": "http://www.w3id.org/digital-reference/quality/reported_via"
+                            }
+                        ],
+                        "datatype_properties": [
+                            {
+                                "name": "comment 1",
+                                "iri": "http://www.w3id.org/digital-reference/quality/comment_1"
+                            },
+                            {
+                                "name": "comment 2",
+                                "iri": "http://www.w3id.org/digital-reference/quality/comment_2"
+                            },
+                            {
+                                "name": "creationDateTime",
+                                "iri": "http://www.w3id.org/digital-reference/quality/creationDateTime"
+                            },
+                            {
+                                "name": "customerCityName",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customerCityName"
+                            },
+                            {
+                                "name": "customerComplaint ID",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customerComplaint_ID"
+                            },
+                            {
+                                "name": "customerContact Email Address",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customerContact_Email_Address"
+                            },
+                            {
+                                "name": "customerContact ID",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customerContact_ID"
+                            },
+                            {
+                                "name": "customerContact Name",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customerContact_Name"
+                            },
+                            {
+                                "name": "customerContact PhoneNumber",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customerContact_PhoneNumber"
+                            },
+                            {
+                                "name": "customerContact Role",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customerContact_Role"
+                            },
+                            {
+                                "name": "customerLocation ID",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customerLocation_ID"
+                            },
+                            {
+                                "name": "customerName",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customerName"
+                            },
+                            {
+                                "name": "customer ID",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customer_ID"
+                            },
+                            {
+                                "name": "customer application ID",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customer_application_ID"
+                            },
+                            {
+                                "name": "customer application description",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customer_application_description"
+                            },
+                            {
+                                "name": "customer location name",
+                                "iri": "http://www.w3id.org/digital-reference/quality/customer_location_name"
+                            },
+                            {
+                                "name": "revisionDateTime",
+                                "iri": "http://www.w3id.org/digital-reference/quality/revisionDateTime"
+                            },
+                            {
+                                "name": "supplierComplaint ID",
+                                "iri": "http://www.w3id.org/digital-reference/quality/supplierComplaint_ID"
+                            },
+                            {
+                                "name": "supplierContact Email Address",
+                                "iri": "http://www.w3id.org/digital-reference/quality/supplierContact_Email_Address"
+                            },
+                            {
+                                "name": "supplierContact ID",
+                                "iri": "http://www.w3id.org/digital-reference/quality/supplierContact_ID"
+                            },
+                            {
+                                "name": "supplierContact Name",
+                                "iri": "http://www.w3id.org/digital-reference/quality/supplierContact_Name"
+                            },
+                            {
+                                "name": "supplierContact Role",
+                                "iri": "http://www.w3id.org/digital-reference/quality/supplierContact_Role"
+                            },
+                            {
+                                "name": "supplierName",
+                                "iri": "http://www.w3id.org/digital-reference/quality/supplierName"
+                            },
+                            {
+                                "name": "supplier ID",
+                                "iri": "http://www.w3id.org/digital-reference/quality/supplier_ID"
+                            }
+                        ],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    }
+                ],
+                "object_properties": [],
+                "datatype_properties": [],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
+            {
+                "name": "Quality Response",
+                "iri": "http://www.w3id.org/ecsel-dr/quality/Quality_Response",
+                "description": "No description yet",
+                "subclasses": [],
+                "object_properties": [
+                    {
+                        "name": "is a response to",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/is_a_response_to"
+                    }
+                ],
+                "datatype_properties": [],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
+            {
+                "name": "Substrate",
+                "iri": "http://www.w3id.org/ecsel-dr/quality/Substrate",
+                "description": "No description yet",
+                "subclasses": [],
+                "object_properties": [],
+                "datatype_properties": [],
                 "equivalent_classes": [],
                 "disjoint_classes": []
             }
@@ -10464,6 +10730,10 @@
                 ],
                 "object_properties": [
                     {
+                        "name": "is executed through",
+                        "iri": "http://www.w3id.org/ecsel-dr#is_executed_through"
+                    },
+                    {
                         "name": "uses one or more technology",
                         "iri": "http://www.w3id.org/ecsel-dr-SO#uses_one_or_more_technology"
                     }
@@ -11770,8 +12040,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb535",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb535"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b535",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b535"
                     }
                 ],
                 "disjoint_classes": []
@@ -11790,8 +12060,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb553",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb553"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b553",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b553"
                     }
                 ],
                 "disjoint_classes": []
@@ -11807,6 +12077,50 @@
         "iri": "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe",
         "description": "Supply chain refers to a network of interconnected organizations, activities, resources, and technologies involved in the production, distribution, and delivery of goods or services from the source to end consumer.\n\nThe Supply Chain lobe models the Aggregated Capacity Group.\n\n It represents the notions of Action, Allocated Available To Promise, Allocation, Available To Promise, Confirmation, Capacity Bottleneck, Contact Person Data, Location, Marketing Demand, nEWs, Offer, Open Oder and Open Order Book.\n\nIt depicts the Order and its Change Request, Confirmation, Line Item, Reschedule, Schedule Line.\n\nIt represents the General Customers, the notion of Customer and its Data, Logistics Management Representative, Plant, Plant Data.\nIt also maps the topics of Prioritized Demand and Orders, Products, Promise, Sales Supplier, Seller, Supplier and its Data, Supply, Supply Demand Match and Picture, Target Allocation, Transfer Action, and User Action.",
         "subclasses": [
+            {
+                "name": "Supplier",
+                "iri": "http://www.w3id.org/ecsel-dr#Supplier",
+                "description": "A SUPPLIER is an entity fulfilling a demand for a specific product or service.",
+                "subclasses": [
+                    {
+                        "name": "Supplier Data",
+                        "iri": "http://www.w3id.org/ecsel-dr-OM#Supplier_Data",
+                        "description": "Information about a supplier.",
+                        "subclasses": [],
+                        "object_properties": [
+                            {
+                                "name": "describes supplier",
+                                "iri": "http://www.w3id.org/ecsel-dr-OM#describes_supplier"
+                            }
+                        ],
+                        "datatype_properties": [
+                            {
+                                "name": "supplier address",
+                                "iri": "http://www.w3id.org/ecsel-dr-OM#supplier_address"
+                            }
+                        ],
+                        "equivalent_classes": [],
+                        "disjoint_classes": []
+                    }
+                ],
+                "object_properties": [
+                    {
+                        "name": "provides",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/provides"
+                    },
+                    {
+                        "name": "receives",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/receives"
+                    },
+                    {
+                        "name": "sells",
+                        "iri": "http://www.w3id.org/ecsel-dr/quality/sells"
+                    }
+                ],
+                "datatype_properties": [],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
             {
                 "name": "Allocated Available To Promise",
                 "iri": "http://www.w3id.org/ecsel-dr-DF#Allocated_Available_To_Promise",
@@ -12031,104 +12345,6 @@
                 "disjoint_classes": []
             },
             {
-                "name": "Order",
-                "iri": "http://www.w3id.org/ecsel-dr-DF#Order",
-                "description": "An ORDER contains at least one order position. An ORDER has an order type and is associated to DEMAND.",
-                "subclasses": [
-                    {
-                        "name": "Customer Order",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#Customer_Order",
-                        "description": "This is an order that is initiated by a customer.",
-                        "subclasses": [],
-                        "object_properties": [
-                            {
-                                "name": "has customer",
-                                "iri": "http://www.w3id.org/ecsel-dr-DF#has_customer"
-                            }
-                        ],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": [
-                            {
-                                "name": "Replenishment Order",
-                                "iri": "http://www.w3id.org/ecsel-dr-DF#Replenishment_Order"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Replenishment Order",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#Replenishment_Order",
-                        "description": "This is an order that is initiated by an internal request of the semiconductor manufacturer to produce the order according to a MTS strategy. The replenishment order can be divided into different sub order types, depending on the purpose of order creation.",
-                        "subclasses": [],
-                        "object_properties": [],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": []
-                    },
-                    {
-                        "name": "Split Order",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#Split_Order",
-                        "description": "This is an order that results from a split delivery. When an order position of an order is delivered in several portions, each portion starting from the second one is considered as a separate suborder which is called scheduled order position. The original order also exists after the split.",
-                        "subclasses": [],
-                        "object_properties": [],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": []
-                    }
-                ],
-                "object_properties": [
-                    {
-                        "name": "has delivery concept",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_delivery_concept"
-                    },
-                    {
-                        "name": "has order class",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_order_class"
-                    },
-                    {
-                        "name": "has order demand",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_order_demand"
-                    },
-                    {
-                        "name": "has order position",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_order_position"
-                    },
-                    {
-                        "name": "is fulfilled by",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#is_fulfilled_by"
-                    }
-                ],
-                "datatype_properties": [
-                    {
-                        "name": "batching interval",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#batching_interval"
-                    },
-                    {
-                        "name": "has order position",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_order_position"
-                    },
-                    {
-                        "name": "order date",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#order_date"
-                    },
-                    {
-                        "name": "order name",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#order_name"
-                    },
-                    {
-                        "name": "order priority",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#order_priority"
-                    }
-                ],
-                "equivalent_classes": [
-                    {
-                        "name": "Order",
-                        "iri": "http://www.w3id.org/ecsel-dr-Planning#Order"
-                    }
-                ],
-                "disjoint_classes": []
-            },
-            {
                 "name": "Order Position",
                 "iri": "http://www.w3id.org/ecsel-dr-DF#Order_Position",
                 "description": "An ORDER POSITION refers to a product specification, a product quantity, and a desired delivery date. Each order position has a status and belongs to an order.",
@@ -12182,21 +12398,6 @@
                 "object_properties": [],
                 "datatype_properties": [],
                 "equivalent_classes": [],
-                "disjoint_classes": []
-            },
-            {
-                "name": "Supplier",
-                "iri": "http://www.w3id.org/ecsel-dr-DF#Supplier",
-                "description": "A SUPPLIER is an entity fulfilling a demand for a specific product or service.",
-                "subclasses": [],
-                "object_properties": [],
-                "datatype_properties": [],
-                "equivalent_classes": [
-                    {
-                        "name": "Supplier",
-                        "iri": "http://www.w3id.org/ecsel-dr-OM#Supplier"
-                    }
-                ],
                 "disjoint_classes": []
             },
             {
@@ -12474,38 +12675,6 @@
                 "disjoint_classes": []
             },
             {
-                "name": "Customer",
-                "iri": "http://www.w3id.org/ecsel-dr-Incoterms#Customer",
-                "description": "CUSTOMER is a person, organization, or business entity that generates demand by placing an order or making a request for a specific product or service. A customer may also fulfill their obligations by facilitating payment for the goods or services received.\n\nCustomers can be categorized into two main types: \n\u2022\tExternal Customers: Entities outside the organization that purchase goods or services, often governed by agreements like Incoterms.\n\u2022\tInternal Customers: Stakeholders or departments within the organization that raise internal demand for products or services to support internal processes.\n\nA customer interacts with the organization through actions such as order placement, demand generation, and the completion of financial transactions. Customers are central to both demand creation in the supply chain and the fulfillment processes that ensure the delivery of goods or services.",
-                "subclasses": [],
-                "object_properties": [
-                    {
-                        "name": "purchases",
-                        "iri": "http://www.w3id.org/ecsel-dr-Incoterms#purchases"
-                    },
-                    {
-                        "name": "receives",
-                        "iri": "http://www.w3id.org/ecsel-dr-Incoterms#receives"
-                    },
-                    {
-                        "name": "uses to location",
-                        "iri": "http://www.w3id.org/ecsel-dr-Incoterms#uses_to_location"
-                    }
-                ],
-                "datatype_properties": [],
-                "equivalent_classes": [
-                    {
-                        "name": "Customer",
-                        "iri": "http://www.w3id.org/ecsel-dr-OM#Customer"
-                    },
-                    {
-                        "name": "Customer",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Customer"
-                    }
-                ],
-                "disjoint_classes": []
-            },
-            {
                 "name": "Exchange Rate Specification",
                 "iri": "http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification",
                 "description": "EXCHANGE RATE SPECIFICATION is structured value representing exchange rate.",
@@ -12622,8 +12791,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb501",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb501"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b501",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b501"
                     }
                 ],
                 "disjoint_classes": []
@@ -12651,41 +12820,7 @@
                 "name": "Contact Person Data",
                 "iri": "http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data",
                 "description": "CONTACT PERSON DATA refers to the detailed information (name, role, email, phone) of a person responsible for handling specific transactions or communications in the supply chain process.",
-                "subclasses": [
-                    {
-                        "name": "Customer",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#Customer",
-                        "description": "CUSTOMER is a person, organization, or business entity that generates demand by placing an order or making a request for a specific product or service. A customer may also fulfill their obligations by facilitating payment for the goods or services received.\n\nCustomers can be categorized into two main types: \n\u2022\tExternal Customers: Entities outside the organization that purchase goods or services, often governed by agreements like Incoterms.\n\u2022\tInternal Customers: Stakeholders or departments within the organization that raise internal demand for products or services to support internal processes.\n\nA customer interacts with the organization through actions such as order placement, demand generation, and the completion of financial transactions. Customers are central to both demand creation in the supply chain and the fulfillment processes that ensure the delivery of goods or services.",
-                        "subclasses": [],
-                        "object_properties": [
-                            {
-                                "name": "has customer class",
-                                "iri": "http://www.w3id.org/ecsel-dr-DF#has_customer_class"
-                            }
-                        ],
-                        "datatype_properties": [
-                            {
-                                "name": "customer identifier",
-                                "iri": "http://www.w3id.org/ecsel-dr-DF#customer_identifier"
-                            },
-                            {
-                                "name": "customer name",
-                                "iri": "http://www.w3id.org/ecsel-dr-DF#customer_name"
-                            },
-                            {
-                                "name": "customer priority",
-                                "iri": "http://www.w3id.org/ecsel-dr-DF#customer_priority"
-                            }
-                        ],
-                        "equivalent_classes": [
-                            {
-                                "name": "Customer",
-                                "iri": "http://www.w3id.org/ecsel-dr-OM#Customer"
-                            }
-                        ],
-                        "disjoint_classes": []
-                    }
-                ],
+                "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
                     {
@@ -12710,30 +12845,6 @@
                     }
                 ],
                 "equivalent_classes": [],
-                "disjoint_classes": []
-            },
-            {
-                "name": "Customer",
-                "iri": "http://www.w3id.org/ecsel-dr-OM#Customer",
-                "description": "CUSTOMER is a person, organization, or business entity that generates demand by placing an order or making a request for a specific product or service. A customer may also fulfill their obligations by facilitating payment for the goods or services received.\n\nCustomers can be categorized into two main types: \n\u2022\tExternal Customers: Entities outside the organization that purchase goods or services, often governed by agreements like Incoterms.\n\u2022\tInternal Customers: Stakeholders or departments within the organization that raise internal demand for products or services to support internal processes.\n\nA customer interacts with the organization through actions such as order placement, demand generation, and the completion of financial transactions. Customers are central to both demand creation in the supply chain and the fulfillment processes that ensure the delivery of goods or services.",
-                "subclasses": [],
-                "object_properties": [
-                    {
-                        "name": "owns customer plant",
-                        "iri": "http://www.w3id.org/ecsel-dr-OM#owns_customer_plant"
-                    },
-                    {
-                        "name": "requests order change request",
-                        "iri": "http://www.w3id.org/ecsel-dr-OM#requests_order_change_request"
-                    }
-                ],
-                "datatype_properties": [],
-                "equivalent_classes": [
-                    {
-                        "name": "Customer",
-                        "iri": "http://www.w3id.org/ecsel-dr-SCP#Customer"
-                    }
-                ],
                 "disjoint_classes": []
             },
             {
@@ -13057,36 +13168,6 @@
                 "disjoint_classes": []
             },
             {
-                "name": "Supplier",
-                "iri": "http://www.w3id.org/ecsel-dr-OM#Supplier",
-                "description": "A SUPPLIER is an entity fulfilling a demand for a specific product or service.",
-                "subclasses": [],
-                "object_properties": [],
-                "datatype_properties": [],
-                "equivalent_classes": [],
-                "disjoint_classes": []
-            },
-            {
-                "name": "Supplier Data",
-                "iri": "http://www.w3id.org/ecsel-dr-OM#Supplier_Data",
-                "description": "Information about a supplier.",
-                "subclasses": [],
-                "object_properties": [
-                    {
-                        "name": "describes supplier",
-                        "iri": "http://www.w3id.org/ecsel-dr-OM#describes_supplier"
-                    }
-                ],
-                "datatype_properties": [
-                    {
-                        "name": "supplier address",
-                        "iri": "http://www.w3id.org/ecsel-dr-OM#supplier_address"
-                    }
-                ],
-                "equivalent_classes": [],
-                "disjoint_classes": []
-            },
-            {
                 "name": "Supply",
                 "iri": "http://www.w3id.org/ecsel-dr-OM#Supply",
                 "description": "SUPPLY is the total amount of specific products or services that is available to customers. Supply has the dimensions quantity, time, location, product, including aggregation of all dimensions. Supply is defined as inventory or plan replenishment.",
@@ -13110,8 +13191,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb505",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb505"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b505",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b505"
                     }
                 ],
                 "disjoint_classes": []
@@ -13208,10 +13289,6 @@
                     {
                         "name": "safety stock time",
                         "iri": "http://www.w3id.org/ecsel-dr-Planning#safety_stock_time"
-                    },
-                    {
-                        "name": "type",
-                        "iri": "http://www.w3id.org/ecsel-dr-Planning#type"
                     }
                 ],
                 "equivalent_classes": [],
@@ -13232,16 +13309,6 @@
                         "iri": "http://www.w3id.org/ecsel-dr-Planning#has_successor"
                     }
                 ],
-                "datatype_properties": [],
-                "equivalent_classes": [],
-                "disjoint_classes": []
-            },
-            {
-                "name": "Order",
-                "iri": "http://www.w3id.org/ecsel-dr-Planning#Order",
-                "description": "An ORDER contains at least one order position. An ORDER has an order type and is associated to DEMAND.",
-                "subclasses": [],
-                "object_properties": [],
                 "datatype_properties": [],
                 "equivalent_classes": [],
                 "disjoint_classes": []
@@ -15852,8 +15919,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n36ed75f3685f40c999b2fbd40728099eb665",
-                                "iri": "n36ed75f3685f40c999b2fbd40728099eb665"
+                                "name": "n9a08d61ba4f245a1a8e07df273e10e67b665",
+                                "iri": "n9a08d61ba4f245a1a8e07df273e10e67b665"
                             }
                         ],
                         "disjoint_classes": []
@@ -15867,8 +15934,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n36ed75f3685f40c999b2fbd40728099eb673",
-                                "iri": "n36ed75f3685f40c999b2fbd40728099eb673"
+                                "name": "n9a08d61ba4f245a1a8e07df273e10e67b673",
+                                "iri": "n9a08d61ba4f245a1a8e07df273e10e67b673"
                             }
                         ],
                         "disjoint_classes": []
@@ -15882,8 +15949,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n36ed75f3685f40c999b2fbd40728099eb680",
-                                "iri": "n36ed75f3685f40c999b2fbd40728099eb680"
+                                "name": "n9a08d61ba4f245a1a8e07df273e10e67b680",
+                                "iri": "n9a08d61ba4f245a1a8e07df273e10e67b680"
                             }
                         ],
                         "disjoint_classes": []
@@ -15928,8 +15995,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb683",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb683"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b683",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b683"
                     }
                 ],
                 "disjoint_classes": []
@@ -16012,8 +16079,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n36ed75f3685f40c999b2fbd40728099eb687",
-                        "iri": "n36ed75f3685f40c999b2fbd40728099eb687"
+                        "name": "n9a08d61ba4f245a1a8e07df273e10e67b687",
+                        "iri": "n9a08d61ba4f245a1a8e07df273e10e67b687"
                     }
                 ],
                 "disjoint_classes": []
