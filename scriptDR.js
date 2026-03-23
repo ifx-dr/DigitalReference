@@ -5,12 +5,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const closeBtn = document.getElementById('closeBtn');
     const fullScreenIframe = document.getElementById('fullScreenIframe');
     const loadingIndicator = document.getElementById('loadingIndicator');
+    const srcUrl = "https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/tibonto/dr/master/DigitalReference.ttl";
 
     setTimeout(() => {
         if (mainIframe && !mainIframe.src) {
-            mainIframe.src = "https://ifx-dr.github.io/WebVOWL/#digitalreference";
+            mainIframe.src = srcUrl;
         }
-    }, 100);
+    }, 2000);
 
     fullScreenBtn.addEventListener('click', () => {
         fullContainer.style.display = "block";
@@ -18,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Only load iframe if not already loaded
         if (!fullScreenIframe.src) {
             loadingIndicator.style.display = "block";
-            fullScreenIframe.src = "https://ifx-dr.github.io/WebVOWL/#digitalreference";
+            fullScreenIframe.src = srcUrl;
         }
     });
     
