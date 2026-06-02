@@ -196,7 +196,7 @@
             {
                 "name": "AH Local Cloud",
                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Local_Cloud",
-                "description": "No description yet",
+                "description": "AH Local Cloud is a subclass of Cloud Lobe representing a self-contained, private digital environment set up within a specific physical location, such as a factory floor or industrial site. It groups together a collection of connected software systems and devices that need to work with one another, and must always include three essential built-in components: a service directory so systems can find each other, an access control system so only permitted systems can communicate, and a coordination system so the right systems are matched to the right tasks.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
@@ -317,7 +317,7 @@
                                     {
                                         "name": "AH Application Servcice IDD",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Application_Servcice_IDD",
-                                        "description": "No description yet",
+                                        "description": "AH Application Service IDD (Application Service Interface Design Description) is a subclass of AH Service Documentation Document and represents the central document within the documentation set of a specific application service in the Eclipse Arrowhead Framework. As an Interface Design Description, it provides a complete and technically precise specification of a service implementation by defining the communication technology, encoding scheme, data format, and information model used by application systems that exchange information by providing and/or consuming application services. It may either declare these technical contents directly or reference external Communication Profile and Semantic Profile documents where those exist, making it the authoritative linking document between the general service description and all technology-specific implementation details.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -327,17 +327,17 @@
                                     {
                                         "name": "AH Core Service IDD",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Core_Service_IDD",
-                                        "description": "No description yet",
+                                        "description": "AH Core Service IDD is a subclass of Interface Design Description IDD specifically covering the technical specification documents for the built-in services that keep the Arrowhead Framework running. These documents describe how each built-in service works, how other systems can interact with it, and what rules govern those interactions, forming the foundation that all other services in the network rely on.",
                                         "subclasses": [
                                             {
                                                 "name": "AH Automation Supporting Service IDD",
                                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Automation_Supporting_Service_IDD",
-                                                "description": "No description yet",
+                                                "description": "AH Automation Supporting Service IDD is a subclass of AH Core Service IDD representing technical specification documents for optional built-in services that extend the basic capabilities of an Arrowhead environment. Where the three essential built-in services handle only the minimum needed to get systems talking to each other, these additional services cover broader needs such as storing data, handling events, managing configurations, and monitoring quality, supporting more complete and capable automated operations.",
                                                 "subclasses": [
                                                     {
                                                         "name": "AH Device Discovery Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Device_Discovery_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Device Discovery Service IDD is a subclass of AH Automation Supporting Service IDD representing the technical specification document for a service that automatically finds and registers physical devices, such as sensors, machines, or hardware components, within an Arrowhead environment. Once a device is identified and registered, it can be recognised and used by other systems in the network without needing manual configuration.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -347,7 +347,7 @@
                                                     {
                                                         "name": "AH Global Service Discovery Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Global_Service_Discovery_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Global Service Discovery Service IDD is a subclass of AH Automation Supporting Service IDD representing the technical specification document for a service that enables systems to find and access services located outside their own local environment. Rather than being limited to what is available within a single local network, this service allows a system to search for and connect with services in other locations or networks.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -357,7 +357,7 @@
                                                     {
                                                         "name": "AH Inter Cloud Negotiations Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Inter_Cloud_Negotiations_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Inter Cloud Negotiations Service IDD is a subclass of AH Automation Supporting Service IDD representing the technical specification document for a service that manages the process of establishing agreements and connections between two or more separate Arrowhead local environments. It handles the rules and steps that allow separate, independently managed networks to share resources and collaborate safely.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -367,7 +367,7 @@
                                                     {
                                                         "name": "AH Session Establish Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Session_Establish_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Session Establish Service IDD is a subclass of AH Automation Supporting Service IDD representing the technical specification document for a service that handles the process of starting a new communication session between two or more systems. It defines the steps and requirements needed before systems can begin exchanging information, ensuring that all parties are properly identified and that the connection is set up in a consistent and secure way.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -377,7 +377,7 @@
                                                     {
                                                         "name": "AH Session Management Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Session_Management_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Session Management Service IDD is a subclass of AH Automation Supporting Service IDD representing the technical specification document for a service that oversees the full life of a communication session between systems, from the moment it begins, through its active use, until it is properly closed. It ensures that ongoing exchanges between systems remain orderly, trackable, and properly terminated when no longer needed.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -387,7 +387,7 @@
                                                     {
                                                         "name": "AH System Discovery Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_System_Discovery_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH System Discovery Service IDD is a subclass of AH Automation Supporting Service IDD representing the technical specification document for a service that finds and catalogues the software systems present within an Arrowhead environment. Rather than discovering physical devices, this service identifies and records the software systems and applications in the network, what they are, what they can do, and how they are configured, so that the broader network has an accurate and current picture of its members.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -408,7 +408,7 @@
                                                     {
                                                         "name": "AH Authorization Control Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Authorization_Control_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Authorization Control Service IDD is a subclass of AH Mandatory Core Service IDD representing the technical specification document for the service that controls who is allowed to access what within an Arrowhead local environment. It formally describes how the access control service works, including how it verifies identities and enforces permissions, ensuring that only approved systems can communicate with one another.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -418,7 +418,7 @@
                                                     {
                                                         "name": "AH Orchestration Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Orchestration_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Orchestration Service IDD is a subclass of AH Mandatory Core Service IDD representing the technical specification document for the coordination service that is required in every Arrowhead local environment. This coordination service is responsible for deciding, at the moment a request is made, which available service a system should connect to, acting like a matchmaker that routes requests to the most appropriate provider. This document formally defines how that matching process works and the rules that govern it.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -428,7 +428,7 @@
                                                     {
                                                         "name": "AH Service Discovery Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Service_Discovery_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Service Discovery Service IDD is a subclass of AH Mandatory Core Service IDD representing the technical specification document for the service directory lookup function required in every Arrowhead local environment. This function allows any system in the network to search for and find other services that are available, similar to looking up a contact in a directory. This document formally defines how that search and lookup process works.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -438,7 +438,7 @@
                                                     {
                                                         "name": "AH Store Management Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Store_Management_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Store Management Service IDD is a subclass of AH Mandatory Core Service IDD representing the technical specification document for the service responsible for storing, organising, and retrieving data within an Arrowhead local environment. This service acts as the managed data store for the network, ensuring that information needed by systems is saved reliably and can be accessed when required.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -448,7 +448,7 @@
                                                     {
                                                         "name": "AH Token Generation Service IDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Token_Generation_Service_IDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Token Generation Service IDD is a subclass of AH Mandatory Core Service IDD representing the technical specification document for the service that issues security tokens within an Arrowhead local environment. A security token is a short-lived digital pass that a system presents to prove it has been granted permission to use a particular service, similar to a ticket that grants entry for a specific purpose. This document formally defines how those tokens are created and what they must contain.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -508,7 +508,7 @@
                                     {
                                         "name": "AH Application Service SD",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Application_Service_SD",
-                                        "description": "No description yet",
+                                        "description": "AH Application Service SD is a subclass of Service Description SD that provides a plain, general description of a specific application service, one built to address a particular real-world use case rather than to run the network itself. It describes what the service does and why it exists, without specifying technical implementation details, and serves as the starting point from which a full technical specification is developed.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -518,7 +518,7 @@
                                     {
                                         "name": "AH Core Service SD",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Core_Service_SD",
-                                        "description": "No description yet",
+                                        "description": "AH Core Service SD is a subclass of Service Description SD that provides plain, general descriptions of the built-in services that form the backbone of the Arrowhead Framework, both the essential ones and the optional supporting ones. These descriptions explain what each built-in service does and what role it plays, without going into technical implementation details.",
                                         "subclasses": [
                                             {
                                                 "name": "AH Automation Supporting Service SD",
@@ -594,12 +594,12 @@
                                             {
                                                 "name": "AH Mandatory Core Service SD",
                                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Mandatory_Core_Service_SD",
-                                                "description": "No description yet",
+                                                "description": "AH Mandatory Core Service SD is a subclass of AH Core Service SD covering plain, general descriptions specifically for the three services that must be present in every Arrowhead local environment: the service directory, the access control system, and the coordination system. Without these three, the network cannot function, making their descriptions a foundational part of the overall documentation.",
                                                 "subclasses": [
                                                     {
                                                         "name": "AH Authorization Control Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Authorization_Control_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Authorization Control Service SD is a subclass of AH Mandatory Core Service SD providing the plain, general description of the access control service that must be present in every Arrowhead local environment. This service is responsible for deciding which systems are allowed to communicate with which other systems, ensuring that no system can access a service it has not been explicitly permitted to use, and that every system is who it claims to be before any exchange takes place.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -1728,8 +1728,8 @@
                 ],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b563",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b563"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab563",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab563"
                     }
                 ],
                 "disjoint_classes": []
@@ -1844,8 +1844,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b567",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b567"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab567",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab567"
                     }
                 ],
                 "disjoint_classes": []
@@ -3069,7 +3069,7 @@
                     {
                         "name": "SSO Stocks",
                         "iri": "http://www.w3id.org/ecsel-dr-Planning-SCP#SSO_Stocks",
-                        "description": "No description yet",
+                        "description": "SSO Stocks refers to SSO stock profiles applied exclusively at the finished goods level, sourced from Stockplan Rules or manually entered in the SPL UI. This class encompasses three subtypes: Retained Stock, which is handled together with AP_FCST settings via retain stock rules; Min Stock, representing the minimum inventory level desired on hand to buffer small capacity problems; and Max Stock, representing the maximum inventory level permitted, used to fill capacities.",
                         "subclasses": [
                             {
                                 "name": "Max Stock",
@@ -3333,7 +3333,7 @@
                     {
                         "name": "N Channel Configuration",
                         "iri": "http://www.w3id.org/ecsel-dr-Power-PWR#N_Channel_Configuration",
-                        "description": "No description yet",
+                        "description": "N-Channel Configuration is the hardware and/or software settings for the use of one or more N-channel field effect transistors (N-channel MOSFETs/FETs) within a power circuit. It documents electrical connections and orientation (source, drain, gate), intended role (for example high side switch, load switch, complementary stage), gate drive and level shifting schemes, biasing and pull up elements, gate resistances, protection/snubbing components, allowed voltage/current/thermal limits, switching profiles, and any monitoring or control parameters required for safe and efficient operation. This configuration is used for specification, validation, monitoring and automated control of power assemblies where N-channel devices determine power routing, protection or load isolation.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -3821,12 +3821,12 @@
                                         "datatype_properties": [],
                                         "equivalent_classes": [
                                             {
-                                                "name": "n057301fc88414a56860a7bcedf63a2c2b655",
-                                                "iri": "n057301fc88414a56860a7bcedf63a2c2b655"
+                                                "name": "n2e7096ec23694df8ad83240e50755e3ab655",
+                                                "iri": "n2e7096ec23694df8ad83240e50755e3ab655"
                                             },
                                             {
-                                                "name": "n057301fc88414a56860a7bcedf63a2c2b660",
-                                                "iri": "n057301fc88414a56860a7bcedf63a2c2b660"
+                                                "name": "n2e7096ec23694df8ad83240e50755e3ab660",
+                                                "iri": "n2e7096ec23694df8ad83240e50755e3ab660"
                                             }
                                         ],
                                         "disjoint_classes": []
@@ -6345,8 +6345,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b512",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b512"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab512",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab512"
                     }
                 ],
                 "disjoint_classes": []
@@ -6365,8 +6365,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b519",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b519"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab519",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab519"
                     }
                 ],
                 "disjoint_classes": []
@@ -6385,8 +6385,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b525",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b525"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab525",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab525"
                     }
                 ],
                 "disjoint_classes": []
@@ -6405,8 +6405,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b529",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b529"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab529",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab529"
                     }
                 ],
                 "disjoint_classes": []
@@ -6440,8 +6440,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b543",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b543"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab543",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab543"
                     }
                 ],
                 "disjoint_classes": []
@@ -6468,8 +6468,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b547",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b547"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab547",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab547"
                     }
                 ],
                 "disjoint_classes": []
@@ -6493,8 +6493,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n057301fc88414a56860a7bcedf63a2c2b509",
-                                "iri": "n057301fc88414a56860a7bcedf63a2c2b509"
+                                "name": "n2e7096ec23694df8ad83240e50755e3ab509",
+                                "iri": "n2e7096ec23694df8ad83240e50755e3ab509"
                             }
                         ],
                         "disjoint_classes": []
@@ -6513,8 +6513,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n057301fc88414a56860a7bcedf63a2c2b516",
-                                "iri": "n057301fc88414a56860a7bcedf63a2c2b516"
+                                "name": "n2e7096ec23694df8ad83240e50755e3ab516",
+                                "iri": "n2e7096ec23694df8ad83240e50755e3ab516"
                             }
                         ],
                         "disjoint_classes": []
@@ -6533,8 +6533,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n057301fc88414a56860a7bcedf63a2c2b538",
-                                "iri": "n057301fc88414a56860a7bcedf63a2c2b538"
+                                "name": "n2e7096ec23694df8ad83240e50755e3ab538",
+                                "iri": "n2e7096ec23694df8ad83240e50755e3ab538"
                             }
                         ],
                         "disjoint_classes": []
@@ -6553,8 +6553,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n057301fc88414a56860a7bcedf63a2c2b550",
-                                "iri": "n057301fc88414a56860a7bcedf63a2c2b550"
+                                "name": "n2e7096ec23694df8ad83240e50755e3ab550",
+                                "iri": "n2e7096ec23694df8ad83240e50755e3ab550"
                             }
                         ],
                         "disjoint_classes": []
@@ -6812,8 +6812,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b556",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b556"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab556",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab556"
                     }
                 ],
                 "disjoint_classes": []
@@ -11463,8 +11463,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b535",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b535"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab535",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab535"
                     }
                 ],
                 "disjoint_classes": []
@@ -11483,8 +11483,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b553",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b553"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab553",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab553"
                     }
                 ],
                 "disjoint_classes": []
@@ -11655,7 +11655,7 @@
                     {
                         "name": "Buffer Stock Order",
                         "iri": "http://www.w3id.org/ecsel-dr-Planning-SCP#Buffer_Stock_Order",
-                        "description": "No description yet",
+                        "description": "Buffer Stock Order reserves stock for fluctuating customer demands.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -11735,10 +11735,6 @@
                     {
                         "name": "batching interval",
                         "iri": "http://www.w3id.org/ecsel-dr-DF#batching_interval"
-                    },
-                    {
-                        "name": "has order position",
-                        "iri": "http://www.w3id.org/ecsel-dr-DF#has_order_position"
                     },
                     {
                         "name": "order date",
@@ -12459,8 +12455,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b501",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b501"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab501",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab501"
                     }
                 ],
                 "disjoint_classes": []
@@ -12859,8 +12855,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b505",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b505"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab505",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab505"
                     }
                 ],
                 "disjoint_classes": []
@@ -15577,8 +15573,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n057301fc88414a56860a7bcedf63a2c2b665",
-                                "iri": "n057301fc88414a56860a7bcedf63a2c2b665"
+                                "name": "n2e7096ec23694df8ad83240e50755e3ab665",
+                                "iri": "n2e7096ec23694df8ad83240e50755e3ab665"
                             }
                         ],
                         "disjoint_classes": []
@@ -15592,8 +15588,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n057301fc88414a56860a7bcedf63a2c2b673",
-                                "iri": "n057301fc88414a56860a7bcedf63a2c2b673"
+                                "name": "n2e7096ec23694df8ad83240e50755e3ab673",
+                                "iri": "n2e7096ec23694df8ad83240e50755e3ab673"
                             }
                         ],
                         "disjoint_classes": []
@@ -15607,8 +15603,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n057301fc88414a56860a7bcedf63a2c2b680",
-                                "iri": "n057301fc88414a56860a7bcedf63a2c2b680"
+                                "name": "n2e7096ec23694df8ad83240e50755e3ab680",
+                                "iri": "n2e7096ec23694df8ad83240e50755e3ab680"
                             }
                         ],
                         "disjoint_classes": []
@@ -15653,8 +15649,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b683",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b683"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab683",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab683"
                     }
                 ],
                 "disjoint_classes": []
@@ -15737,8 +15733,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n057301fc88414a56860a7bcedf63a2c2b687",
-                        "iri": "n057301fc88414a56860a7bcedf63a2c2b687"
+                        "name": "n2e7096ec23694df8ad83240e50755e3ab687",
+                        "iri": "n2e7096ec23694df8ad83240e50755e3ab687"
                     }
                 ],
                 "disjoint_classes": []
@@ -16033,19 +16029,9 @@
                 "disjoint_classes": []
             },
             {
-                "name": "day of week",
-                "iri": "http://www.w3.org/2006/time#day_of_week",
-                "description": "The day of week, whose value is a member of the class time:DayOfWeek",
-                "subclasses": [],
-                "object_properties": [],
-                "datatype_properties": [],
-                "equivalent_classes": [],
-                "disjoint_classes": []
-            },
-            {
-                "name": "time zone",
-                "iri": "http://www.w3.org/2006/time#time_zone",
-                "description": "The time zone for clock elements in the temporal position",
+                "name": "DayOfWeek",
+                "iri": "http://www.w3.org/2006/time#DayOfWeek",
+                "description": "No description yet",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
