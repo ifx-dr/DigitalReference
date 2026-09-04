@@ -523,12 +523,12 @@
                                             {
                                                 "name": "AH Automation Supporting Service SD",
                                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Automation_Supporting_Service_SD",
-                                                "description": "No description yet",
+                                                "description": "AH Automation Supporting Service SD is a subclass of AH Core Service SD providing plain, general descriptions of optional built-in services that extend the Arrowhead Framework beyond its mandatory core, covering capabilities such as event handling, data management, session control, or device discovery. These descriptions explain the purpose and role of each supporting service without specifying technical implementation details.",
                                                 "subclasses": [
                                                     {
                                                         "name": "AH Device Discovery Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Device_Discovery_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Device Discovery Service SD is a subclass of AH Automation Supporting Service SD providing the plain, general description of the service that automatically finds and registers physical hardware devices, such as sensors and machines, within an Arrowhead environment. It explains the purpose and role of device discovery without specifying any technical implementation details.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -538,7 +538,7 @@
                                                     {
                                                         "name": "AH Global Service Discovery Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Global_Service_Discovery_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Global Service Discovery Service SD is a subclass of AH Automation Supporting Service SD providing the plain, general description of the service that enables systems to search for and locate services available beyond their own local environment. It explains the cross-network discovery role of this service without specifying technical implementation details.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -548,7 +548,7 @@
                                                     {
                                                         "name": "AH Inter Cloud Negotiations Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Inter_Cloud_Negotiations_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Inter Cloud Negotiations Service SD is a subclass of AH Automation Supporting Service SD providing the plain, general description of the service that establishes agreements and authorised connections between separate Arrowhead local environments. It explains the inter-cloud coordination role of this service without specifying technical implementation details.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -558,7 +558,7 @@
                                                     {
                                                         "name": "AH Session Establish Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Session_Establish_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Session Establish Service SD is a subclass of AH Automation Supporting Service SD providing the plain, general description of the service that handles the initiation of communication sessions between systems, explaining how participating systems are identified and how sessions are started, without specifying technical implementation details.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -568,7 +568,7 @@
                                                     {
                                                         "name": "AH Session Management Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Session_Management_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Session Management Service SD is a subclass of AH Automation Supporting Service SD providing the plain, general description of the service that oversees the complete lifecycle of communication sessions between systems, from initiation through active use to orderly termination, without specifying technical implementation details.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -578,7 +578,7 @@
                                                     {
                                                         "name": "AH System Discovery Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_System_Discovery_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH System Discovery Service SD is a subclass of AH Automation Supporting Service SD providing the plain, general description of the service that finds and catalogues the software systems present in an Arrowhead environment. It explains the role of this service in maintaining an accurate and current registry of active network members, without specifying technical implementation details.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -609,7 +609,7 @@
                                                     {
                                                         "name": "AH Orchestration Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Orchestration_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Orchestration Service SD is a subclass of AH Mandatory Core Service SD providing the plain, general description of the coordination service required in every Arrowhead local environment. It explains the role of this service in dynamically matching service consumer requests to the most appropriate service providers at runtime, without specifying technical implementation details.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -619,7 +619,7 @@
                                                     {
                                                         "name": "AH Service Discovery Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Service_Discovery_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Service Discovery Service SD is a subclass of AH Mandatory Core Service SD providing the plain, general description of the service directory lookup function required in every Arrowhead local environment. It explains how this service enables any system in the network to search for and find other services that are currently available and registered.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -629,7 +629,7 @@
                                                     {
                                                         "name": "AH Store Management Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Store_Management_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Store Management Service SD is a subclass of AH Mandatory Core Service SD providing the plain, general description of the service responsible for storing, organising, and retrieving data within an Arrowhead local environment. It explains the managed data store role of this service, making stored information reliably accessible to other systems in the network.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -639,7 +639,7 @@
                                                     {
                                                         "name": "AH Token Generation Service SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Token_Generation_Service_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Token Generation Service SD is a subclass of AH Mandatory Core Service SD providing the plain, general description of the service that issues secure authorisation tokens granting a service consumer time- or scope-limited permission to consume a provider's service. It explains the token-based access-control role of this service within the mandatory security functionality of an Arrowhead local environment, without specifying technical implementation details.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -678,17 +678,17 @@
                     {
                         "name": "AH System Documentation Document",
                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_System_Documentation_Document",
-                        "description": "No description yet",
+                        "description": "AH System Documentation Document is a subclass of Documentation Document representing any formal document produced as part of the documentation of a software system within the Arrowhead Framework. These documents collectively describe a system from both external and internal perspectives, covering what it does and how it is designed, providing the information needed to understand, implement, and integrate it.",
                         "subclasses": [
                             {
                                 "name": "System Description Sy SD",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#System_Description_Sy_SD",
-                                "description": "No description yet",
+                                "description": "System Description Sy SD is a subclass of AH System Documentation Document providing a plain, technology-independent description of a software system from an external perspective, explaining what services it provides and consumes and the role it plays within the broader system of systems, without detailing internal design or implementation choices.",
                                 "subclasses": [
                                     {
                                         "name": "AH Application System Sy SD",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Application_System_Sy_SD",
-                                        "description": "No description yet",
+                                        "description": "AH Application System Sy SD is a subclass of System Description Sy SD providing the plain, external description of an Arrowhead application system, explaining what the system does, which services it provides and consumes, and its role in the system of systems, without specifying internal design or implementation details.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -698,17 +698,17 @@
                                     {
                                         "name": "AH Core System Sy SD",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Core_System_Sy_SD",
-                                        "description": "No description yet",
+                                        "description": "AH Core System Sy SD is a subclass of System Description Sy SD providing the plain, external description of an Arrowhead core system, applicable to both mandatory and automation supporting core systems, explaining the system's role and its service interactions within the local cloud without detailing internal implementation.",
                                         "subclasses": [
                                             {
                                                 "name": "AH Automation Supporting System Sy SD",
                                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Automation_Supporting_System_Sy_SD",
-                                                "description": "No description yet",
+                                                "description": "AH Automation Supporting System Sy SD is a subclass of AH Core System Sy SD providing the plain, external description of an Arrowhead automation supporting system, one of the optional built-in systems that extends the mandatory core with additional capabilities, explaining its role and service interactions within the local cloud without specifying internal implementation details.",
                                                 "subclasses": [
                                                     {
                                                         "name": "AH Device Registry System Sy SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Device_Registry_System_Sy_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Device Registry System Sy SD is a subclass of AH Automation Supporting System Sy SD providing the plain, external description of the Device Registry System, an optional core system that maintains a record of physical hardware devices registered within an Arrowhead environment, explaining its role and service interactions without internal implementation detail.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -718,7 +718,7 @@
                                                     {
                                                         "name": "AH Gatekeeper System Sy SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Gatekeeper_System_Sy_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Gatekeeper System Sy SD is a subclass of AH Automation Supporting System Sy SD providing the plain, external description of the Gatekeeper System, an optional core system responsible for negotiating and controlling access between separate Arrowhead local environments, explaining its inter-cloud coordination role without internal implementation detail.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -728,7 +728,7 @@
                                                     {
                                                         "name": "AH Gateway System Sy SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Gateway_System_Sy_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Gateway System Sy SD is a subclass of AH Automation Supporting System Sy SD providing the plain, external description of the Gateway System, an optional core system that relays data between separate Arrowhead local environments once inter-cloud access has been negotiated, explaining its role and service interactions without internal implementation detail.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -738,7 +738,7 @@
                                                     {
                                                         "name": "AH Historian Sy SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Historian_Sy_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Historian Sy SD is a subclass of AH Automation Supporting System Sy SD providing the plain, external description of the Historian system, an optional core system that records and stores historical operational data from the local environment for retrospective analysis and traceability, without specifying internal implementation detail.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -748,7 +748,7 @@
                                                     {
                                                         "name": "AH QoS Manager Sy SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_QoS_Manager_Sy_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH QoS Manager Sy SD is a subclass of AH Automation Supporting System Sy SD providing the plain, external description of the Quality of Service Manager system, an optional core system that monitors and manages the performance and reliability characteristics of service exchanges within the local environment.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -758,7 +758,7 @@
                                                     {
                                                         "name": "AH System Registry System Sy SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_System_Registry_System_Sy_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH System Registry System Sy SD is a subclass of AH Automation Supporting System Sy SD providing the plain, external description of the System Registry system, an optional core system that catalogues the software systems active within an Arrowhead environment to support system-level discovery and management.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -774,12 +774,12 @@
                                             {
                                                 "name": "AH Mandatory Core System Sy SD",
                                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Mandatory_Core_System_Sy_SD",
-                                                "description": "No description yet",
+                                                "description": "AH Mandatory Core System Sy SD is a subclass of AH Core System Sy SD providing the plain, external description of one of the three mandatory core systems required in every Arrowhead local environment, covering the Service Registry, Orchestrator, and Authorization systems, each explained in terms of its essential role and service interactions without specifying internal design.",
                                                 "subclasses": [
                                                     {
                                                         "name": "AH Authorization System Sy SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Authorization_System_Sy_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Authorization System Sy SD is a subclass of AH Mandatory Core System Sy SD providing the plain, external description of the Authorization System, one of the three mandatory core systems in every Arrowhead local environment, explaining its role in enforcing access control between communicating systems without specifying internal design.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -789,7 +789,7 @@
                                                     {
                                                         "name": "AH Orchestration System Sy SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Orchestration_System_Sy_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Orchestration System Sy SD is a subclass of AH Mandatory Core System Sy SD providing the plain, external description of the Orchestration System, one of the three mandatory core systems in every Arrowhead local environment, explaining its role in dynamically matching service consumer requests to appropriate service providers at runtime.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -799,7 +799,7 @@
                                                     {
                                                         "name": "AH Service Registry System Sy SD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Service_Registry_System_Sy_SD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Service Registry System Sy SD is a subclass of AH Mandatory Core System Sy SD providing the plain, external description of the Service Registry System, one of the three mandatory core systems in every Arrowhead local environment, explaining its role as the directory where systems publish available services and consumers discover them.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -832,12 +832,12 @@
                             {
                                 "name": "System Design Description Sy SDD",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#System_Design_Description_Sy_SDD",
-                                "description": "No description yet",
+                                "description": "System Design Description Sy SDD is a subclass of AH System Documentation Document providing a detailed internal description of how a software system is designed and built, including its components, architecture, and implementation choices. It complements the external System Description by providing the technical depth needed to develop, deploy, and maintain the system.",
                                 "subclasses": [
                                     {
                                         "name": "AH Application System Sy SDD",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Application_System_Sy_SDD",
-                                        "description": "No description yet",
+                                        "description": "AH Application System Sy SDD is a subclass of System Design Description Sy SDD providing the detailed, internal design description of an Arrowhead application system, specifying its components, architecture, and implementation choices to support the development, deployment, and maintenance of that specific application system.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -847,17 +847,17 @@
                                     {
                                         "name": "AH Core System Sy SDD",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Core_System_Sy_SDD",
-                                        "description": "No description yet",
+                                        "description": "AH Core System Sy SDD is a subclass of System Design Description Sy SDD providing the detailed, internal design description of an Arrowhead core system, applicable to both mandatory and automation supporting core systems, specifying their internal structure and implementation choices needed to build and maintain those systems.",
                                         "subclasses": [
                                             {
                                                 "name": "AH Automation Supporting System Sy SDD",
                                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Automation_Supporting_System_Sy_SDD",
-                                                "description": "No description yet",
+                                                "description": "AH Automation Supporting System Sy SDD is a subclass of AH Core System Sy SDD providing the detailed, internal design description of an Arrowhead automation supporting system, an optional core system that extends the mandatory infrastructure, specifying its internal architecture and the implementation choices needed to build and deploy it.",
                                                 "subclasses": [
                                                     {
                                                         "name": "AH Device Registry System Sy SDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Device_Registry_System_Sy_SDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Device Registry System Sy SDD is a subclass of AH Automation Supporting System Sy SDD providing the detailed, internal design description of the Device Registry System, specifying how it is built to maintain and manage a registry of physical hardware devices within an Arrowhead environment.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -867,7 +867,7 @@
                                                     {
                                                         "name": "AH Gatekeeper System Sy SDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Gatekeeper_System_Sy_SDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Gatekeeper System Sy SDD is a subclass of AH Automation Supporting System Sy SDD providing the detailed, internal design description of the Gatekeeper System, specifying how it is built to manage the negotiation and authorisation of inter-cloud service exchanges between separate Arrowhead local environments.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -877,7 +877,7 @@
                                                     {
                                                         "name": "AH Gateway System Sy SDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Gateway_System_Sy_SDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Gateway System Sy SDD is a subclass of AH Automation Supporting System Sy SDD providing the detailed, internal design description of the Gateway System, specifying how it is built to relay data across the boundary between separate Arrowhead local environments once inter-cloud access has been established.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -887,7 +887,7 @@
                                                     {
                                                         "name": "AH Historian Sy SDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Historian_Sy_SDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Historian Sy SDD is a subclass of AH Automation Supporting System Sy SDD providing the detailed, internal design description of the Historian system, specifying how it is built to record, store, and provide access to historical operational data from the Arrowhead environment.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -897,7 +897,7 @@
                                                     {
                                                         "name": "AH QoS Manager Sy SDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_QoS_Manager_Sy_SDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH QoS Manager Sy SDD is a subclass of AH Automation Supporting System Sy SDD providing the detailed, internal design description of the Quality of Service Manager system, specifying how it is built to monitor and enforce performance and reliability characteristics of service exchanges within the local environment.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -907,7 +907,7 @@
                                                     {
                                                         "name": "AH System Registry System Sy SDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_System_Registry_System_Sy_SDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH System Registry System Sy SDD is a subclass of AH Automation Supporting System Sy SDD providing the detailed, internal design description of the System Registry system, specifying how it is built to catalogue and manage information about the software systems active within an Arrowhead environment.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -923,12 +923,12 @@
                                             {
                                                 "name": "AH Mandatory Core System Sy SDD",
                                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Mandatory_Core_System_Sy_SDD",
-                                                "description": "No description yet",
+                                                "description": "AH Mandatory Core System Sy SDD is a subclass of AH Core System Sy SDD providing the detailed, internal design description of one of the three mandatory core systems required in every Arrowhead local environment, specifying the internal architecture and implementation choices for the Service Registry, Orchestrator, or Authorization system.",
                                                 "subclasses": [
                                                     {
                                                         "name": "AH Authorization System Sy SDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Authorization_System_Sy_SDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Authorization System Sy SDD is a subclass of AH Mandatory Core System Sy SDD providing the detailed, internal design description of the Authorization System, specifying how it is built to implement authentication and access control for service exchanges within an Arrowhead local environment.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -938,7 +938,7 @@
                                                     {
                                                         "name": "AH Orchestration System Sy SDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Orchestration_System_Sy_SDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Orchestration System Sy SDD is a subclass of AH Mandatory Core System Sy SDD providing the detailed, internal design description of the Orchestration System, specifying how it is built to match service consumer requests to appropriate service providers at runtime within an Arrowhead local environment.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -948,7 +948,7 @@
                                                     {
                                                         "name": "AH Service Registry System Sy SDD",
                                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Service_Registry_System_Sy_SDD",
-                                                        "description": "No description yet",
+                                                        "description": "AH Service Registry System Sy SDD is a subclass of AH Mandatory Core System Sy SDD providing the detailed, internal design description of the Service Registry System, specifying how it is built to implement the service publication and discovery directory function in every Arrowhead local environment.",
                                                         "subclasses": [],
                                                         "object_properties": [],
                                                         "datatype_properties": [],
@@ -981,7 +981,7 @@
                                     {
                                         "name": "AH Authorization System WADL",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Authorization_System_WADL",
-                                        "description": "No description yet",
+                                        "description": "AH Authorization System WADL is a subclass of System Web Application Description WADL representing the machine-readable XML description of the Authorization System's HTTP-based web service interface, formally specifying the resources and operations it exposes to support automated client integration and tool-generated documentation.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -991,7 +991,7 @@
                                     {
                                         "name": "AH Orchestrator WADL",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Orchestrator_WADL",
-                                        "description": "No description yet",
+                                        "description": "AH Orchestrator WADL is a subclass of System Web Application Description WADL representing the machine-readable XML description of the Orchestration System's HTTP-based web service interface, formally specifying the resources and operations it exposes for service matching and consumer-provider coordination.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -1001,7 +1001,7 @@
                                     {
                                         "name": "AH Service Registry WADL",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Service_Registry_WADL",
-                                        "description": "No description yet",
+                                        "description": "AH Service Registry WADL is a subclass of System Web Application Description WADL representing the machine-readable XML description of the Service Registry System's HTTP-based web service interface, formally specifying the resources and operations it exposes for service registration and discovery.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -1028,12 +1028,12 @@
                     {
                         "name": "AH System Of Systems Documentation Document",
                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_System_Of_Systems_Documentation_Document",
-                        "description": "No description yet",
+                        "description": "AH System Of Systems Documentation Document is a subclass of Documentation Document representing any formal document produced as part of the documentation of a system of systems within the Arrowhead Framework. These documents describe composed, multi-system deployments at the level of the overall architecture, covering both collective purpose and internal composition design.",
                         "subclasses": [
                             {
                                 "name": "System Of Systems Description So SD",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#System_Of_Systems_Description_So_SD",
-                                "description": "No description yet",
+                                "description": "System Of Systems Description So SD is a subclass of AH System Of Systems Documentation Document providing a plain, external description of a composed system of systems, explaining which systems participate, what collective capability emerges from their interaction, and the role of the composition in the overall automation solution, without specifying internal design details.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -1043,7 +1043,7 @@
                             {
                                 "name": "System Of Systems Design Description So SDD",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#System_Of_Systems_Design_Description_So_SDD",
-                                "description": "No description yet",
+                                "description": "System Of Systems Design Description So SDD is a subclass of AH System Of Systems Documentation Document providing a detailed, internal description of how a system of systems is architected and composed, specifying inter-system dependencies, orchestration decisions, and the technical choices that govern how constituent systems work together to realise the intended automation capability.",
                                 "subclasses": [],
                                 "object_properties": [
                                     {
@@ -1141,7 +1141,7 @@
                     {
                         "name": "AH Service",
                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Service",
-                        "description": "No description yet",
+                        "description": "AH Service is a subclass of Service representing a service deployed and governed within the Eclipse Arrowhead Framework, adhering to its principles of loose coupling and late runtime binding. Each AH Service is documented through a Service Description and one or more Interface Design Descriptions, and is classified as either a core service supporting framework operation or an application service addressing a specific use case.",
                         "subclasses": [
                             {
                                 "name": "AH Application Service",
@@ -1156,12 +1156,12 @@
                             {
                                 "name": "AH Core Service",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Core_Service",
-                                "description": "No description yet",
+                                "description": "AH Core Service is a subclass of AH Service representing the built-in services provided by the Arrowhead Framework's own core systems rather than by application-specific systems. Core services are divided into mandatory core services, which must be present in every local cloud, and automation supporting services, which are optional extensions providing additional operational capabilities.",
                                 "subclasses": [
                                     {
                                         "name": "AH Automation Supporting Service",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Automation_Supporting_Service",
-                                        "description": "No description yet",
+                                        "description": "AH Automation Supporting Service is a subclass of AH Core Service representing an optional, built-in service that extends the Arrowhead Framework beyond its three mandatory core services. Unlike the mandatory core services, automation supporting services are not required for a local cloud to function but enrich its operational scope with additional capabilities such as event handling, data management, session control, inter-cloud communication, device and system discovery, or quality-of-service monitoring.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -1171,7 +1171,7 @@
                                     {
                                         "name": "AH Mandatory Core Service",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Mandatory_Core_Service",
-                                        "description": "No description yet",
+                                        "description": "AH Mandatory Core Service is a subclass of AH Core Service representing the three services that must be present in every Arrowhead local environment: the service directory enabling systems to find one another, the access control service governing which systems may communicate, and the coordination service matching consumers to appropriate providers. Without these three services, a local cloud cannot operate.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -1251,7 +1251,7 @@
                     {
                         "name": "AH Service Documentation",
                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Service_Documentation",
-                        "description": "No description yet",
+                        "description": "AH Service Documentation is a subclass of Service Documentation representing the complete documentation set for a service within the Arrowhead Framework, comprising at minimum a Service Description and an Interface Design Description, and optionally a Communication Profile and Semantic Profile. Together these documents specify both the purpose and the technical implementation of the service in a standardised and reusable form.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -1272,7 +1272,7 @@
                     {
                         "name": "Arrowhead",
                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#Arrowhead",
-                        "description": "No description yet",
+                        "description": "Arrowhead is a subclass of Service Oriented Architecture representing the Eclipse Arrowhead Framework, an industrial automation and IoT implementation of service-oriented architecture principles. It organises software systems and services within local clouds, enforcing service registration, access control, and runtime orchestration through mandatory core systems, and enabling flexible, interoperable composition of automation system of systems.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -1313,7 +1313,7 @@
             {
                 "name": "SoA Property",
                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#SoA_Property",
-                "description": "No description yet",
+                "description": "SoA Property is a class representing a quality or characteristic of a service-oriented architecture, such as loose coupling, late binding, discoverability, or interoperability, that governs how the architecture and its services are designed and expected to behave. Within the Arrowhead Framework, SoA properties guide compliance verification and design decisions at both service and system level.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -1333,12 +1333,12 @@
                     {
                         "name": "AH System",
                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_System",
-                        "description": "No description yet",
+                        "description": "AH System is a subclass of Software System representing any software system that is compliant with and deployed within the Eclipse Arrowhead Framework. An AH System participates in the framework by providing and consuming services through the core systems, and is classified as either a core system providing built-in framework infrastructure or an application system addressing a specific use case.",
                         "subclasses": [
                             {
                                 "name": "AH Application System",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Application_System",
-                                "description": "No description yet",
+                                "description": "AH Application System is a subclass of AH System representing a software system built to address a specific, real-world automation or IoT use case rather than to provide Arrowhead Framework infrastructure. Application systems interact with the framework by registering, discovering, and exchanging services through the core systems, and are disjoint from core systems.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -1358,7 +1358,7 @@
                                     {
                                         "name": "AH Automation Supporting System",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Automation_Supporting_System",
-                                        "description": "No description yet",
+                                        "description": "AH Automation Supporting System is a subclass of AH Core System representing an optional, built-in system that extends the mandatory core infrastructure of an Arrowhead local cloud with additional capabilities such as device registration, event handling, data management, inter-cloud communication, or quality-of-service monitoring. Unlike mandatory core systems, automation supporting systems are not required for a local cloud to function but enrich its operational scope.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -1373,7 +1373,7 @@
                                     {
                                         "name": "AH Mandatory Core System",
                                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Mandatory_Core_System",
-                                        "description": "No description yet",
+                                        "description": "AH Mandatory Core System is a subclass of AH Core System representing one of the three systems that must be present in every Arrowhead local environment: the Service Registry that enables systems to publish and discover services, the Orchestrator that dynamically matches consumers to appropriate service providers, and the Authorization system that enforces access control between communicating systems.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -1432,7 +1432,7 @@
                     {
                         "name": "AH System Documentation",
                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_System_Documentation",
-                        "description": "No description yet",
+                        "description": "AH System Documentation is a subclass of System Documentation representing the complete documentation set for an individual system within the Arrowhead Framework, covering both the external System Description that explains the system's purpose and services, and the internal System Design Description that specifies how it is built, together providing the information needed to understand, implement, and integrate the system.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -1442,7 +1442,7 @@
                     {
                         "name": "AH System Of Systems Documentation",
                         "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_System_Of_Systems_Documentation",
-                        "description": "No description yet",
+                        "description": "AH System Of Systems Documentation is a subclass of System Documentation representing the complete documentation set for a composed system of systems within the Arrowhead Framework, covering both the overall description of the composition and its internal design, providing the information needed to engineer, deploy, and validate multi-system Arrowhead automation solutions.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -1728,8 +1728,8 @@
                 ],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb563",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb563"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b563",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b563"
                     }
                 ],
                 "disjoint_classes": []
@@ -1844,8 +1844,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb567",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb567"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b567",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b567"
                     }
                 ],
                 "disjoint_classes": []
@@ -3821,12 +3821,12 @@
                                         "datatype_properties": [],
                                         "equivalent_classes": [
                                             {
-                                                "name": "n67ab5be434214c089aad28aabb3bcb3eb655",
-                                                "iri": "n67ab5be434214c089aad28aabb3bcb3eb655"
+                                                "name": "nf62bb70bc7a340eda84ec44df7416913b655",
+                                                "iri": "nf62bb70bc7a340eda84ec44df7416913b655"
                                             },
                                             {
-                                                "name": "n67ab5be434214c089aad28aabb3bcb3eb660",
-                                                "iri": "n67ab5be434214c089aad28aabb3bcb3eb660"
+                                                "name": "nf62bb70bc7a340eda84ec44df7416913b660",
+                                                "iri": "nf62bb70bc7a340eda84ec44df7416913b660"
                                             }
                                         ],
                                         "disjoint_classes": []
@@ -3834,7 +3834,7 @@
                                     {
                                         "name": "Operating Property",
                                         "iri": "http://www.w3id.org/ecsel-dr-Power-PWR#Operating_Property",
-                                        "description": "No description yet",
+                                        "description": "A characteristic that describes how a device operates under specified conditions, covering aspects such as power ranges, power sources, standard configurations, or attachments.",
                                         "subclasses": [
                                             {
                                                 "name": "Region Of Operation",
@@ -3940,7 +3940,7 @@
             {
                 "name": "Gate Driver",
                 "iri": "http://www.w3id.org/ecsel-dr-Power-PWR#Gate_Driver",
-                "description": "No description yet",
+                "description": "Gate Driver represents a circuit or component that amplifies control signals to switch power semiconductor devices, such as MOSFETs or IGBTs, on and off.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
@@ -4497,7 +4497,7 @@
             {
                 "name": "Activity",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Activity",
-                "description": "No description yet",
+                "description": "Activity is a discrete step or unit of work within a modelled process, connected by activity edges to define the process flow.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -6315,7 +6315,7 @@
             {
                 "name": "Target Revenue",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Target_Revenue",
-                "description": "No description yet",
+                "description": "Target Revenue represents the planned or expected revenue set as a business target for a product over a defined planning horizon.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -6345,8 +6345,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb512",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb512"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b512",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b512"
                     }
                 ],
                 "disjoint_classes": []
@@ -6365,8 +6365,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb519",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb519"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b519",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b519"
                     }
                 ],
                 "disjoint_classes": []
@@ -6385,8 +6385,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb525",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb525"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b525",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b525"
                     }
                 ],
                 "disjoint_classes": []
@@ -6405,8 +6405,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb529",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb529"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b529",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b529"
                     }
                 ],
                 "disjoint_classes": []
@@ -6440,8 +6440,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb543",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb543"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b543",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b543"
                     }
                 ],
                 "disjoint_classes": []
@@ -6468,8 +6468,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb547",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb547"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b547",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b547"
                     }
                 ],
                 "disjoint_classes": []
@@ -6493,8 +6493,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n67ab5be434214c089aad28aabb3bcb3eb509",
-                                "iri": "n67ab5be434214c089aad28aabb3bcb3eb509"
+                                "name": "nf62bb70bc7a340eda84ec44df7416913b509",
+                                "iri": "nf62bb70bc7a340eda84ec44df7416913b509"
                             }
                         ],
                         "disjoint_classes": []
@@ -6513,8 +6513,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n67ab5be434214c089aad28aabb3bcb3eb516",
-                                "iri": "n67ab5be434214c089aad28aabb3bcb3eb516"
+                                "name": "nf62bb70bc7a340eda84ec44df7416913b516",
+                                "iri": "nf62bb70bc7a340eda84ec44df7416913b516"
                             }
                         ],
                         "disjoint_classes": []
@@ -6533,8 +6533,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n67ab5be434214c089aad28aabb3bcb3eb538",
-                                "iri": "n67ab5be434214c089aad28aabb3bcb3eb538"
+                                "name": "nf62bb70bc7a340eda84ec44df7416913b538",
+                                "iri": "nf62bb70bc7a340eda84ec44df7416913b538"
                             }
                         ],
                         "disjoint_classes": []
@@ -6553,8 +6553,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n67ab5be434214c089aad28aabb3bcb3eb550",
-                                "iri": "n67ab5be434214c089aad28aabb3bcb3eb550"
+                                "name": "nf62bb70bc7a340eda84ec44df7416913b550",
+                                "iri": "nf62bb70bc7a340eda84ec44df7416913b550"
                             }
                         ],
                         "disjoint_classes": []
@@ -6812,8 +6812,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb556",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb556"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b556",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b556"
                     }
                 ],
                 "disjoint_classes": []
@@ -7063,7 +7063,7 @@
     {
         "name": "Quality Management Lobe",
         "iri": "http://www.w3id.org/ecsel-dr#Quality_Management_Lobe",
-        "description": "No description yet",
+        "description": "The domain covering management of product quality across the supply chain, including complaints, failure analysis, lot and device identification, and the requests and responses that drive quality assurance.",
         "subclasses": [
             {
                 "name": "Group",
@@ -7083,7 +7083,7 @@
                     {
                         "name": "Diffusion Batch",
                         "iri": "http://www.w3id.org/ecsel-dr#Diffusion_Batch",
-                        "description": "No description yet",
+                        "description": "A batch of wafers processed together through a diffusion (furnace) operation, grouped as a single lot for scheduling, tracking, and quality traceability.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -7093,7 +7093,7 @@
                     {
                         "name": "Assembly Lot",
                         "iri": "http://www.w3id.org/ecsel-dr/quality/Assembly_Lot",
-                        "description": "No description yet",
+                        "description": "A production lot grouping devices that are processed together through the assembly (back-end) stage, tracked as a single unit for manufacturing control and quality traceability.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -7793,7 +7793,7 @@
             {
                 "name": "Failure Analysis",
                 "iri": "http://www.w3id.org/ecsel-dr/quality/Failure_Analysis",
-                "description": "No description yet",
+                "description": "The systematic investigation of a failed or non-conforming device to determine the root cause of failure, supporting corrective action and quality improvement.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -7816,7 +7816,7 @@
             {
                 "name": "Quality Request",
                 "iri": "http://www.w3id.org/ecsel-dr/quality/Quality_Request",
-                "description": "No description yet",
+                "description": "A request raised regarding product quality, such as a customer complaint or issue report, that initiates investigation and resolution within the quality-management process.",
                 "subclasses": [
                     {
                         "name": "Quality Complaint",
@@ -7943,7 +7943,7 @@
             {
                 "name": "Quality Response",
                 "iri": "http://www.w3id.org/ecsel-dr/quality/Quality_Response",
-                "description": "No description yet",
+                "description": "The formal reply issued in answer to a quality request, communicating findings, corrective actions, or resolution back to the customer or requester.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -7958,7 +7958,7 @@
             {
                 "name": "Substrate",
                 "iri": "http://www.w3id.org/ecsel-dr/quality/Substrate",
-                "description": "No description yet",
+                "description": "The base wafer or supporting material on which semiconductor devices are fabricated, tracked within quality management for identification and traceability.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
@@ -8208,7 +8208,7 @@
             {
                 "name": "Add Disturbance",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Add_Disturbance",
-                "description": "No description yet",
+                "description": "An action that introduces a disturbance, such as a breakdown or interruption, into the production model to evaluate its effect on manufacturing operations.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -8223,7 +8223,7 @@
             {
                 "name": "Add Equipment",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Add_Equipment",
-                "description": "No description yet",
+                "description": "The action of introducing a new piece of equipment into the production configuration, expanding the available manufacturing or measurement capacity.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -8292,7 +8292,7 @@
             {
                 "name": "Calendar",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Calendar",
-                "description": "No description yet",
+                "description": "A structured representation of working periods, shifts, and non-working times used to schedule and constrain production activities and resource availability.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -8549,7 +8549,7 @@
             {
                 "name": "Current Machine State",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Current_Machine_State",
-                "description": "No description yet",
+                "description": "The present operational status of a machine, such as running, idle, down, or in maintenance, at a given moment during production.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -8584,7 +8584,7 @@
             {
                 "name": "Current WIP",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Current_WIP",
-                "description": "No description yet",
+                "description": "A point-in-time snapshot of work in progress showing the actual distribution and status of lots or material that have entered production but have not completed all required operations.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -8688,7 +8688,7 @@
             {
                 "name": "Cycle Time Commitment",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Cycle_Time_Commitment",
-                "description": "No description yet",
+                "description": "A committed target for the time in which a product or material is expected to complete a defined production scope during a specified period.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -8727,7 +8727,7 @@
             {
                 "name": "Equipment Capability",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Equipment_Capability",
-                "description": "No description yet",
+                "description": "A qualified ability of a specific piece of equipment to execute a particular operation under defined production conditions.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -9067,7 +9067,7 @@
             {
                 "name": "Material",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Material",
-                "description": "No description yet",
+                "description": "Physical matter used, transformed, produced, or consumed in a process, including raw and processed materials, components, parts, assemblies, consumables, fuels, lubricants, coolants, and cleaning agents.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -9163,7 +9163,7 @@
             {
                 "name": "Max Lot Size",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Max_Lot_Size",
-                "description": "No description yet",
+                "description": "The maximum quantity of units permitted in a production lot for a defined product and fabrication context.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -9295,7 +9295,7 @@
             {
                 "name": "Target Costs",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Target_Costs",
-                "description": "No description yet",
+                "description": "The cost level that a product or service must achieve to meet the desired sales revenue and income objectives or contractual commitments.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -9323,7 +9323,7 @@
             {
                 "name": "Target Service Level",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Target_Service_Level",
-                "description": "No description yet",
+                "description": "A performance target expressing the intended proportion of orders or demand that should be satisfied within the defined service conditions.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -9350,7 +9350,7 @@
             {
                 "name": "Target WIP",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Target_WIP",
-                "description": "No description yet",
+                "description": "The planned range of work-in-progress units to be maintained for a product in order to support the intended production flow.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -9420,7 +9420,7 @@
             {
                 "name": "Worker Qualification",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Worker_Qualification",
-                "description": "No description yet",
+                "description": "A specification of the qualified workforce required or available to operate equipment, work within a team, or perform maintenance activities.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -11463,8 +11463,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb535",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb535"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b535",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b535"
                     }
                 ],
                 "disjoint_classes": []
@@ -11483,8 +11483,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb553",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb553"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b553",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b553"
                     }
                 ],
                 "disjoint_classes": []
@@ -11508,17 +11508,7 @@
                     {
                         "name": "End Customer",
                         "iri": "http://www.w3id.org/ecsel-dr#End_Customer",
-                        "description": "No description yet",
-                        "subclasses": [],
-                        "object_properties": [],
-                        "datatype_properties": [],
-                        "equivalent_classes": [],
-                        "disjoint_classes": []
-                    },
-                    {
-                        "name": "Sales Channel",
-                        "iri": "http://www.w3id.org/ecsel-dr#Sales_Channel",
-                        "description": "No description yet",
+                        "description": "The final person, organization, or business entity that ultimately receives or uses a product or service at the end of the supply chain.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -11757,6 +11747,16 @@
                 "disjoint_classes": []
             },
             {
+                "name": "Sales Channel",
+                "iri": "http://www.w3id.org/ecsel-dr#Sales_Channel",
+                "description": "a route or intermediary through which products or services are sold",
+                "subclasses": [],
+                "object_properties": [],
+                "datatype_properties": [],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
+            {
                 "name": "Supplier",
                 "iri": "http://www.w3id.org/ecsel-dr#Supplier",
                 "description": "A SUPPLIER is an entity fulfilling a demand for a specific product or service.",
@@ -11833,7 +11833,7 @@
                     {
                         "name": "External Customer",
                         "iri": "http://www.w3id.org/ecsel-dr-DF#External_Customer",
-                        "description": "No description yet",
+                        "description": "A customer classification for persons, organizations, or business entities outside Infineon that purchase or request its products or services through demand fulfillment.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -11848,7 +11848,7 @@
                     {
                         "name": "Internal Customer",
                         "iri": "http://www.w3id.org/ecsel-dr-DF#Internal_Customer",
-                        "description": "No description yet",
+                        "description": "A customer classification for stakeholders, departments, or organizational units within the supplying organization that generate demand for products or services supporting internal processes.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -12455,8 +12455,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb501",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb501"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b501",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b501"
                     }
                 ],
                 "disjoint_classes": []
@@ -12855,8 +12855,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb505",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb505"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b505",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b505"
                     }
                 ],
                 "disjoint_classes": []
@@ -13224,7 +13224,7 @@
                             {
                                 "name": "Multichannel Controller Integrated Circuit",
                                 "iri": "http://www.w3id.org/ecsel-dr-BMS#Multichannel_Controller_Integrated_Circuit",
-                                "description": "No description yet",
+                                "description": "A semiconductor integrated circuit that monitors or controls multiple input or output channels within one device, for example to coordinate several measurements or control paths in a battery management system.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -13244,7 +13244,7 @@
                             {
                                 "name": "Pressure Sensor",
                                 "iri": "http://www.w3id.org/ecsel-dr-BMS#Pressure_Sensor",
-                                "description": "No description yet",
+                                "description": "A semiconductor sensing device that measures pressure and converts the measurement into an electrical signal for monitoring or control, including use in battery management applications.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -15573,8 +15573,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n67ab5be434214c089aad28aabb3bcb3eb665",
-                                "iri": "n67ab5be434214c089aad28aabb3bcb3eb665"
+                                "name": "nf62bb70bc7a340eda84ec44df7416913b665",
+                                "iri": "nf62bb70bc7a340eda84ec44df7416913b665"
                             }
                         ],
                         "disjoint_classes": []
@@ -15588,8 +15588,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n67ab5be434214c089aad28aabb3bcb3eb673",
-                                "iri": "n67ab5be434214c089aad28aabb3bcb3eb673"
+                                "name": "nf62bb70bc7a340eda84ec44df7416913b673",
+                                "iri": "nf62bb70bc7a340eda84ec44df7416913b673"
                             }
                         ],
                         "disjoint_classes": []
@@ -15603,8 +15603,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "n67ab5be434214c089aad28aabb3bcb3eb680",
-                                "iri": "n67ab5be434214c089aad28aabb3bcb3eb680"
+                                "name": "nf62bb70bc7a340eda84ec44df7416913b680",
+                                "iri": "nf62bb70bc7a340eda84ec44df7416913b680"
                             }
                         ],
                         "disjoint_classes": []
@@ -15649,8 +15649,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb683",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb683"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b683",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b683"
                     }
                 ],
                 "disjoint_classes": []
@@ -15733,8 +15733,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "n67ab5be434214c089aad28aabb3bcb3eb687",
-                        "iri": "n67ab5be434214c089aad28aabb3bcb3eb687"
+                        "name": "nf62bb70bc7a340eda84ec44df7416913b687",
+                        "iri": "nf62bb70bc7a340eda84ec44df7416913b687"
                     }
                 ],
                 "disjoint_classes": []
