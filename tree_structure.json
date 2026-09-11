@@ -1728,8 +1728,8 @@
                 ],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b563",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b563"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b563",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b563"
                     }
                 ],
                 "disjoint_classes": []
@@ -1844,8 +1844,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b567",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b567"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b567",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b567"
                     }
                 ],
                 "disjoint_classes": []
@@ -3821,12 +3821,12 @@
                                         "datatype_properties": [],
                                         "equivalent_classes": [
                                             {
-                                                "name": "nf62bb70bc7a340eda84ec44df7416913b655",
-                                                "iri": "nf62bb70bc7a340eda84ec44df7416913b655"
+                                                "name": "nd98602351dbc4b9090fd828ffcdf7807b655",
+                                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b655"
                                             },
                                             {
-                                                "name": "nf62bb70bc7a340eda84ec44df7416913b660",
-                                                "iri": "nf62bb70bc7a340eda84ec44df7416913b660"
+                                                "name": "nd98602351dbc4b9090fd828ffcdf7807b660",
+                                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b660"
                                             }
                                         ],
                                         "disjoint_classes": []
@@ -4665,7 +4665,7 @@
             {
                 "name": "Operation",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Operation",
-                "description": "No description yet",
+                "description": "A set of unit process steps in a semiconductor manufacturing route that represents a trackable production activity and together with the unit process steps identifies the resources and conditions relevant to its execution.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -4751,6 +4751,16 @@
                 "disjoint_classes": []
             },
             {
+                "name": "Unit Process",
+                "iri": "http://www.w3id.org/ecsel-dr-GDM#Unit_Process",
+                "description": "The smallest defined process in a semiconductor manufacturing route, representing a production activity and identifying the resources and conditions relevant to its execution.",
+                "subclasses": [],
+                "object_properties": [],
+                "datatype_properties": [],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
+            {
                 "name": "Recipe",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Recipe",
                 "description": "Recipe required at a specific step. The production pattern of a specific production step on equipment ",
@@ -4812,7 +4822,7 @@
             {
                 "name": "Recipe Group",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Recipe_Group",
-                "description": "No description yet",
+                "description": "A collection of recipe instances associated with a setup, used to organize production patterns required for a specific production step on an equipment.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -4850,7 +4860,7 @@
             {
                 "name": "Route Sequence",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Route_Sequence",
-                "description": "No description yet",
+                "description": "An ordered position within a route that connects an operation or activity to a sequence number.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -4913,7 +4923,7 @@
             {
                 "name": "Workplan",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Workplan",
-                "description": "No description yet",
+                "description": "A plan containing activity instances and activity edge relationships that organize work required for a product or production process. It serves as a structured specification that defines the sequence, dependencies, and coordination of individual activities and their interconnections to achieve production or project objectives. In semiconductor manufacturing these are sequenced operations and operations consist out of one or more unit processes. This sequence of operations may have a time constraint.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -6345,8 +6355,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b512",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b512"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b512",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b512"
                     }
                 ],
                 "disjoint_classes": []
@@ -6365,8 +6375,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b519",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b519"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b519",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b519"
                     }
                 ],
                 "disjoint_classes": []
@@ -6385,8 +6395,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b525",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b525"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b525",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b525"
                     }
                 ],
                 "disjoint_classes": []
@@ -6405,8 +6415,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b529",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b529"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b529",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b529"
                     }
                 ],
                 "disjoint_classes": []
@@ -6440,8 +6450,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b543",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b543"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b543",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b543"
                     }
                 ],
                 "disjoint_classes": []
@@ -6468,8 +6478,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b547",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b547"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b547",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b547"
                     }
                 ],
                 "disjoint_classes": []
@@ -6493,8 +6503,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nf62bb70bc7a340eda84ec44df7416913b509",
-                                "iri": "nf62bb70bc7a340eda84ec44df7416913b509"
+                                "name": "nd98602351dbc4b9090fd828ffcdf7807b509",
+                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b509"
                             }
                         ],
                         "disjoint_classes": []
@@ -6513,8 +6523,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nf62bb70bc7a340eda84ec44df7416913b516",
-                                "iri": "nf62bb70bc7a340eda84ec44df7416913b516"
+                                "name": "nd98602351dbc4b9090fd828ffcdf7807b516",
+                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b516"
                             }
                         ],
                         "disjoint_classes": []
@@ -6533,8 +6543,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nf62bb70bc7a340eda84ec44df7416913b538",
-                                "iri": "nf62bb70bc7a340eda84ec44df7416913b538"
+                                "name": "nd98602351dbc4b9090fd828ffcdf7807b538",
+                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b538"
                             }
                         ],
                         "disjoint_classes": []
@@ -6553,8 +6563,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nf62bb70bc7a340eda84ec44df7416913b550",
-                                "iri": "nf62bb70bc7a340eda84ec44df7416913b550"
+                                "name": "nd98602351dbc4b9090fd828ffcdf7807b550",
+                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b550"
                             }
                         ],
                         "disjoint_classes": []
@@ -6812,8 +6822,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b556",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b556"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b556",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b556"
                     }
                 ],
                 "disjoint_classes": []
@@ -7066,9 +7076,9 @@
         "description": "The domain covering management of product quality across the supply chain, including complaints, failure analysis, lot and device identification, and the requests and responses that drive quality assurance.",
         "subclasses": [
             {
-                "name": "Group",
-                "iri": "http://www.w3id.org/digital-reference/quality/Group",
-                "description": "No description yet",
+                "name": "Contact Group",
+                "iri": "http://www.w3id.org/digital-reference/quality/Contact_Group",
+                "description": "A set of responsible contacts for quality work performed during a quality response.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
@@ -7102,6 +7112,14 @@
                     }
                 ],
                 "object_properties": [
+                    {
+                        "name": "has process",
+                        "iri": "http://www.w3id.org/digital-reference/quality/has_process"
+                    },
+                    {
+                        "name": "was produced in",
+                        "iri": "http://www.w3id.org/digital-reference/quality/was_produced_in"
+                    },
                     {
                         "name": "is derived from lot",
                         "iri": "http://www.w3id.org/ecsel-dr/quality/is_derived_from_lot"
@@ -7224,6 +7242,10 @@
                     }
                 ],
                 "datatype_properties": [
+                    {
+                        "name": "ECID",
+                        "iri": "http://www.w3id.org/digital-reference/quality/ECID"
+                    },
                     {
                         "name": "markingLineA",
                         "iri": "http://www.w3id.org/digital-reference/quality/markingLineA"
@@ -7737,6 +7759,16 @@
                 "disjoint_classes": []
             },
             {
+                "name": "Root Cause Analysis",
+                "iri": "http://www.w3id.org/digital-reference/quality/Root_Cause_Analysis",
+                "description": "No description yet",
+                "subclasses": [],
+                "object_properties": [],
+                "datatype_properties": [],
+                "equivalent_classes": [],
+                "disjoint_classes": []
+            },
+            {
                 "name": "Shipment",
                 "iri": "http://www.w3id.org/digital-reference/quality/Shipment",
                 "description": "Shipment from the supplier to the customer of the device / product or a pack unit of equal devices / products.",
@@ -7803,10 +7835,6 @@
                     {
                         "name": "is executed on",
                         "iri": "http://www.w3id.org/ecsel-dr/quality/is_executed_on"
-                    },
-                    {
-                        "name": "is executed on",
-                        "iri": "http://www.w3id.org/ecsel-dr/qualty/is_executed_on"
                     }
                 ],
                 "datatype_properties": [],
@@ -8238,7 +8266,7 @@
             {
                 "name": "Add New Capability",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Add_New_Capability",
-                "description": "No description yet",
+                "description": "An addition that associates a new capability with an equipment group, extending the recipe or operation contexts supported by that equipment group.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -8253,7 +8281,7 @@
             {
                 "name": "Add New Dedication",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Add_New_Dedication",
-                "description": "No description yet",
+                "description": "An assignment for new restrictions to a chamber performed at a fab, limiting the recipe, operation, or product contexts permitted for that equipment group.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -8362,7 +8390,7 @@
             {
                 "name": "Chamber Dedication",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Chamber_Dedication",
-                "description": "No description yet",
+                "description": "An assignment for a chamber, performed at a fab and required by a recipe, that determines where current work in progress can be processed.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -11463,8 +11491,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b535",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b535"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b535",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b535"
                     }
                 ],
                 "disjoint_classes": []
@@ -11483,8 +11511,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b553",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b553"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b553",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b553"
                     }
                 ],
                 "disjoint_classes": []
@@ -12455,8 +12483,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b501",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b501"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b501",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b501"
                     }
                 ],
                 "disjoint_classes": []
@@ -12855,8 +12883,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b505",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b505"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b505",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b505"
                     }
                 ],
                 "disjoint_classes": []
@@ -15573,8 +15601,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nf62bb70bc7a340eda84ec44df7416913b665",
-                                "iri": "nf62bb70bc7a340eda84ec44df7416913b665"
+                                "name": "nd98602351dbc4b9090fd828ffcdf7807b665",
+                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b665"
                             }
                         ],
                         "disjoint_classes": []
@@ -15588,8 +15616,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nf62bb70bc7a340eda84ec44df7416913b673",
-                                "iri": "nf62bb70bc7a340eda84ec44df7416913b673"
+                                "name": "nd98602351dbc4b9090fd828ffcdf7807b673",
+                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b673"
                             }
                         ],
                         "disjoint_classes": []
@@ -15603,8 +15631,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nf62bb70bc7a340eda84ec44df7416913b680",
-                                "iri": "nf62bb70bc7a340eda84ec44df7416913b680"
+                                "name": "nd98602351dbc4b9090fd828ffcdf7807b680",
+                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b680"
                             }
                         ],
                         "disjoint_classes": []
@@ -15649,8 +15677,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b683",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b683"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b683",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b683"
                     }
                 ],
                 "disjoint_classes": []
@@ -15733,8 +15761,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nf62bb70bc7a340eda84ec44df7416913b687",
-                        "iri": "nf62bb70bc7a340eda84ec44df7416913b687"
+                        "name": "nd98602351dbc4b9090fd828ffcdf7807b687",
+                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b687"
                     }
                 ],
                 "disjoint_classes": []
@@ -16236,7 +16264,7 @@
                     {
                         "name": "Bit",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#Bit",
-                        "description": "No description yet",
+                        "description": "The basic unit of digital information, representing one of two possible values, conventionally 0 or 1.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16302,7 +16330,7 @@
                     {
                         "name": "CAN Bus",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CAN_Bus",
-                        "description": "No description yet",
+                        "description": "A multi-master serial communication bus designed for reliable real-time communication among electronic controllers, especially in vehicles and industrial systems.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16343,7 +16371,7 @@
                     {
                         "name": "CPF10 VNET IP",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF10_VNET_IP",
-                        "description": "No description yet",
+                        "description": "A Common Industrial Protocol network family identified as Vnet/IP, used for industrial communication; the exact profile and scope should be verified against the source standard.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16353,7 +16381,7 @@
                     {
                         "name": "CPF11 TC Net",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF11_TC_Net",
-                        "description": "No description yet",
+                        "description": "An industrial communication network profile identified as TCnet within the Common Industrial Protocol family; precise semantics should be validated against the source standard.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16363,7 +16391,7 @@
                     {
                         "name": "CPF12 Ether CAT",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF12_Ether_CAT",
-                        "description": "No description yet",
+                        "description": "EtherCAT, an Ethernet-based industrial communication technology designed for deterministic, synchronized, and high-performance control communication.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16373,7 +16401,7 @@
                     {
                         "name": "CPF13 Ethernet Powerlink",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF13_Ethernet_Powerlink",
-                        "description": "No description yet",
+                        "description": "POWERLINK, a deterministic real-time Ethernet communication technology used for synchronized industrial automation and motion-control systems.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16383,7 +16411,7 @@
                     {
                         "name": "CPF14 EPA",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF14_EPA",
-                        "description": "No description yet",
+                        "description": "An industrial Ethernet communication profile identified as EPA, commonly interpreted as Ethernet for Plant Automation; exact profile details should be confirmed from the source standard.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16393,7 +16421,7 @@
                     {
                         "name": "CPF15 Mod Bus",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF15_Mod_Bus",
-                        "description": "No description yet",
+                        "description": "Modbus, an application-layer industrial communication protocol commonly used for exchanging process data between controllers, sensors, instruments, and supervisory systems.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16403,7 +16431,7 @@
                     {
                         "name": "CPF16 SERCOS",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF16_SERCOS",
-                        "description": "No description yet",
+                        "description": "SERCOS, a real-time digital communication system designed particularly for motion control and coordinated automation devices.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16413,7 +16441,7 @@
                     {
                         "name": "CPF17 RAPI Net",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF17_RAPI_Net",
-                        "description": "No description yet",
+                        "description": "An industrial communication network profile identified as RAPI-Net; its technical scope should be validated against the relevant Common Industrial Protocol specification.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16423,7 +16451,7 @@
                     {
                         "name": "CPF18 Safety Net P",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF18_Safety_Net_P",
-                        "description": "No description yet",
+                        "description": "An industrial communication profile identified as SafetyNet p, intended for safety-related or control-system communication; the exact standard designation should be confirmed.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16433,7 +16461,7 @@
                     {
                         "name": "CPF1 FOUNDATION Fieldbus",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF1_FOUNDATION_Fieldbus",
-                        "description": "No description yet",
+                        "description": "FOUNDATION Fieldbus, a digital field communication system for process automation instruments and control devices.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16443,7 +16471,7 @@
                     {
                         "name": "CPF2 Control Net",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF2_Control_Net",
-                        "description": "No description yet",
+                        "description": "ControlNet, a deterministic industrial network technology for real-time control and I/O communication.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16453,12 +16481,12 @@
                     {
                         "name": "CPF3 Profibus Profi Net",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net",
-                        "description": "No description yet",
+                        "description": "A class representing the PROFIBUS and PROFINET family of industrial communication technologies.",
                         "subclasses": [
                             {
                                 "name": "CPF3 1 Profibus DP",
                                 "iri": "http://www.w3id.org/ecsel-dr-AT#CPF3_1_Profibus_DP",
-                                "description": "No description yet",
+                                "description": "PROFIBUS-DP, a high-speed digital fieldbus profile commonly used to connect controllers with distributed peripheral devices.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -16468,7 +16496,7 @@
                             {
                                 "name": "CPF3 2 Profibus PA",
                                 "iri": "http://www.w3id.org/ecsel-dr-AT#CPF3_2_Profibus_PA",
-                                "description": "No description yet",
+                                "description": "PROFIBUS-PA, a PROFIBUS profile designed for process automation instrumentation, including operation in hazardous environments with appropriate physical-layer implementations.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -16478,7 +16506,7 @@
                             {
                                 "name": "CPF3 3 Profinet CBA",
                                 "iri": "http://www.w3id.org/ecsel-dr-AT#CPF3_3_Profinet_CBA",
-                                "description": "No description yet",
+                                "description": "PROFINET Component-Based Automation, a communication approach for integrating automation components as distributed systems.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -16488,7 +16516,7 @@
                             {
                                 "name": "CPF3 4 Profinet IO Class A",
                                 "iri": "http://www.w3id.org/ecsel-dr-AT#CPF3_4_Profinet_IO_Class_A",
-                                "description": "No description yet",
+                                "description": "PROFINET IO Conformance Class A, a baseline conformance category defining required functionality for PROFINET input/output devices and controllers.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -16498,7 +16526,7 @@
                             {
                                 "name": "CPF3 5 Profinet IO Class B",
                                 "iri": "http://www.w3id.org/ecsel-dr-AT#CPF3_5_Profinet_IO_Class_B",
-                                "description": "No description yet",
+                                "description": "PROFINET IO Conformance Class B, an intermediate conformance category adding capabilities beyond the baseline PROFINET IO requirements.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -16508,7 +16536,7 @@
                             {
                                 "name": "CPF3 6 Profinet IO Class C",
                                 "iri": "http://www.w3id.org/ecsel-dr-AT#CPF3_6_Profinet_IO_Class_C",
-                                "description": "No description yet",
+                                "description": "PROFINET IO Conformance Class C, an advanced conformance category supporting stringent real-time requirements, commonly including isochronous applications.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -16524,7 +16552,7 @@
                     {
                         "name": "CPF4 P NET",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF4_P_NET",
-                        "description": "No description yet",
+                        "description": "P-NET, an industrial fieldbus technology used for communication and control among automation devices.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16534,7 +16562,7 @@
                     {
                         "name": "CPF5 World FIP",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF5_World_FIP",
-                        "description": "No description yet",
+                        "description": "WorldFIP, an industrial fieldbus technology for deterministic communication between control systems and field devices.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16544,7 +16572,7 @@
                     {
                         "name": "CPF6 INTERBUS",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF6_INTERBUS",
-                        "description": "No description yet",
+                        "description": "INTERBUS, a fieldbus system used for cyclic process-data exchange between controllers and distributed automation devices.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16554,7 +16582,7 @@
                     {
                         "name": "CPF7 Swift Net",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF7_Swift_Net",
-                        "description": "No description yet",
+                        "description": "An industrial communication profile identified as SwiftNet; the exact protocol and standard reference should be validated.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16564,7 +16592,7 @@
                     {
                         "name": "CPF8 CC Link",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF8_CC_Link",
-                        "description": "No description yet",
+                        "description": "CC-Link, an industrial field network technology for communication between controllers, remote I/O, drives, and other automation equipment.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16574,7 +16602,7 @@
                     {
                         "name": "CPF9 HART",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#CPF9_HART",
-                        "description": "No description yet",
+                        "description": "HART, a hybrid industrial communication protocol that overlays digital signals on a conventional 4\u201320 mA analog instrumentation signal.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16798,7 +16826,7 @@
                     {
                         "name": "Big Data Analytics System",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#Big_Data_Analytics_System",
-                        "description": "No description yet",
+                        "description": "A system that stores, processes, and analyzes large, fast, or heterogeneous datasets using distributed or otherwise scalable data-processing technologies.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16944,7 +16972,7 @@
                                             {
                                                 "name": "Assembly Line Planning",
                                                 "iri": "http://www.w3id.org/ecsel-dr-AT#Assembly_Line_Planning",
-                                                "description": "No description yet",
+                                                "description": "The planning activity concerned with allocating operations, resources, workstations, and sequencing for an assembly line.",
                                                 "subclasses": [],
                                                 "object_properties": [],
                                                 "datatype_properties": [],
@@ -17259,7 +17287,7 @@
                     {
                         "name": "ARCNET",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#ARCNET",
-                        "description": "No description yet",
+                        "description": "A legacy local-area network technology using token passing to control access to a shared communication medium.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17269,7 +17297,7 @@
                     {
                         "name": "Bluetooth",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#Bluetooth",
-                        "description": "No description yet",
+                        "description": "A short-range wireless communication technology for exchanging data between devices over personal-area networks.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17389,7 +17417,7 @@
                     {
                         "name": "2G GPRS",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#2G_GPRS",
-                        "description": "No description yet",
+                        "description": "A packet-oriented data service for second-generation GSM cellular networks, commonly providing mobile IP connectivity at substantially higher efficiency than circuit-switched data.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17399,7 +17427,7 @@
                     {
                         "name": "3G UMTS",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#3G_UMTS",
-                        "description": "No description yet",
+                        "description": "A third-generation cellular telecommunications system standardized by 3GPP and based primarily on the UMTS radio-access and core-network architecture.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17409,7 +17437,7 @@
                     {
                         "name": "4G LTE",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#4G_LTE",
-                        "description": "No description yet",
+                        "description": "A fourth-generation mobile broadband system standardized by 3GPP that uses an all-IP core and OFDMA-based radio access to provide high-capacity, low-latency cellular communication.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17419,7 +17447,7 @@
                     {
                         "name": "5G",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#5G",
-                        "description": "No description yet",
+                        "description": "A fifth-generation mobile communication system supporting enhanced broadband, massive machine-type communication, and ultra-reliable low-latency communication.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17440,7 +17468,7 @@
                     {
                         "name": "Apple Talk",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#Apple_Talk",
-                        "description": "No description yet",
+                        "description": "A legacy proprietary networking protocol suite developed by Apple for communication among Apple devices and services.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17520,7 +17548,7 @@
                     {
                         "name": "6 Lo WPAN",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#6_Lo_WPAN",
-                        "description": "No description yet",
+                        "description": "An IPv6-based low-power wireless personal-area-network technology, usually referring to IPv6 over Low-Power Wireless Personal Area Networks as specified by the IETF.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17541,7 +17569,7 @@
                     {
                         "name": "AMQP",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#AMQP",
-                        "description": "No description yet",
+                        "description": "An open application-layer messaging protocol that defines interoperable message exchange, routing, delivery, and reliability semantics, commonly used in distributed systems.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17551,7 +17579,7 @@
                     {
                         "name": "AS2",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#AS2",
-                        "description": "No description yet",
+                        "description": "Applicability Statement 2, an HTTP- or HTTPS-based protocol for securely transporting business documents using MIME, digital signatures, encryption, and acknowledgements.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -17561,7 +17589,7 @@
                     {
                         "name": "Co AP",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#Co_AP",
-                        "description": "No description yet",
+                        "description": "A constrained application protocol role or component; in many contexts this denotes a CoAP client or application participant, but the intended meaning should be confirmed.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -18483,7 +18511,7 @@
                                     {
                                         "name": "Data Language Semantic Web Stack Based",
                                         "iri": "http://www.w3id.org/ecsel-dr-AT#Data_Language_Semantic_Web_Stack_Based",
-                                        "description": "No description yet",
+                                        "description": "A data language based on Semantic Web technologies, typically representing resources, relationships, identifiers, and machine-interpretable semantics using RDF-family standards.",
                                         "subclasses": [
                                             {
                                                 "name": "RDF",
@@ -18514,7 +18542,7 @@
                                     {
                                         "name": "Data Language XML Based",
                                         "iri": "http://www.w3id.org/ecsel-dr-AT#Data_Language_XML_Based",
-                                        "description": "No description yet",
+                                        "description": "A data language whose syntax and structure are defined using XML.",
                                         "subclasses": [
                                             {
                                                 "name": "Document Type Description",
@@ -18603,7 +18631,7 @@
                                             {
                                                 "name": "ANSI X12 Specification",
                                                 "iri": "http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Specification",
-                                                "description": "No description yet",
+                                                "description": "A specification defining electronic data-interchange transaction sets and syntax maintained by the Accredited Standards Committee X12.",
                                                 "subclasses": [],
                                                 "object_properties": [],
                                                 "datatype_properties": [],
@@ -18685,7 +18713,7 @@
                                             {
                                                 "name": "Automation Markup Language",
                                                 "iri": "http://www.w3id.org/ecsel-dr-AT#Automation_Markup_Language",
-                                                "description": "No description yet",
+                                                "description": "An XML-based language or markup representation for describing automation-related data, structures, or services; the exact scope depends on the ontology\u2019s source vocabulary.",
                                                 "subclasses": [],
                                                 "object_properties": [],
                                                 "datatype_properties": [],
@@ -18695,7 +18723,7 @@
                                             {
                                                 "name": "B2M Markup Language",
                                                 "iri": "http://www.w3id.org/ecsel-dr-AT#B2M_Markup_Language",
-                                                "description": "No description yet",
+                                                "description": "A markup language intended to represent business-to-manufacturing information exchange; the precise specification should be verified because the name is not uniquely identifying.",
                                                 "subclasses": [],
                                                 "object_properties": [],
                                                 "datatype_properties": [],
