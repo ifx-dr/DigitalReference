@@ -855,15 +855,20 @@ ul {
     height: auto;
     font-size: 1.5em;
     letter-spacing: 0.1em;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 2em;
+    align-items: start;
 }
 
 .Lobescol1 {
     position: relative;
-    left: 7vw;
+    left: 0;
     font-size: 0.7em;
     padding-bottom: 20em;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
     opacity: 0;
     animation: fadeIn 0.8s ease-in forwards;
     animation-delay: 2s;
@@ -871,28 +876,35 @@ ul {
 
 .Lobescol2 {
     position: relative;
-    top: 27.5em;
+    top: 0;
     margin-left: auto;
     margin-right: auto;
-    height: 130%;
-    z-index: 5;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: min(100%, 600px);
+    height: auto;
+    z-index: auto;
     opacity: 0;
     animation: fadeIn 2s ease-in forwards;
 }
 
-.Lobescol2 .reponsive-img {
+.Lobescol2 img {
+    display: block;
     width: 100%;
     height: auto;
-    max-width: 600px;
     max-height: 400px;
+    object-fit: contain;
 }
 
 .Lobescol3 {
     text-align: right;
     position: relative;
-    right: 7vw;
+    right: 0;
     font-size: 0.7em;
     padding-bottom: 20em;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
     opacity: 0;
     animation: fadeIn 0.8s ease-in forwards;
     animation-delay: 2s;
@@ -907,18 +919,18 @@ ul {
     padding-bottom: 1.25em;
     padding-top: 1.25em;
     margin-left: 0px;
-    position: relative;
-    max-width: 45em;
-    z-index: 10;
+    position: static;
+    max-width: none;
+    z-index: auto;
 }
 
 .Lobescol3 details[open] {
     padding-bottom: 1.25em;
     padding-top: 1.25em;
-    position: relative;
+    position: static;
     margin-right: 0px;
-    max-width: 45em;
-    z-index: 10;
+    max-width: none;
+    z-index: auto;
 }
 
 .Lobescol1 details {
@@ -942,6 +954,7 @@ summary {
 
 .Lobescol1 details p {
     width: 100%;
+    box-sizing: border-box;
     /* Ajustez la largeur du paragraphe selon vos besoins */
     margin-left: 0px;
     /* Centre le paragraphe à droite */
@@ -961,6 +974,7 @@ summary {
 
 .Lobescol3 details p {
     width: 100%;
+    box-sizing: border-box;
     /* Ajustez la largeur du paragraphe selon vos besoins */
     margin-left: auto;
     margin-right: 0px;
@@ -976,6 +990,20 @@ summary {
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
     /* Optionnel : ajout d'une ombre pour l'effet de profondeur */
     position: relative;
+}
+
+@media (max-width: 900px) {
+    .map-container {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .Lobescol3 {
+        text-align: left;
+    }
+
+    .Lobescol3 details p {
+        text-align: left;
+    }
 }
 
 h3 {
