@@ -482,8 +482,13 @@ footer {
     
 }
 
+#fullScreenBtn[hidden] {
+    display: none;
+}
+
 .webvowl {
     position: relative;
+    margin-top: 12em;
     border: 1px solid #202020;
     border-radius: 25px;
 }
