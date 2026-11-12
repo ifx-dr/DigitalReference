@@ -345,8 +345,10 @@ span {
 }
 
 main {
-    padding-left: 12.5em;
-    padding-right: 12.5em;
+    padding-left: clamp(2rem, 50vw - 520px, 12.5em);
+    padding-right: clamp(2rem, 50vw - 520px, 12.5em);
+    box-sizing: border-box;
+    max-width: 100%;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -491,6 +493,7 @@ footer {
     margin-top: 12em;
     border: 1px solid #202020;
     border-radius: 25px;
+    touch-action: none;
 }
 
 .fullscreen-container{
@@ -625,7 +628,9 @@ h4 {
 }
 
 .col_me {
-    width: 28em;
+    flex: 0 1 28em;
+    min-width: 0;
+    overflow-wrap: anywhere;
 }
 
 
@@ -646,6 +651,7 @@ dd {
 }
 
 .bodyupd {
+    box-sizing: border-box;
     padding: 2em 70px 2em 70px;
     margin: 0;
     font-family: Glacial Indifference Reg;
@@ -676,8 +682,8 @@ code {
 .container_1 {
     display: grid;
     justify-content: center;
-    grid-template-columns: 50% 57%;
-    column-gap: 7em;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 3em;
     width: 100%;
     position: relative;
     margin-left: auto;
@@ -709,6 +715,7 @@ dt {
     position: relative;
     top: 0px;
     width: 40em;
+    max-width: 100%;
     justify-self: center;
     align-self: center;
 }
@@ -794,13 +801,14 @@ dt {
 
 .infos {
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    column-count: 2;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 23em));
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
     top: 20em;
     width: 100%;
     justify-content: center;
-    column-gap: 20em;
+    column-gap: 12em;
     animation: slideInBottom ease-out 1s forwards;
     opacity: 0%;
 
@@ -811,6 +819,10 @@ dt {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     padding-bottom: 2px;
+}
+
+.infos .col {
+    display: contents;
 }
 
 .col:first-child {
@@ -886,7 +898,8 @@ ul {
     margin-right: auto;
     margin-top: 2em;
     margin-bottom: 2em;
-    width: min(100%, 600px);
+    width: fit-content;
+    max-width: 100%;
     height: auto;
     z-index: auto;
     opacity: 0;
@@ -895,10 +908,13 @@ ul {
 
 .Lobescol2 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    max-height: 400px;
-    object-fit: contain;
+}
+
+.tit:has(.Lobestit) {
+    top: 0;
+    margin-top: 16em;
 }
 
 .Lobescol3 {
@@ -1123,6 +1139,11 @@ strong {
     position: relative;
 }
 
+.depth-level-7 {
+    margin-left: 14em;
+    position: relative;
+}
+
 .property.entity {
     padding-left: 1em; 
 }
@@ -1173,4 +1194,159 @@ span.inline-list{
 
 .description{
     padding-left: 0;
+}
+
+@media (max-width: 1024px) {
+    html, body { overflow-x: clip; }
+    header { position: static; height: auto; padding: 0.75rem 0 0.25rem; }
+    .bgheader { display: none; }
+    nav { width: 100%; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.5rem; font-size: 1.3em; }
+    .head { margin-top: 0; }
+    .bodyupd { padding: 0; }
+    main { padding: 0 2rem; width: 100%; }
+
+    h1, .bande, .line, .smallintro, .smallgraphe, .midintro, .Introsection, .bigintro, .map, .mappng,
+    .tit, .BTH, .ns, .infos, .container_1, #data, .divh2his, .aBTT { top: 0; left: 0; }
+    .aL, .aLo { top: -1rem; }
+    .tit, .tit:has(.Lobestit) { margin: 1.5rem 0; gap: 1rem; }
+    footer { bottom: 0; margin-top: 3rem; }
+
+    main > h1, main > h1.SlideInBottom:hover { font-size: 7vw; letter-spacing: 0.4rem; margin-bottom: 0; }
+    .bande { width: 90%; height: 0.6em; margin-top: -0.6em; }
+    .smallintro { max-width: 90%; }
+    .smallgraphe { display: none; }
+    .smallintro { display: flex; flex-direction: column; justify-content: center; min-height: 150px; }
+    .smallintro::before { content: ""; position: absolute; inset: 0; z-index: -1; width: 150px; height: 150px; margin: auto; background: url("Images/Smallgraphe.png") center / contain no-repeat; opacity: 0.9; pointer-events: none; }
+    .Introsection { height: auto; }
+    .Bintro { padding-left: 0; }
+    .Bintro li { display: flex; align-items: baseline; gap: 0.75rem; }
+    .Bintro li::before { top: 0; margin: 0; }
+    .bigintro { max-width: none; padding-left: 0; }
+    .map { margin-bottom: 0; }
+    .mappng { margin-top: 1.5rem; }
+    .webvowl { margin-top: 2rem; }
+
+    .infos { column-gap: 2rem; }
+    .infos ul { padding-left: 1em; }
+    .pmeta, .metaaa { font-size: 110%; overflow-wrap: anywhere; }
+    .container_1 { grid-template-columns: minmax(0, 1fr); row-gap: 2rem; }
+    .dlupd, .dlupd > .dtupd:first-child { margin-top: 0; }
+    .divh2his, #data { margin-top: 3rem; }
+    .Lobescol1, .Lobescol3 { padding-bottom: 1em; }
+    .ns { flex-wrap: wrap; }
+    .ns .SlideInBottom { animation-delay: 0s; }
+    .col_me { flex: 1 1 15em; }
+    .ns h4 { font-size: 1.15em; }
+    .nslinks { font-size: 1rem; }
+    dd ul { column-count: 2; column-gap: 2em; width: auto; }
+    td, code { overflow-wrap: anywhere; }
+
+    .head, .foot { gap: 0; }
+    .head a.ab, .foot a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 0.5rem; box-sizing: border-box; }
+    footer { height: auto; }
+    .divfoot { padding: 1rem 0; }
+    .aBTH { min-width: 44px; min-height: 44px; align-items: center; }
+    .metaaa { display: inline-block; padding: 0.75rem 0; margin: -0.75rem 0; }
+
+    .Intro { margin-bottom: 1rem; }
+    .Bintro, .bigintro { margin: 0; }
+    .Bintro li + li { margin-top: 1.5rem; }
+    .webvowl { height: min(700px, 70vh); height: min(700px, 70svh); }
+    @media (hover: none) {
+        .mappng:hover { transform: none; }
+        .h2his:hover { letter-spacing: 0.6rem; }
+        h1.SlideInRight:hover { letter-spacing: 1rem; }
+        .divlobes ul { display: none; }
+    }
+
+    summary { font-size: 1.125rem; }
+    .Lobescol1 details, .Lobescol3 details { padding: 0; border-bottom: 1px solid rgba(30, 100, 160, 0.2); }
+    .Lobescol1 details[open], .Lobescol3 details[open] { padding: 0 0 0.35rem; }
+    summary a.idc { display: inline-block; min-width: 44px; padding: 0.8rem 0; }
+    @media (max-width: 900px) {
+        .map-container { row-gap: 0; }
+        .Lobescol1 { padding-bottom: 0; }
+    }
+    .depth-level-1 { margin-left: 1em; }
+    .depth-level-2 { margin-left: 2em; }
+    .depth-level-3 { margin-left: 3em; }
+    .depth-level-4 { margin-left: 4em; }
+    .depth-level-5 { margin-left: 5em; }
+    .depth-level-6 { margin-left: 6em; }
+    .depth-level-7 { margin-left: 7em; }
+    dd ul li span a { display: block; padding: 0.5rem 0; }
+    .property.entity p[align="right"] { margin: 0.5rem 0; }
+    .property.entity p[align="right"] a { display: inline-block; padding: 0.75rem 0; }
+    span.inline-list:has(a[href]) { line-height: 1.6; }
+
+    .aBTT { position: sticky; top: auto; bottom: 1rem; align-self: flex-end; width: 48px; height: 48px; margin: 1.5rem 0 0; align-items: center; border-radius: 50%; background-color: rgba(255, 255, 255, 0.9); box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2); z-index: 50; }
+    .aBTT .BTT { width: 1.75rem; }
+    @supports (animation-timeline: scroll()) {
+        @keyframes revealBTT { from { opacity: 0; visibility: hidden; } to { opacity: 1; visibility: visible; } }
+        .aBTT { animation: revealBTT linear both; animation-timeline: scroll(root); animation-range: 0 100vh; }
+    }
+    main > a[name="top"] { scroll-margin-top: 12rem; }
+
+    .ns h4 { margin: 0.25rem 0 0; }
+    .col_me > h4:first-child, .nslinks + h4 { margin-top: 1.25rem; }
+    .nslinks { margin: 0; padding-bottom: 0.5rem; border-bottom: 1px solid rgba(30, 100, 160, 0.2); }
+    .nslinks a { display: inline-flex; align-items: center; min-height: 44px; }
+
+    #data { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); gap: 1.25rem; }
+    .block { padding: 0.75rem 1.25rem; margin: 0; }
+    #data p { font-size: 1rem; line-height: 1.4; margin: 0.5em 0; padding-left: 0; overflow-wrap: anywhere; }
+}
+
+@media (max-width: 600px) {
+    nav { font-size: 1.1em; gap: 0.4rem 1rem; }
+    .head { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.25rem; padding: 0 0.5rem; box-sizing: border-box; font-size: 1rem; }
+    .head a.ab { padding: 0 0.25rem; text-align: center; }
+    .divlobes { display: flex; }
+    .divlobes a.Lobes { flex: 1; }
+    .foot a { padding: 0 0.4rem; }
+    .divlobes ul { display: none; }
+    main { padding: 0 1rem; }
+    p { padding-left: 0; }
+    details p { padding: 1em; }
+    ul { padding-left: 1.25em; }
+
+    main > h1, main > h1.SlideInBottom:hover { font-size: 9vw; letter-spacing: 0.15rem; }
+    .line { width: 70%; height: auto; }
+    .tit h1, .tit h1:hover { font-size: 2rem; letter-spacing: 0.3rem; }
+    .smallintro, .midintro { max-width: 100%; font-size: 1rem; }
+    .btnIndexPage { display: block; margin: 0.75rem auto; padding: 12px 16px; font-size: 1.1rem; letter-spacing: 0.05rem; }
+    .Intro, .Map { font-size: 2rem; }
+    .pindex { font-size: 1.05rem; }
+    .mappng { width: 100%; }
+    .webvowl { height: 60vh; height: 60svh; }
+
+    .infos { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; grid-auto-flow: row; }
+    .metaa { font-size: 160%; }
+    .infos .col + .col > .SlideInBottom { animation-delay: calc(var(--delay) + 0.99s); }
+    .ns { flex-direction: column; align-items: stretch; }
+
+    summary { font-size: 1rem; }
+    .Lobescol1 details p, .Lobescol3 details p { padding: 1em; }
+    .Lobescol2 img { max-width: none; }
+    @media (max-width: 456px) {
+        .Lobescol2 { width: 319px; height: 323px; }
+        .Lobescol2 > * { transform: scale(0.75); transform-origin: top left; }
+    }
+    @media (max-width: 350px) {
+        .Lobescol2 { width: 276px; height: 280px; }
+        .Lobescol2 > * { transform: scale(0.65); }
+    }
+    dl { width: 100%; }
+    dd { margin-left: 1em; }
+    dd ul { column-count: 1; }
+    table { padding-left: 0; }
+    #ontology-viewer tr, #ontology-viewer th, #ontology-viewer td { display: block; width: auto; text-align: left; }
+    [class*="depth-level-"] { margin-left: 0.5em; }
+    .depth-level-3, .depth-level-4 { margin-left: 1em; }
+    .depth-level-5, .depth-level-6, .depth-level-7 { margin-left: 1.5em; }
+
+    .dlupd { font-size: 1.1em; }
+    .dtupd { font-size: 1.4rem; }
+    .block { padding: 0.75rem 1rem; }
+    .foot { font-size: 1rem; }
 }
