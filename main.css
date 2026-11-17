@@ -843,6 +843,14 @@ dt {
     padding-left: 0px;
 }
 
+.pmeta a {
+    color: inherit;
+}
+
+.pmeta a:hover {
+    text-decoration: underline;
+}
+
 ul {
     padding-left: 3em;
 }
