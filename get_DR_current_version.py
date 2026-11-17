@@ -16,7 +16,8 @@ SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
 RDFS_description = URIRef("http://www.w3.org/2000/01/rdf-schema#description")
 
 # Notes stored as rdfs:comment (e.g. "Lobe owner: ...") are not definitions
-NOTE_PATTERN = re.compile(r"^\s*(Lobe owner|Lobe number)\s*:", re.IGNORECASE)
+NOTE_PATTERN = re.compile(r"^\s*(Lobe owner|Lobe number|Additional lobes?)\s*:", re.IGNORECASE)
+ADDITIONAL_LOBES_PATTERN = re.compile(r"^\s*Additional lobes?\s*:\s*(.+)$", re.IGNORECASE | re.DOTALL)
 # skos:definition first: approved and unified definitions are stored there
 DESCRIPTION_PREDICATES = [SKOS.definition, RDFS.comment, RDFS_description, DCT.description, DC.description]
 
@@ -85,6 +86,14 @@ def get_description(cls):
             return "\n\n".join(texts)
     return "No description yet"
 
+def get_additional_lobes(cls):
+    additional_lobes = set()
+    for comment in g.objects(subject=cls, predicate=RDFS.comment):
+        match = ADDITIONAL_LOBES_PATTERN.match(str(comment))
+        if match:
+            additional_lobes.update(lobe.strip() for lobe in match.group(1).split(",") if lobe.strip())
+    return sorted(additional_lobes)
+
 def process_class(cls, visited):
 
     if isinstance(cls, BNode):
@@ -100,6 +109,7 @@ def process_class(cls, visited):
         "name": extract_local_name(cls),
         "iri": str(cls),
         "description": get_description(cls),
+        "additional_lobes": get_additional_lobes(cls),
         "subclasses": [],
         "object_properties": [],
         "datatype_properties": [],

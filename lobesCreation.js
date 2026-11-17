@@ -98,6 +98,16 @@ function renderSubclass(subclass, parentLobe, depth = 1) {
             </tr>
     `;
 
+    // additional lobes
+    if (subclass.additional_lobes && subclass.additional_lobes.length > 0) {
+        html += `
+            <tr>
+                <th class="noblue">Additional lobes</th>
+                <td><p class="description">${subclass.additional_lobes.join(', ')}</p></td>
+            </tr>
+        `;
+    }
+
     // subclasses
     if (subclass.subclasses && subclass.subclasses.length > 0) {
         html += `
