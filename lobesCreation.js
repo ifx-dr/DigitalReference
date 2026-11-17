@@ -63,7 +63,7 @@ function renderOntology(data) {
                 </ul>
             </dd>
             <dt>Description</dt>
-            <p>${lobe.description}</p>
+            <p class="description">${lobe.description}</p>
         </dl>
     `;
         lobeDiv.appendChild(lobeDl);

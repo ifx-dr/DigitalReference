@@ -1,6 +1,7 @@
 from rdflib import Graph, RDF, RDFS, OWL, Namespace, URIRef
 from rdflib.term import BNode
 import json
+import re
 
 g = Graph()
 g.parse("https://raw.githubusercontent.com/tibonto/dr/master/DigitalReference.ttl", format="turtle")
@@ -13,6 +14,11 @@ DC = Namespace("http://purl.org/dc/elements/1.1/")
 DCT = Namespace("http://purl.org/dc/terms/")
 SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
 RDFS_description = URIRef("http://www.w3.org/2000/01/rdf-schema#description")
+
+# Notes stored as rdfs:comment (e.g. "Lobe owner: ...") are not definitions
+NOTE_PATTERN = re.compile(r"^\s*(Lobe owner|Lobe number)\s*:", re.IGNORECASE)
+# skos:definition first: approved and unified definitions are stored there
+DESCRIPTION_PREDICATES = [SKOS.definition, RDFS.comment, RDFS_description, DCT.description, DC.description]
 
 def extract_local_name(iri):
     name = iri.split("#")[-1] if "#" in iri else iri.split("/")[-1]
@@ -69,6 +75,16 @@ def find_lobe(cls, lobes, path=None):
 
     return None
 
+def get_description(cls):
+    for predicate in DESCRIPTION_PREDICATES:
+        values = [value for value in g.objects(subject=cls, predicate=predicate) if not NOTE_PATTERN.match(str(value))]
+        # Prefer English (or untagged) texts over translations such as @de
+        english = [value for value in values if getattr(value, "language", None) in (None, "en")]
+        texts = sorted({str(value).strip() for value in english or values})
+        if texts:
+            return "\n\n".join(texts)
+    return "No description yet"
+
 def process_class(cls, visited):
 
     if isinstance(cls, BNode):
@@ -79,21 +95,11 @@ def process_class(cls, visited):
 
     visited.add(cls)
     
-    # Get description from multiple possible predicates
-    description = (
-        g.value(subject=cls, predicate=RDFS.comment) or
-        g.value(subject=cls, predicate=RDFS_description) or
-        g.value(subject=cls, predicate=DCT.description) or
-        g.value(subject=cls, predicate=DC.description) or
-        g.value(subject=cls, predicate=SKOS.definition) or
-        "No description yet"
-    )
-    
     class_data = {
         
         "name": extract_local_name(cls),
         "iri": str(cls),
-        "description": str(description),
+        "description": get_description(cls),
         "subclasses": [],
         "object_properties": [],
         "datatype_properties": [],

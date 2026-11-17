@@ -1194,6 +1194,7 @@ span.inline-list{
 
 .description{
     padding-left: 0;
+    white-space: pre-line;
 }
 
 @media (min-width: 1025px) {

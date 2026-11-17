@@ -48,7 +48,7 @@
             {
                 "name": "AH Device",
                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#AH_Device",
-                "description": "A device in the context of Arrowhead framework is a piece of equipment, machine, hardware, etc. with computational, memory, and communication capabilities which hosts one or several Arrowhead Framework systems. (Source: Arrowhead)",
+                "description": "A device in the context of Arrowhead framework is a piece of equipment, machine, hardware, etc. with computational, memory, and communication capabilities which hosts one or several Arrowhead Framework systems. (Source: Arrowhead)\n\nA device in the context of Service-oriented architectures (that is, in the context of Information Technology (IT) and Automation / Operations Technology (OT)) is an technical artefact that fulfills the basic definition of a \"computer\". That is, a device must be able to host (run) software systems. For this, it needs at least a processing unit (processor), a memory and a communication interface, which can be either wired or wireless.",
                 "subclasses": [
                     {
                         "name": "Constrained Device",
@@ -302,7 +302,7 @@
                             {
                                 "name": "Communication Profile CP",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#Communication_Profile_CP",
-                                "description": "Communication Profile (CP)",
+                                "description": "Communication Profile CP is a subclass of AH Service Documentation Document describing how a service sends and receives information, for example which communication method and connection type it uses. It is an optional, reusable document that multiple service descriptions can refer to, rather than each one having to repeat the same communication details from scratch.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -312,7 +312,7 @@
                             {
                                 "name": "Interface Design Description IDD",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#Interface_Design_Description_IDD",
-                                "description": "Interface Design Description (IDD)",
+                                "description": "Interface Design Description IDD is a subclass of AH Service Documentation Document representing the main technical specification document for a service in the Arrowhead Framework. It describes exactly how the service works in practice, how it communicates, how it packages data, and what information it exchanges, and may point to separate reusable documents for communication and data format details rather than including everything itself.",
                                 "subclasses": [
                                     {
                                         "name": "AH Application Servcice IDD",
@@ -493,7 +493,7 @@
                             {
                                 "name": "Semantic Profile SP",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#Semantic_Profile_SP",
-                                "description": "Semantic Profile (SP)",
+                                "description": "Semantic Profile SP is an optional subclass of AH Service Documentation Document that describes the meaning and structure of the information that a service exchanges, for example what each data field represents and how values should be interpreted. It is written as a standalone, reusable document so that multiple services that share the same type of information do not each need to repeat that description individually.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -503,7 +503,7 @@
                             {
                                 "name": "Service Description SD",
                                 "iri": "http://www.w3id.org/ecsel-dr-Cloud-AH#Service_Description_SD",
-                                "description": "Service Description (SD)",
+                                "description": "Service Description SD is a subclass of AH Service Documentation Document that provides a plain, general description of what an Arrowhead service does and why it exists, without specifying any technical details about how it communicates or how its data is structured. It captures the purpose and function of the service in a way that remains valid regardless of the specific technology used to implement it.",
                                 "subclasses": [
                                     {
                                         "name": "AH Application Service SD",
@@ -1623,12 +1623,12 @@
             {
                 "name": "Organizational Unit",
                 "iri": "http://www.w3id.org/ecsel-dr-Organization#Organizational_Unit",
-                "description": "An Organization such as a department or support unit which is part of some larger Organization and only has full recognition within the context of that Organization. In particular the unit would not be regarded as a legal entity in its own right.",
+                "description": "An Organization such as a department or support unit which is part of some larger Organization and only has full recognition within the context of that Organization. In particular the unit would not be regarded as a legal entity in its own right.\n\nUsage: Units can be large and complex containing other Units.",
                 "subclasses": [
                     {
                         "name": "Division",
                         "iri": "http://www.w3id.org/ecsel-dr#Division",
-                        "description": "A division is a administrative business unit that is smaller than the whole company, but it is self-contained and most often responsible for its own revenue, cost, and profit. It has one or more business lines.",
+                        "description": "A division is a administrative business unit that is smaller than the whole company, but it is self-contained and most often responsible for its own revenue, cost, and profit. It has one or more business lines.\n\nHierarchical structure of an organization. For example ATV, DDS, ICP...",
                         "subclasses": [],
                         "object_properties": [
                             {
@@ -1647,7 +1647,7 @@
                     {
                         "name": "Product Line",
                         "iri": "http://www.w3id.org/ecsel-dr#Product_Line",
-                        "description": "A product line is an organizational unit that can be assigned to a business line and directly owns/is responsible for products.",
+                        "description": "A product line is an organizational unit that can be assigned to a business line and directly owns/is responsible for products.\n\nThe product line is one of the most prominent grouping of products. It is used in reporting as well as for structuring organizations.",
                         "subclasses": [],
                         "object_properties": [
                             {
@@ -1728,8 +1728,8 @@
                 ],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b563",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b563"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb563",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb563"
                     }
                 ],
                 "disjoint_classes": []
@@ -1762,7 +1762,7 @@
             {
                 "name": "Project",
                 "iri": "http://www.w3id.org/ecsel-dr-Organization-ORG#Project",
-                "description": "Achievement of the project objective requires these deliverables to conform to specific requirements, including multiple constraints such as time, cost, resources and quality standards or requirements.",
+                "description": "Achievement of the project objective requires these deliverables to conform to specific requirements, including multiple constraints such as time, cost, resources and quality standards or requirements.\n\n\u200bProjects are a way to deliver value to an organization. A project is defined as a unique, temporary, multi-disciplinary and organized endeavor to realize agreed deliverables within predefined requirements and constraints.",
                 "subclasses": [
                     {
                         "name": "Company Project",
@@ -1844,8 +1844,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b567",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b567"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb567",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb567"
                     }
                 ],
                 "disjoint_classes": []
@@ -1924,7 +1924,7 @@
     {
         "name": "Planning Lobe",
         "iri": "http://www.w3id.org/ecsel-dr#Planning_Lobe",
-        "description": "Lobe owner: Hans Ehm",
+        "description": "The Planning Lobe is about making strategic decisions and creating comprehensive plans to ensure the efficient and effective flow of materials, products, and information throughout the manufacturing and distribution process. In includes information about marketing and sales demans, demand march, aggregated capacity, capacity bottlenecks, orders and customers.",
         "subclasses": [
             {
                 "name": "Capacity",
@@ -3084,7 +3084,7 @@
                             {
                                 "name": "Min Stock",
                                 "iri": "http://www.w3id.org/ecsel-dr-Planning-SCP#Min_Stock",
-                                "description": "The minimum level of inventory is a kind of a precautionary level of inventory which indicates that the delivery of raw materials or merchandise may take more than the normal lead time.",
+                                "description": "The minimum level of inventory is a kind of a precautionary level of inventory which indicates that the delivery of raw materials or merchandise may take more than the normal lead time.\n\nThe minimum level of stock is a certain predetermined minimum quantity of raw materials or product inventory which should always be available in stock in the normal course of business.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -3436,12 +3436,12 @@
                             {
                                 "name": "Information Object",
                                 "iri": "http://www.w3id.org/ecsel-dr#Information_Object",
-                                "description": "A piece of information, such as a musical composition, a text, a word, a picture, independently from how it is concretely realized.",
+                                "description": "A piece of information, such as a musical composition, a text, a word, a picture, independently from how it is concretely realized.\n\nAdditional information to a process, like work schedule production plans, etc.",
                                 "subclasses": [
                                     {
                                         "name": "Document",
                                         "iri": "http://www.w3id.org/ecsel-dr#Document",
-                                        "description": "The document class presents those things which are, broadly conceived, \"documents''. It should contain the manuals and the data sheet of the devices.",
+                                        "description": "The document class presents those things which are, broadly conceived, \"documents''. It should contain the manuals and the data sheet of the devices.\n\nThe foaf:Document class represents those things which are, broadly conceived, 'documents'",
                                         "subclasses": [
                                             {
                                                 "name": "Technical Term",
@@ -3821,12 +3821,12 @@
                                         "datatype_properties": [],
                                         "equivalent_classes": [
                                             {
-                                                "name": "nd98602351dbc4b9090fd828ffcdf7807b655",
-                                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b655"
+                                                "name": "n336b695015b240dc9ed3303fdad17b8bb655",
+                                                "iri": "n336b695015b240dc9ed3303fdad17b8bb655"
                                             },
                                             {
-                                                "name": "nd98602351dbc4b9090fd828ffcdf7807b660",
-                                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b660"
+                                                "name": "n336b695015b240dc9ed3303fdad17b8bb660",
+                                                "iri": "n336b695015b240dc9ed3303fdad17b8bb660"
                                             }
                                         ],
                                         "disjoint_classes": []
@@ -4135,7 +4135,7 @@
                     {
                         "name": "Real Estate",
                         "iri": "http://www.w3id.org/ecsel-dr-Power-PWR#Real_Estate",
-                        "description": "Real Estate sector",
+                        "description": "Real_Estate - represents the built environment and facility-related enterprises that own, operate, develop or manage physical properties. In the Power_Lobe context this sector models the energy relevant aspects of those properties: electrical infrastructure, grid connections, on site generation and storage, metering and monitoring, HVAC and load profiles, asset and facility management, and regulatory/efficiency requirements. It is used to classify organizations and facilities whose primary activity is real estate development, management or operation, and to link property assets to power consumption, control and optimization use cases.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -4478,7 +4478,7 @@
             {
                 "name": "Activity",
                 "iri": "http://www.w3id.org/ecsel-dr-DF#Activity",
-                "description": "Additional lobes: Time",
+                "description": "Additional lobes: Time\n\nAn activity is something carried out over a specific time interval.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
@@ -4537,7 +4537,7 @@
             {
                 "name": "Activity Edge",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Activity_Edge",
-                "description": "represents a directed relationship between two Activity nodes in a process model that defines the control, sequence, or information/data dependency governing movement from a source activity to a target activity. It may carry semantics such as sequence flow, conditional guards or triggers, concurrency (fork/join), data/object passage, timing constraints, and responsibility handoffs, and is used to capture dependencies, precedence, coordination, and information transfer in business and supply chain processes. ",
+                "description": "represents a directed relationship between two Activity nodes in a process model that defines the control, sequence, or information/data dependency governing movement from a source activity to a target activity. It may carry semantics such as sequence flow, conditional guards or triggers, concurrency (fork/join), data/object passage, timing constraints, and responsibility handoffs, and is used to capture dependencies, precedence, coordination, and information transfer in business and supply chain processes.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -4595,7 +4595,7 @@
             {
                 "name": "Capability",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Capability",
-                "description": "Ratio of the theoretical available recipes at a tool and the available recipes ",
+                "description": "Ratio of the theoretical available recipes at a tool and the available recipes",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -4763,7 +4763,7 @@
             {
                 "name": "Recipe",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Recipe",
-                "description": "Recipe required at a specific step. The production pattern of a specific production step on equipment ",
+                "description": "Recipe required at a specific step. The production pattern of a specific production step on equipment",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -4975,7 +4975,7 @@
                             {
                                 "name": "Task",
                                 "iri": "http://www.w3id.org/ecsel-dr#Task",
-                                "description": "A Task is an instruction of a work package to create the output.",
+                                "description": "A Task is an instruction of a work package to create the output.\n\nA piece of work to be done or undertaken.\n\nThe lowest level of detail, a task are the activities required to execute a subprocess. A single task within a subprocess can be manual or system supported. E.g. Create Purchase Order",
                                 "subclasses": [],
                                 "object_properties": [
                                     {
@@ -5043,7 +5043,7 @@
                             {
                                 "name": "Process Interface",
                                 "iri": "http://www.w3id.org/ecsel-dr-PMV#Process_Interface",
-                                "description": "Process Interfaces connect several process models on the same Process hierarchical levelby linking the EPCs according to their shared events (also known as \"horizontal navigation\"). They thus facilitate process structuring and navigation by keeping models concise",
+                                "description": "Process Interfaces connect several process models on the same Process hierarchical levelby linking the EPCs according to their shared events (also known as \"horizontal navigation\"). They thus facilitate process structuring and navigation by keeping models concise\n\nProcess interfaces connect several process models on the same process hierarchical level by linking the EPCs according to their shared events (also known as \"horizontal navigation\"). They thus facilitate process structuring and navigation by keeping models concise and easy-to-read.\r\nFunctionality: Jump function to next process (e.g. EPC, VAC), typically at the end of process branches. In the EPC flow there is an Event directly before.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -5192,7 +5192,7 @@
             {
                 "name": "Model",
                 "iri": "http://www.w3id.org/ecsel-dr-PMV#Model",
-                "description": "One striking commonality between EPC meta models is the Process. One process may contain an unlimited number of elements, but a process element is always linked to a specific process. If a process contains an interface, it is always linked to one specific process and represents a refinement of a normal function.",
+                "description": "One striking commonality between EPC meta models is the Process. One process may contain an unlimited number of elements, but a process element is always linked to a specific process. If a process contains an interface, it is always linked to one specific process and represents a refinement of a normal function.\n\nTo graphically depict functional and process decomposition, function objects are diagramed on models in IndustryPrint 5.",
                 "subclasses": [
                     {
                         "name": "Process Diagram",
@@ -5257,17 +5257,17 @@
             {
                 "name": "Model Element",
                 "iri": "http://www.w3id.org/ecsel-dr-PMV#Model_Element",
-                "description": "An EPC model element is part of the EPC meta model and can be represented by a Function, an Event, an Operator, a Process Interface.",
+                "description": "An EPC model element is part of the EPC meta model and can be represented by a Function, an Event, an Operator, a Process Interface.\n\nRepresents an object in the EPC model. Includes all elements used in the modelling procedure of an EPC diagram.\n\nRepresents process flow elements except for modelling function objects.",
                 "subclasses": [
                     {
                         "name": "Connector",
                         "iri": "http://www.w3id.org/ecsel-dr-PMV#Connector",
-                        "description": " A connector determines the behavior of the process in case its control ?ow is split up into or joined from several execution branches.",
+                        "description": "A connector determines the behavior of the process in case its control ?ow is split up into or joined from several execution branches.",
                         "subclasses": [
                             {
                                 "name": "AND",
                                 "iri": "http://www.w3id.org/ecsel-dr-PMV#AND",
-                                "description": "All incoming pathways required to proceed along the flow\r\nAll outgoing pathways must be followed\r\nUsed to divide/rejoin tasks/flows which happen in parallel with another, rather than in a strict sequence",
+                                "description": "All incoming pathways required to proceed along the flow\r\nAll outgoing pathways must be followed\r\nUsed to divide/rejoin tasks/flows which happen in parallel with another, rather than in a strict sequence\n\nAll outgoing process paths must be followed.\n\nThe connector is responsible for splitting the control flow in at least two different branches, which are executed parallely where all branches must be followed.",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -5277,7 +5277,7 @@
                             {
                                 "name": "OR",
                                 "iri": "http://www.w3id.org/ecsel-dr-PMV#OR",
-                                "description": "At least one of the possible process paths must be followed.",
+                                "description": "At least one of the possible process paths must be followed.\n\nIt is responsible for splitting the control flow up in at least two different branches, due to an nonexclusive choice where one or several branches can be followed.\n\nOne or more incoming pathways required to proceed along the flow\r\nOne or more outgoing pathways must be followed\r\nUsed only when neither XOR nor AND can be used to better illustrate flow\r\nHas the weakest logic and should be used as sparingly as absolutely possible",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -5287,7 +5287,7 @@
                             {
                                 "name": "XOR",
                                 "iri": "http://www.w3id.org/ecsel-dr-PMV#XOR",
-                                "description": "Exactly one of the possible process paths must be followed.",
+                                "description": "Exactly one of the possible process paths must be followed.\n\nIt is responsible for splitting the control flow in at least two different branches, due to an exclusive choice where exactly one of the branches is followed.\n\nOne and only one of the incoming pathways is required to proceed along the flow\r\nOne and only one of the outgoing pathways can be taken\r\nDivide should be made with yes/no question and lines labelled only with \ufffdyes\ufffd or \ufffdno\ufffd\r\nGateway must therefore be named with this Yes/No question",
                                 "subclasses": [],
                                 "object_properties": [],
                                 "datatype_properties": [],
@@ -5308,7 +5308,7 @@
                     {
                         "name": "Event",
                         "iri": "http://www.w3id.org/ecsel-dr-PMV#Event",
-                        "description": "An event illustrates the fact that a process object has taken on a business relevant state influencing the further procedure of a process. Unlike a function, which is a time consuming occurrence, an event is related to one point in time. Therefore, it is used to describe an event or status in the process flow. The object is mandatory for: EPC start and EPC end or after x (xor), v (or).",
+                        "description": "An event illustrates the fact that a process object has taken on a business relevant state influencing the further procedure of a process. Unlike a function, which is a time consuming occurrence, an event is related to one point in time. Therefore, it is used to describe an event or status in the process flow. The object is mandatory for: EPC start and EPC end or after x (xor), v (or).\n\nThe event is a passive element since it represents a change of state but does not cause it. Furthermore it can characterize the conditions and the results of an activity, which in turn triggers the next function. An event with no incoming arc is called start event, while an event with no outgoing arc is called end event.",
                         "subclasses": [
                             {
                                 "name": "End Event",
@@ -5361,7 +5361,7 @@
                     {
                         "name": "Function",
                         "iri": "http://www.w3id.org/ecsel-dr-PMV#Function",
-                        "description": "The function type represents several action elements as task, process interfaces or business process activities.",
+                        "description": "The function type represents several action elements as task, process interfaces or business process activities.\n\nThey are the active elements of an EPC that represent the activities of a modelled process and again raise events upon completion. The extended event driven process chain expands the semantic of functions, since they may be associated with the organizational unit performing the function or the data needed and created as output by the function.",
                         "subclasses": [
                             {
                                 "name": "Business Process Activity",
@@ -5549,7 +5549,7 @@
             {
                 "name": "Trigger",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Trigger",
-                "description": "Additional lobe: Planning",
+                "description": "A mechanism that initiates an action when an event occurs such as reaching a certain time or date or upon receiving some type of input. A trigger generally causes a program routine to be executed.\n\nAdditional lobe: Planning",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
@@ -5570,7 +5570,7 @@
             {
                 "name": "Product",
                 "iri": "http://www.w3id.org/ecsel-dr#Product",
-                "description": "A product is any tangible output or service that is a result of a process and that is intended for delivery to a customer or end user. A product is something that is produced with effort (e.g. by mechanical or industrial processes) and sold to a customer. A product is either tangible (physical product) or intangible (service). A solution is a combination of products which is sold to a customer. Thereby, a solution solves a problem or fulfills a customer need.\r\n\r\nThe superclass of all classes describing products or services types, either by nature or purpose. Examples for such subclasses are \"TV set\", \"vacuum cleaner\", etc. An instance of this class can be either an actual product or service (gr:Individual), a placeholder instance for unknown instances of a mass-produced commodity (gr:SomeItems), or a model / prototype specification (gr:ProductOrServiceModel). When in doubt, use gr:SomeItems. Examples:\r\na) MyCellphone123, i.e. my personal, tangible cell phone (gr:Individual)\r\nb) Siemens1234, i.e. the Siemens cell phone make and model 1234 (gr:ProductOrServiceModel)\r\nc) dummyCellPhone123 as a placeholder for actual instances of a certain kind of cell phones (gr:SomeItems)",
+                "description": "A PRODUCT is a good that fulfills a prescribed set of requirements (for instance, form, fit, and function). A set of alternative BOMs might be associated with each product. The manufacturing process is complicated by binning and substitution (in production). Binning refers to the process that an item can become one of several products based on tested levels of performance, for instance, speed.",
                 "subclasses": [
                     {
                         "name": "Physical Product",
@@ -6355,8 +6355,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b512",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b512"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb512",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb512"
                     }
                 ],
                 "disjoint_classes": []
@@ -6375,8 +6375,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b519",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b519"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb519",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb519"
                     }
                 ],
                 "disjoint_classes": []
@@ -6395,8 +6395,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b525",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b525"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb525",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb525"
                     }
                 ],
                 "disjoint_classes": []
@@ -6415,8 +6415,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b529",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b529"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb529",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb529"
                     }
                 ],
                 "disjoint_classes": []
@@ -6450,8 +6450,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b543",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b543"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb543",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb543"
                     }
                 ],
                 "disjoint_classes": []
@@ -6478,8 +6478,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b547",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b547"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb547",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb547"
                     }
                 ],
                 "disjoint_classes": []
@@ -6503,8 +6503,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nd98602351dbc4b9090fd828ffcdf7807b509",
-                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b509"
+                                "name": "n336b695015b240dc9ed3303fdad17b8bb509",
+                                "iri": "n336b695015b240dc9ed3303fdad17b8bb509"
                             }
                         ],
                         "disjoint_classes": []
@@ -6523,8 +6523,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nd98602351dbc4b9090fd828ffcdf7807b516",
-                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b516"
+                                "name": "n336b695015b240dc9ed3303fdad17b8bb516",
+                                "iri": "n336b695015b240dc9ed3303fdad17b8bb516"
                             }
                         ],
                         "disjoint_classes": []
@@ -6543,8 +6543,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nd98602351dbc4b9090fd828ffcdf7807b538",
-                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b538"
+                                "name": "n336b695015b240dc9ed3303fdad17b8bb538",
+                                "iri": "n336b695015b240dc9ed3303fdad17b8bb538"
                             }
                         ],
                         "disjoint_classes": []
@@ -6563,8 +6563,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nd98602351dbc4b9090fd828ffcdf7807b550",
-                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b550"
+                                "name": "n336b695015b240dc9ed3303fdad17b8bb550",
+                                "iri": "n336b695015b240dc9ed3303fdad17b8bb550"
                             }
                         ],
                         "disjoint_classes": []
@@ -6628,7 +6628,7 @@
                                     {
                                         "name": "Motor Control And Drive Solution With Sensor",
                                         "iri": "http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_With_Sensor",
-                                        "description": "Motor control and drive solution with sensor",
+                                        "description": "Motor Control And Drive Solution With Sensor is a Motor Control And Drive Solution: a semiconductor solution that drives and controls a motor and additionally integrates a sensor.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -6822,8 +6822,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b556",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b556"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb556",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb556"
                     }
                 ],
                 "disjoint_classes": []
@@ -6831,7 +6831,7 @@
             {
                 "name": "Customer Part Number Specification",
                 "iri": "http://www.w3id.org/ecsel-dr-PROD#Customer_Part_Number_Specification",
-                "description": "A Customer Part Number (CPN) is the product identifier used by the customer to identify one IFX product.",
+                "description": "A Customer Part Number (CPN) is the product identifier used by the customer to identify one IFX product.\n\nIn general, one CPN is equal to one Sales Product Name. Each customer will use a different CPN.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -6926,7 +6926,7 @@
             {
                 "name": "Bill Of Material",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Bill_Of_Material",
-                "description": "Additional lobe: Planning",
+                "description": "A BILL OF MATERIALS (BOM) describes the component products used to make another product. Substitution, often associated with binning, is based on the possibility that alternative items might be used to finish a process step.\n\nAdditional lobe: Planning",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -6968,7 +6968,7 @@
             {
                 "name": "Binning",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Binning",
-                "description": "Additional lobe: Planning",
+                "description": "Additional lobe: Planning\n\nBINNING refers to the process of testing and categorizing parts against defined measures and sort them into different bins (Degbotse 2013). Each bin belongs to certain levels of defined measures (e.g. chip speed, current, voltage, energy consumption). Binning is often combined with SUBSTITUTION.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -6996,7 +6996,7 @@
             {
                 "name": "Part",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Part",
-                "description": "Additional lobe: Planning",
+                "description": "A PART represents a physical instance of a product in the manufacturing process. It therefore realizes a product. A part moves through the system and is manufactured according to its product specification. A part is associated to exactly one product. During the production process it is typically tested several times. The binning rules of the associated product specification can be applied to the respective part. A part can be substituted by another part according to the associated product specification\n\nAdditional lobe: Planning",
                 "subclasses": [
                     {
                         "name": "Component Part",
@@ -7017,7 +7017,7 @@
             {
                 "name": "Projected WIP",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Projected_WIP",
-                "description": "Additional lobe: Planning",
+                "description": "Additional lobe: Planning\n\nThe PROJECTED WIP describes the quantity of a certain product that is anticipated to be received into inventory at a particular location at a particular time.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -7032,7 +7032,7 @@
             {
                 "name": "Substitution",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Substitution",
-                "description": "Additional lobe: Planning",
+                "description": "Additional lobe: Planning\n\nSUBSTITUTION refers to using alternative parts. Depending on the product, each one could be replaced by using specific alternatives at the same stage of production, e.g. final product, raw material, or semi-finished products (Degbotse 2013) in order to complete a manufacturing step or fulfill a customer order.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -7052,7 +7052,7 @@
             {
                 "name": "Yield",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Yield",
-                "description": "Additional lobe: Planning",
+                "description": "Additional lobe: Planning\n\nYIELD could be the fraction (percentage) of good dies resulting from total dies released.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -8118,7 +8118,7 @@
     {
         "name": "Semiconductor Production Lobe",
         "iri": "http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe",
-        "description": "Lobe owner: Philipp Ulrich",
+        "description": "Semiconductor production refers to the manufacturing process of creating integrated circuits and other semiconductor devices by deposing, patterning, and doping various materials on a substrate to form electronic components.\r\n\r\nThe Semiconductor Production lobe represents the notions of Bottleneck, Capacity, Demand Snapshot, Fabrication, Furnace Process, Lot, Lot Event and Size.\r\nIt also maps the topics of Physical Resource, Priority Class, Product, Production Request, Purge, Release Plan, and Robot.\r\nIt models Route, Shift, Simulation Part and Route, Supply Chain, Target Costs and Work In Progress Station.",
         "subclasses": [
             {
                 "name": "Physical Resource",
@@ -8217,7 +8217,7 @@
             {
                 "name": "Route",
                 "iri": "http://www.w3id.org/ecsel-dr-DF#Route",
-                "description": "Additional lobes: Semiconductor Production",
+                "description": "Additional lobes: Semiconductor Production\n\nThe term route can be considered on different levels. In the present situation, a route is associated with a product and describes its production flow on the production network level.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
@@ -8431,7 +8431,7 @@
                     {
                         "name": "Equipment",
                         "iri": "http://www.w3id.org/ecsel-dr-GDM#Equipment",
-                        "description": "Equipment name. Machine of one equipment type that can execute certain production (or measurement) steps  ",
+                        "description": "Equipment name. Machine of one equipment type that can execute certain production (or measurement) steps",
                         "subclasses": [
                             {
                                 "name": "Chamber",
@@ -8786,7 +8786,7 @@
             {
                 "name": "Equipment Group",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Equipment_Group",
-                "description": "Equipment Group Name. Group of same type of machines for production of certain production steps ",
+                "description": "Equipment Group Name. Group of same type of machines for production of certain production steps",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -8934,7 +8934,7 @@
             {
                 "name": "Lot Event",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Lot_Event",
-                "description": "Gives the history of lot events (Processing, Hold, Split, Merge, etc.) and equivalently to the lots, the equipment also has to be historically tracked ",
+                "description": "Gives the history of lot events (Processing, Hold, Split, Merge, etc.) and equivalently to the lots, the equipment also has to be historically tracked",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -8995,7 +8995,7 @@
             {
                 "name": "Lot State",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Lot_State",
-                "description": "Covers all historical processes start and end of a lot in any facility and provides the full history of operations of a specific lot ",
+                "description": "Covers all historical processes start and end of a lot in any facility and provides the full history of operations of a specific lot",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -9051,7 +9051,7 @@
             {
                 "name": "Maintenance",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Maintenance",
-                "description": "Includes all different maintenance types and their durations and it can be described several times and can vary slightly between the equipment ",
+                "description": "Includes all different maintenance types and their durations and it can be described several times and can vary slightly between the equipment",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -9210,7 +9210,7 @@
             {
                 "name": "Plant",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Plant",
-                "description": "Production location with decentral planning and control unit ",
+                "description": "Production location with decentral planning and control unit",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -9230,7 +9230,7 @@
             {
                 "name": "Release Plan",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Release_Plan",
-                "description": "Quantity planned to be released to a plant or facility ",
+                "description": "Quantity planned to be released to a plant or facility",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -9269,7 +9269,7 @@
             {
                 "name": "Setup",
                 "iri": "http://www.w3id.org/ecsel-dr-GDM#Setup",
-                "description": "Tool status for preparing for the next lot ",
+                "description": "Tool status for preparing for the next lot",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [
@@ -9515,7 +9515,7 @@
             {
                 "name": "Lot Sizing Rule",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Lot_Sizing_Rule",
-                "description": "Additional lobe: Planning",
+                "description": "A predetermined set of guidelines or methodologies used to determine the optimal lot or batch size for production or order planning within the semiconductor supply chain. These rules govern how much of a product or material should be produced, transferred, or ordered at a time to balance manufacturing efficiency, inventory levels, customer demand, and operational constraints. \r\nTypical lot size 25 of 50 wafers is a lot in the Frontend.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -9539,7 +9539,7 @@
             {
                 "name": "Macro Operation",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Macro_Operation",
-                "description": "Additional lobe: Planning",
+                "description": "Macro Operation is a high-level operational activity or process in the semiconductor supply chain, encompassing a series of interdependent tasks, functions, or sub-processes that collectively achieve a strategic or large-scale objective. Macro Operations represent broader, aggregated activities that typically involve multiple resources, stakeholders, or operational stages and are key to delivering outputs or enabling end-to-end supply chain workflows.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
@@ -9549,7 +9549,7 @@
             {
                 "name": "Resource",
                 "iri": "http://www.w3id.org/ecsel-dr-Planning#Resource",
-                "description": "Additional lobe: Planning",
+                "description": "Any tangible or intangible entity utilized within the semiconductor supply chain to perform specific tasks, support production processes, enable decision-making, or deliver products and services. Resources encompass physical assets (e.g., tools, materials, and facilities), human expertise, digital assets, and data or information critical to the efficient functioning of the supply chain.",
                 "subclasses": [],
                 "object_properties": [],
                 "datatype_properties": [],
@@ -10191,7 +10191,7 @@
             {
                 "name": "Process",
                 "iri": "http://www.w3id.org/ecsel-dr-SO#Process",
-                "description": "Sequence of interdependent and linked procedures which, at every stage, consume one or more resources (employee time, energy, machines, money) to convert inputs (data, material, parts, etc.) into outputs. These outputs then serve as inputs for the next stage until a known goal or end result is reached.",
+                "description": "Additional lobe: Semicondutor Development\n\nSequence of interdependent and linked procedures which, at every stage, consume one or more resources (employee time, energy, machines, money) to convert inputs (data, material, parts, etc.) into outputs. These outputs then serve as inputs for the next stage until a known goal or end result is reached.",
                 "subclasses": [
                     {
                         "name": "Process Class",
@@ -10420,7 +10420,7 @@
             {
                 "name": "Supply Chain",
                 "iri": "http://www.w3id.org/ecsel-dr-SO#Supply_Chain",
-                "description": "The entity \u201cSupply Chain\u201d describes the supply chain from the topmost level with all possible material flow edges, referring on the FabIDs (master entity)",
+                "description": "A SUPPLY CHAIN is the network of organizations, resources, activities, and technologies involved in the production and delivery of a product from raw materials to the final customer. Supply chain management issues have become increasingly important to the semiconductor industry due to the global distribution of facilities and its inherent long production time.\n\nThe entity \u201cSupply Chain\u201d describes the supply chain from the topmost level with all possible material flow edges, referring on the FabIDs (master entity)",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -10733,7 +10733,7 @@
                     {
                         "name": "Sample",
                         "iri": "http://www.w3.org/ns/sosa/Sample",
-                        "description": "A Sample is the result from an act of Sampling.",
+                        "description": "Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made.",
                         "subclasses": [],
                         "object_properties": [
                             {
@@ -11491,8 +11491,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b535",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b535"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb535",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb535"
                     }
                 ],
                 "disjoint_classes": []
@@ -11511,8 +11511,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b553",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b553"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb553",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb553"
                     }
                 ],
                 "disjoint_classes": []
@@ -11628,7 +11628,7 @@
             {
                 "name": "Order",
                 "iri": "http://www.w3id.org/ecsel-dr#Order",
-                "description": "DF and Planning definition: An ORDER contains at least one order position. An ORDER has an order type and is associated to DEMAND.",
+                "description": "An ORDER is a confirmation/receipt of a customer transaction associated with DEMAND. It has an order type and contains at least one order position (line item). Each order position corresponds to an accepted Offer by the customer.",
                 "subclasses": [
                     {
                         "name": "Customer Order",
@@ -12483,8 +12483,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b501",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b501"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb501",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb501"
                     }
                 ],
                 "disjoint_classes": []
@@ -12596,7 +12596,7 @@
             {
                 "name": "Demand Fulfillment",
                 "iri": "http://www.w3id.org/ecsel-dr-OM#Demand_Fulfillment",
-                "description": "DEMAND FULFILLEMENT is the process of meeting a customer\u00b4s demand for product or services by fulfilling their request.",
+                "description": "DEMAND FULFILLEMENT is the process of meeting a customer\u00b4s demand for product or services by fulfilling their request.\n\nDEMAND FULFILLEMENT refers to the set of processes by which a company responds to customer demand by delivering products or services. In the semiconductor supply chain, it includes order promising, product allocation, scheduling, and ensuring timely delivery. It represents the interface between the supply chain and external customers, ensuring that demand is met in accordance with business rules and available resources. It represents the interface between the supply chain and its external customers.\u201d It also connects closely with Available to Promise (ATP) mechanisms that decide what can be committed to customers based on current and projected inventory and capacity.",
                 "subclasses": [],
                 "object_properties": [
                     {
@@ -12883,8 +12883,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b505",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b505"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb505",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb505"
                     }
                 ],
                 "disjoint_classes": []
@@ -13236,7 +13236,7 @@
                                     {
                                         "name": "Magnetic Current Sensor",
                                         "iri": "http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor",
-                                        "description": "A high-precision current sensor for industrial applications based on Infoneon proven Hall technology. The core-less concept significantly reduces footprint compared with existing solutions. Infineon\u00b4s TLI4970 is an easy-to-use, fully digital solution that does not require external calibration or additional parts such as A/D converters, 0 pAmps or reference voltage. It thus significantly reduces overall implementation effort as well as PCB space and cost.",
+                                        "description": "A high-precision current sensor for industrial applications based on Infoneon proven Hall technology. The core-less concept significantly reduces footprint compared with existing solutions. Infineon\u00b4s TLI4970 is an easy-to-use, fully digital solution that does not require external calibration or additional parts such as A/D converters, 0 pAmps or reference voltage. It thus significantly reduces overall implementation effort as well as PCB space and cost.\n\nA magnetic current sensor is a sensor which measures magnetic current.",
                                         "subclasses": [],
                                         "object_properties": [],
                                         "datatype_properties": [],
@@ -15601,8 +15601,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nd98602351dbc4b9090fd828ffcdf7807b665",
-                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b665"
+                                "name": "n336b695015b240dc9ed3303fdad17b8bb665",
+                                "iri": "n336b695015b240dc9ed3303fdad17b8bb665"
                             }
                         ],
                         "disjoint_classes": []
@@ -15616,8 +15616,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nd98602351dbc4b9090fd828ffcdf7807b673",
-                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b673"
+                                "name": "n336b695015b240dc9ed3303fdad17b8bb673",
+                                "iri": "n336b695015b240dc9ed3303fdad17b8bb673"
                             }
                         ],
                         "disjoint_classes": []
@@ -15631,8 +15631,8 @@
                         "datatype_properties": [],
                         "equivalent_classes": [
                             {
-                                "name": "nd98602351dbc4b9090fd828ffcdf7807b680",
-                                "iri": "nd98602351dbc4b9090fd828ffcdf7807b680"
+                                "name": "n336b695015b240dc9ed3303fdad17b8bb680",
+                                "iri": "n336b695015b240dc9ed3303fdad17b8bb680"
                             }
                         ],
                         "disjoint_classes": []
@@ -15677,8 +15677,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b683",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b683"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb683",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb683"
                     }
                 ],
                 "disjoint_classes": []
@@ -15761,8 +15761,8 @@
                 "datatype_properties": [],
                 "equivalent_classes": [
                     {
-                        "name": "nd98602351dbc4b9090fd828ffcdf7807b687",
-                        "iri": "nd98602351dbc4b9090fd828ffcdf7807b687"
+                        "name": "n336b695015b240dc9ed3303fdad17b8bb687",
+                        "iri": "n336b695015b240dc9ed3303fdad17b8bb687"
                     }
                 ],
                 "disjoint_classes": []
@@ -16033,7 +16033,7 @@
                     {
                         "name": "Time Position",
                         "iri": "http://www.w3.org/2006/time#Time_Position",
-                        "description": "A temporal position described using either a (nominal) value from an ordinal reference system, or a (numeric) value in a temporal coordinate system. ",
+                        "description": "A temporal position described using either a (nominal) value from an ordinal reference system, or a (numeric) value in a temporal coordinate system.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -16069,7 +16069,7 @@
             {
                 "name": "Date",
                 "iri": "http://www.w3id.org/ecsel-dr-DF#Date",
-                "description": "Additional lobe: Supply Chain",
+                "description": "Additional lobe: Supply Chain\n\nThe availability date defines the point in time when the supply is available to the customer. It can be distinguished between different availability dates. Not all availability dates are communicated to the customer.",
                 "subclasses": [
                     {
                         "name": "Best Promised Delivery Date",
@@ -16178,7 +16178,7 @@
             {
                 "name": "Time Interval",
                 "iri": "http://www.w3id.org/ecsel-dr-DF#Time_Interval",
-                "description": "Additional lobe: Planning",
+                "description": "A finite, measurable duration between two distinct temporal points in a defined reference system. It is often used to represent discrete periods in the semiconductor supply chain, such as processing times, transportation durations, or waiting intervals between stages. Formally, it represents start and end boundaries on a timeline, enabling temporal interpretation of events, activities, or states in the supply chain.",
                 "subclasses": [
                     {
                         "name": "Batch Interval",
@@ -16366,7 +16366,7 @@
             {
                 "name": "Fieldbus Communication Profile Family",
                 "iri": "http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family",
-                "description": "A field bus is a bus system that connects field devices such as sensors and actuators in a plant for the purpose of communication with an automation device. If several communication participants send their messages over the same line, then it must be specified who (identifier) says what (measured value, command) and when (initiative). There are standardized protocols for this.\r\nThe first generation of fieldbus technology was developed in the 1980s to replace the parallel wiring of binary signals and analog signal transmission that had been common until then with digital transmission technology. Today, many different fieldbus systems with different characteristics are established on the market. Since 1999, fieldbuses have been standardized worldwide in the IEC 61158 standard (Digital data communication for measurement and control - Fieldbus for use in industrial control systems) and by the IEC 61784 standard.\r\nThe second generation of fieldbus technology is based on real-time Ethernet (Industrial Ethernet).\r\n\r\nA fieldbus defines a complete protocol stack over the 7 layers of the OSI layer model. If necessary, not all layers are occupied.\r\n\r\nExample for first generation fieldbus is Profibus,\r\nExample for second generation fieldbus is ProfiNet.",
+                "description": "A field bus is a bus system that connects field devices such as sensors and actuators in a plant for the purpose of communication with an automation device. If several communication participants send their messages over the same line, then it must be specified who (identifier) says what (measured value, command) and when (initiative). There are standardized protocols for this.\r\nThe first generation of fieldbus technology was developed in the 1980s to replace the parallel wiring of binary signals and analog signal transmission that had been common until then with digital transmission technology. Today, many different fieldbus systems with different characteristics are established on the market. Since 1999, fieldbuses have been standardized worldwide in the IEC 61158 standard (Digital data communication for measurement and control - Fieldbus for use in industrial control systems) and by the IEC 61784 standard.\r\nThe second generation of fieldbus technology is based on real-time Ethernet (Industrial Ethernet).\r\n\r\nA fieldbus defines a complete protocol stack over the 7 layers of the OSI layer model. If necessary, not all layers are occupied.\r\n\r\nExample for first generation fieldbus is Profibus,\r\nExample for second generation fieldbus is ProfiNet.\n\nEin Feldbus definiert einen kompletten Protokoll-Stack \u00fcber die 7 SChichten des OSI-Schichtenmodells. Ggf. werden nicht alle Schichten belegt.",
                 "subclasses": [
                     {
                         "name": "CPF10 VNET IP",
@@ -17463,7 +17463,7 @@
             {
                 "name": "OSI 3 4 Network Technology",
                 "iri": "http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology",
-                "description": "Technologie, die die mittleren Schichten des OSI-Schichtenmodells abdeckt, z.B. TCP/IP, ZigBee, UDP usw.",
+                "description": "Technology that covers the middle layers of the OSI layer models, e.g. TCP/IP, ZigBee, UDP, etc.",
                 "subclasses": [
                     {
                         "name": "Apple Talk",
@@ -17679,7 +17679,7 @@
                     {
                         "name": "MQTT",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#MQTT",
-                        "description": "MQTT is not only application protocol. It's take layers 5-7 (App, Presentation and Session).\r\nFor example, you can see that MQTT has Persistent Session. It means MQTT contains Session Layer.",
+                        "description": "MQTT[1] (Message Queuing Telemetry Transport) is an ISO standard (ISO/IEC PRF 20922)[2] publish-subscribe-based messaging protocol. It works on top of the TCP/IP protocol. It is designed for connections with remote locations where a \"small code footprint\" is required or the network bandwidth is limited. The publish-subscribe messaging pattern requires a message broker.\r\n\r\nAndy Stanford-Clark of IBM and Arlen Nipper of Cirrus Link authored the first version of the protocol in 1999.[3]\r\n\r\nThe specification does not specify the meaning of \"small code footprint\" or the meaning of \"limited network bandwidth\". Thus, the protocol's availability for use depends on the context. In 2013, IBM submitted MQTT v3.1 to the OASIS specification body with a charter that ensured only minor changes to the specification could be accepted.[4] MQTT-SN[5] is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee.\r\n\r\nHistorically, the \"MQ\" in \"MQTT\" came from IBM's MQ Series message queuing product line.[6] However, queuing itself is not required to be supported as a standard feature in all situations.[7]\r\n\r\nAlternative protocols include the Advanced Message Queuing Protocol (AMQP), Streaming Text Oriented Messaging Protocol (STOMP), the IETF Constrained Application Protocol,[8] XMPP,[9][10] DDS,[11] OPC UA,[12] and Web Application Messaging Protocol (WAMP). (https://en.wikipedia.org/wiki/MQTT)",
                         "subclasses": [
                             {
                                 "name": "MQTT Non TCPIP Based",
@@ -17990,7 +17990,7 @@
                     {
                         "name": "SCTP",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#SCTP",
-                        "description": "Das Stream Control Transmission Protocol (SCTP) ist ein zuverl\u00e4ssiges, verbindungsorientiertes Netzwerkprotokoll. Es geh\u00f6rt zur Transportschicht und setzt auf einem potenziell unzuverl\u00e4ssigen, verbindungslosen Paketdienst auf.",
+                        "description": "It was proposed by the Internet Engineering Task Force (IETF) as a new transport protocol and published in October 2000 in the standard document RFC 2960 and extended in September 2007 by RFC 4960. An introduction can also be found in RFC 3286. The responsible body at the IETF is the Signaling Transport Working Group, or SIGTRAN for short.\r\n\r\nAs a transport protocol, SCTP is on the same level of the TCP/IP reference model as TCP and UDP (layer 4 of the OSI model).\r\n\r\nSCTP implements the concept of an association: A connection is set up in which several message data streams are transported in a sequence-preserving manner (but potentially non-sequence-preserving among themselves). In addition, individual datagrams, for example urgent datagrams, can be sent separately and out of sequence, possibly \"overtaking\" the in-order data streams.\r\n\r\nSCTP also knows multistreaming and multihoming (one host with several valid IP addresses). Heartbeats are used to actively test for connection failure.\r\n\r\nUnlike TCP, SCTP is resistant to SYN flooding, a denial-of-service attack in which half-open connections use up the server's resources. It uses a so-called four-way handshake for this purpose. Here, the server does not store any state information in a connection request (INIT packet), but sends it to the client in the form of a cookie (INIT-ACK packet). The client must include this cookie in its response (COOKIE-ECHO packet) and is thus recognized by the server as authorized to establish a connection, which the server confirms to it (COOKIE-ACK packet). A similar procedure is also possible with TCP, see SYN cookies.\r\n\r\nSCTP was originally defined as a transport protocol for transmitting signalling messages (SS7) from telephone networks over IP networks. During development, the reliability of the protocol was a particular focus. However, SCTP is also suitable for other applications because it combines the advantages of TCP and UDP. An important application based on SCTP is Reliable Server Pooling (RSerPool).\r\n\r\nSCTP uses similar algorithms as TCP for flow and congestion control, so it behaves neutrally in a mixed network (SCTP and TCP)[1].\r\n\r\nJava also provides its own API for SCTP since version 7.\n\nThe Stream Control Transmission Protocol (SCTP) is a reliable, connection-oriented network protocol. It belongs to the transport layer and relies on a potentially unreliable connectionless packet service.",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -19066,7 +19066,7 @@
                     {
                         "name": "MESA",
                         "iri": "http://www.w3id.org/ecsel-dr-AT#MESA",
-                        "description": "Is a worldwide not-for-profit community of manufacturing companies, information technology hardware and software suppliers, system integrators, consulting service providers, analysts, editors, academics, and students.",
+                        "description": "Is a worldwide not-for-profit community of manufacturing companies, information technology hardware and software suppliers, system integrators, consulting service providers, analysts, editors, academics, and students.\n\nespecially MESA XML Committee",
                         "subclasses": [],
                         "object_properties": [],
                         "datatype_properties": [],
@@ -19309,7 +19309,7 @@
                             {
                                 "name": "Microcontroller",
                                 "iri": "http://www.w3id.org/ecsel-dr#Microcontroller",
-                                "description": "A semiconductor product which is used as microcontroller",
+                                "description": "Microcontroller - a compact integrated embedded controller containing a processor core, program memory, data memory, timing peripherals, analog interfaces, PWM outputs and communications. It executes firmware to implement real time control, protection and regulation functions for power systems, interfacing directly with sensors and actuators. Microcontrollers may support interrupts, timers, safety and low power modes, and are used for deterministic closed loop control, monitoring, logging and local communication in power domain devices.",
                                 "subclasses": [],
                                 "object_properties": [
                                     {
