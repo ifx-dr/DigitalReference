@@ -14,12 +14,23 @@ DC = Namespace("http://purl.org/dc/elements/1.1/")
 DCT = Namespace("http://purl.org/dc/terms/")
 SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
 RDFS_description = URIRef("http://www.w3.org/2000/01/rdf-schema#description")
+DR = Namespace("http://www.w3id.org/ecsel-dr#")
 
 # Notes stored as rdfs:comment (e.g. "Lobe owner: ...") are not definitions
 NOTE_PATTERN = re.compile(r"^\s*(Lobe owner|Lobe number|Additional lobes?)\s*:", re.IGNORECASE)
 ADDITIONAL_LOBES_PATTERN = re.compile(r"^\s*Additional lobes?\s*:\s*(.+)$", re.IGNORECASE | re.DOTALL)
 # skos:definition first: approved and unified definitions are stored there
 DESCRIPTION_PREDICATES = [SKOS.definition, RDFS.comment, RDFS_description, DCT.description, DC.description]
+
+# Thematic areas of lobe numbering proposal 2; they are documented on the website, not in the DR file
+THEMATIC_AREAS = {
+    1: "Core Strategic and Organizational Areas",
+    2: "Process and Supply Chain Management",
+    3: "Product and Technology",
+    4: "Semiconductor-Specific Areas",
+    5: "Power and Communication Technologies",
+    6: "Cloud and Digital Infrastructure",
+}
 
 def extract_local_name(iri):
     name = iri.split("#")[-1] if "#" in iri else iri.split("/")[-1]
@@ -93,6 +104,15 @@ def get_additional_lobes(cls):
         if match:
             additional_lobes.update(lobe.strip() for lobe in match.group(1).split(",") if lobe.strip())
     return sorted(additional_lobes)
+
+def get_lobe_numbering(lobe):
+    number = g.value(subject=lobe, predicate=DR.lobe_number)
+    if number is None:
+        return {}
+    return {
+        "lobe_number": str(number),
+        "thematic_area": THEMATIC_AREAS.get(int(float(str(number))), ""),
+    }
 
 def process_class(cls, visited):
 
@@ -169,6 +189,7 @@ for cls in g.subjects(predicate=RDF.type, object=OWL.Class):
     if not lobe_data:
         lobe_data = process_class(lobe, visited)
         if lobe_data:
+            lobe_data.update(get_lobe_numbering(lobe))
             data.append(lobe_data)
 
     if cls != lobe:

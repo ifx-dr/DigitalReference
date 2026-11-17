@@ -1589,7 +1589,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "6.001",
+        "thematic_area": "Cloud and Digital Infrastructure"
     },
     {
         "name": "Organization Lobe",
@@ -2063,7 +2065,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "1.001",
+        "thematic_area": "Core Strategic and Organizational Areas"
     },
     {
         "name": "Planning Lobe",
@@ -3525,7 +3529,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "1.002",
+        "thematic_area": "Core Strategic and Organizational Areas"
     },
     {
         "name": "Power Lobe",
@@ -4778,7 +4784,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "5.001",
+        "thematic_area": "Power and Communication Technologies"
     },
     {
         "name": "Process Lobe",
@@ -5946,7 +5954,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "2.001",
+        "thematic_area": "Process and Supply Chain Management"
     },
     {
         "name": "Product Lobe",
@@ -7539,7 +7549,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "3.001",
+        "thematic_area": "Product and Technology"
     },
     {
         "name": "Quality Management Lobe",
@@ -8493,7 +8505,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "1.004",
+        "thematic_area": "Core Strategic and Organizational Areas"
     },
     {
         "name": "Semiconductor Development Lobe",
@@ -8615,7 +8629,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "4.001",
+        "thematic_area": "Semiconductor-Specific Areas"
     },
     {
         "name": "Semiconductor Production Lobe",
@@ -11291,7 +11307,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "4.002",
+        "thematic_area": "Semiconductor-Specific Areas"
     },
     {
         "name": "Sensor Lobe",
@@ -12203,7 +12221,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "3.003",
+        "thematic_area": "Product and Technology"
     },
     {
         "name": "Supply Chain Lobe",
@@ -13795,7 +13815,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "2.002",
+        "thematic_area": "Process and Supply Chain Management"
     },
     {
         "name": "Sustainability Lobe",
@@ -16408,7 +16430,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "1.003",
+        "thematic_area": "Core Strategic and Organizational Areas"
     },
     {
         "name": "System Lobe",
@@ -16706,7 +16730,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "3.002",
+        "thematic_area": "Product and Technology"
     },
     {
         "name": "Time Lobe",
@@ -17208,7 +17234,9 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "2.003",
+        "thematic_area": "Process and Supply Chain Management"
     },
     {
         "name": "Wired Communication Lobe",
@@ -20651,6 +20679,8 @@
         "object_properties": [],
         "datatype_properties": [],
         "equivalent_classes": [],
-        "disjoint_classes": []
+        "disjoint_classes": [],
+        "lobe_number": "5.002",
+        "thematic_area": "Power and Communication Technologies"
     }
 ]

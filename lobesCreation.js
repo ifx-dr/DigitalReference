@@ -48,6 +48,12 @@ function renderOntology(data) {
         <dl>
             <dt>IRI</dt>
             <dd><code>${lobe.iri}</code></dd>
+            ${lobe.lobe_number ? `
+            <dt>Lobe number</dt>
+            <dd>${lobe.lobe_number}</dd>` : ''}
+            ${lobe.thematic_area ? `
+            <dt>Thematic area</dt>
+            <dd>${lobe.thematic_area}</dd>` : ''}
             <dt>Super Class Of :</dt>
             <dd>
                 <ul>
