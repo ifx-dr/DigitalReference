@@ -507,6 +507,7 @@ footer {
     .webvowl-frame {
         position: relative;
         padding-top: 1px;
+        overflow-x: hidden;
         overflow-y: auto;
         overscroll-behavior: none;
         scrollbar-width: none;
@@ -522,6 +523,12 @@ footer {
         top: 100%;
         width: 1px;
         height: 1px;
+    }
+
+    /* The wrapper clips: the iframe, border included, must match its width so sideways
+       drags can't shift it and hide the left or right border */
+    .webvowl {
+        box-sizing: border-box;
     }
 }
 
