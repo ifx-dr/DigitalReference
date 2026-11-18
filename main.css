@@ -485,6 +485,9 @@ footer {
 .webvowl {
     display: block;
     position: relative;
+    /* Wide screens: half as tall as wide (415px = main's 2 x 200px side padding + scrollbar),
+       but still fitting below the fixed header and its blurred background (~260px) */
+    height: clamp(700px, (100vw - 415px) / 2, 100vh - 280px);
     border: 1px solid #202020;
     border-radius: 25px;
     touch-action: none;
