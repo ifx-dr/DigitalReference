@@ -474,22 +474,12 @@ footer {
     transform: scale(1.06);
 }
 
-#fullScreenBtn{
-    width: 20%;
-    margin: 0 auto;
-    margin-top: 15em;
-    margin-bottom: 1em;
+#fullScreenBtn {
     display: block;
-    text-align: center;
-    
-}
-
-#fullScreenBtn[hidden] {
-    display: none;
-}
-
-.webvowl-frame {
-    margin-top: 12em;
+    width: fit-content;
+    max-width: 100%;
+    margin: 12rem auto 1.5rem;
+    cursor: pointer;
 }
 
 .webvowl {
@@ -532,18 +522,40 @@ footer {
     }
 }
 
-.fullscreen-container{
-    display: none;
+/* Full screen enlarges the page's own iframe; :fullscreen is added on top where the browser allows it */
+.webvowl-frame.is-fullscreen {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.8);
+    inset: 0;
     z-index: 10000;
+    margin: 0;
+    background: #fff;
+}
+
+.webvowl-frame.is-fullscreen .webvowl {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+}
+
+/* Touch screens keep the 1px of scroll from above, but taken by the iframe instead of the
+   padding, so no background line shows at the top or bottom while dragging */
+@media (pointer: coarse) {
+    .webvowl-frame.is-fullscreen {
+        padding-top: 0;
+    }
+
+    .webvowl-frame.is-fullscreen .webvowl {
+        height: calc(100% + 1px);
+    }
+}
+
+html.webvowl-fullscreen-open {
+    overflow: hidden;
 }
 
 .close-button{
+    display: none;
     position: absolute;
     top: 10px;
     right: 20px;
@@ -559,14 +571,12 @@ footer {
     width: 2em;
 }
 
-.close-button:hover{
-    transform: scale(1.1);
+.webvowl-frame.is-fullscreen .close-button {
+    display: block;
 }
 
-.fullscreen-container iframe{
-    width: 100%;
-    height: 100%;
-    border: none;
+.close-button:hover{
+    transform: scale(1.1);
 }
 
 .infosss {
@@ -1274,7 +1284,7 @@ span.inline-list{
     .bigintro { max-width: none; padding-left: 0; }
     .map { margin-bottom: 0; }
     .mappng { margin-top: 1.5rem; }
-    .webvowl-frame { margin-top: 2rem; }
+    #fullScreenBtn { margin: 2rem auto 0.75rem; }
 
     .infos { column-gap: 2rem; }
     .infos ul { padding-left: 1em; }

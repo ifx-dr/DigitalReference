@@ -131,15 +131,11 @@
             <div class="map">
                 <h2 class="Map">Lobes of Digital Reference</h2>
                 <img src="Images/DR_15_lobes.png" class="mappng" alt="Digital Reference lobes">
-                <button type="button" id="fullScreenBtn" class="btnIndexPage" hidden>Open visualization on full screen</button>
+                <button type="button" id="fullScreenBtn" class="btnIndexPage">Open visualization on full screen</button>
                 <div class="webvowl-frame">
+                    <button type="button" id="closeBtn" class="close-button" aria-label="Close full screen visualization">X</button>
                     <iframe id="mainIframe" height="700px"
                         width="100%" class="webvowl" loading="lazy">
-                    </iframe>
-                </div>
-                <div id="fullScreenContainer" class="fullscreen-container">
-                    <button type="button" id="closeBtn" class="close-button">X</button>
-                    <iframe id="fullScreenIframe">
                     </iframe>
                 </div>
             </div>
