@@ -488,12 +488,41 @@ footer {
     display: none;
 }
 
-.webvowl {
-    position: relative;
+.webvowl-frame {
     margin-top: 12em;
+}
+
+.webvowl {
+    display: block;
+    position: relative;
     border: 1px solid #202020;
     border-radius: 25px;
     touch-action: none;
+}
+
+/* WebVOWL (cross-origin iframe) never cancels touch panning, so dragging inside the graph
+   scrolled the page. overscroll-behavior only stops that scroll chain on a container that
+   can scroll, hence the extra 1px of scrollable space created by ::after. */
+@media (pointer: coarse) {
+    .webvowl-frame {
+        position: relative;
+        padding-top: 1px;
+        overflow-y: auto;
+        overscroll-behavior: none;
+        scrollbar-width: none;
+    }
+
+    .webvowl-frame::-webkit-scrollbar {
+        display: none;
+    }
+
+    .webvowl-frame::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        width: 1px;
+        height: 1px;
+    }
 }
 
 .fullscreen-container{
@@ -1238,7 +1267,7 @@ span.inline-list{
     .bigintro { max-width: none; padding-left: 0; }
     .map { margin-bottom: 0; }
     .mappng { margin-top: 1.5rem; }
-    .webvowl { margin-top: 2rem; }
+    .webvowl-frame { margin-top: 2rem; }
 
     .infos { column-gap: 2rem; }
     .infos ul { padding-left: 1em; }
