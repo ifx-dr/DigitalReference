@@ -1591,7 +1591,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "6.001",
-        "thematic_area": "Cloud and Digital Infrastructure"
+        "thematic_area": "Cloud and Digital Infrastructure",
+        "lobe_owner": "Jerker Delsing"
     },
     {
         "name": "Organization Lobe",
@@ -2067,7 +2068,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "1.001",
-        "thematic_area": "Core Strategic and Organizational Areas"
+        "thematic_area": "Core Strategic and Organizational Areas",
+        "lobe_owner": "Marta Bonik"
     },
     {
         "name": "Planning Lobe",
@@ -3531,7 +3533,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "1.002",
-        "thematic_area": "Core Strategic and Organizational Areas"
+        "thematic_area": "Core Strategic and Organizational Areas",
+        "lobe_owner": "Hans Ehm"
     },
     {
         "name": "Power Lobe",
@@ -4786,7 +4789,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "5.001",
-        "thematic_area": "Power and Communication Technologies"
+        "thematic_area": "Power and Communication Technologies",
+        "lobe_owner": "Hans Ehm"
     },
     {
         "name": "Process Lobe",
@@ -5956,7 +5960,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "2.001",
-        "thematic_area": "Process and Supply Chain Management"
+        "thematic_area": "Process and Supply Chain Management",
+        "lobe_owner": "Hans Ehm"
     },
     {
         "name": "Product Lobe",
@@ -7551,7 +7556,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "3.001",
-        "thematic_area": "Product and Technology"
+        "thematic_area": "Product and Technology",
+        "lobe_owner": "Marta Bonik"
     },
     {
         "name": "Quality Management Lobe",
@@ -8631,7 +8637,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "4.001",
-        "thematic_area": "Semiconductor-Specific Areas"
+        "thematic_area": "Semiconductor-Specific Areas",
+        "lobe_owner": "Hans Ehm"
     },
     {
         "name": "Semiconductor Production Lobe",
@@ -11309,7 +11316,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "4.002",
-        "thematic_area": "Semiconductor-Specific Areas"
+        "thematic_area": "Semiconductor-Specific Areas",
+        "lobe_owner": "Philipp Ulrich"
     },
     {
         "name": "Sensor Lobe",
@@ -12223,7 +12231,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "3.003",
-        "thematic_area": "Product and Technology"
+        "thematic_area": "Product and Technology",
+        "lobe_owner": "Marta Bonik"
     },
     {
         "name": "Supply Chain Lobe",
@@ -13817,7 +13826,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "2.002",
-        "thematic_area": "Process and Supply Chain Management"
+        "thematic_area": "Process and Supply Chain Management",
+        "lobe_owner": "Philipp Ulrich"
     },
     {
         "name": "Sustainability Lobe",
@@ -16432,7 +16442,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "1.003",
-        "thematic_area": "Core Strategic and Organizational Areas"
+        "thematic_area": "Core Strategic and Organizational Areas",
+        "lobe_owner": "Philipp Ulrich"
     },
     {
         "name": "System Lobe",
@@ -16732,7 +16743,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "3.002",
-        "thematic_area": "Product and Technology"
+        "thematic_area": "Product and Technology",
+        "lobe_owner": "Marta Bonik"
     },
     {
         "name": "Time Lobe",
@@ -17236,7 +17248,8 @@
         "equivalent_classes": [],
         "disjoint_classes": [],
         "lobe_number": "2.003",
-        "thematic_area": "Process and Supply Chain Management"
+        "thematic_area": "Process and Supply Chain Management",
+        "lobe_owner": "Philipp Ulrich"
     },
     {
         "name": "Wired Communication Lobe",

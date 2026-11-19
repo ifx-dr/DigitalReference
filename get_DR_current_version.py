@@ -19,6 +19,7 @@ DR = Namespace("http://www.w3id.org/ecsel-dr#")
 # Notes stored as rdfs:comment (e.g. "Lobe owner: ...") are not definitions
 NOTE_PATTERN = re.compile(r"^\s*(Lobe owner|Lobe number|Additional lobes?)\s*:", re.IGNORECASE)
 ADDITIONAL_LOBES_PATTERN = re.compile(r"^\s*Additional lobes?\s*:\s*(.+)$", re.IGNORECASE | re.DOTALL)
+LOBE_OWNER_PATTERN = re.compile(r"^\s*Lobe owner\s*:\s*(.+?)\s*$", re.IGNORECASE | re.DOTALL)
 # skos:definition first: approved and unified definitions are stored there
 DESCRIPTION_PREDICATES = [SKOS.definition, RDFS.comment, RDFS_description, DCT.description, DC.description]
 
@@ -114,6 +115,11 @@ def get_lobe_numbering(lobe):
         "thematic_area": THEMATIC_AREAS.get(int(float(str(number))), ""),
     }
 
+def get_lobe_owner(lobe):
+    owners = sorted({match.group(1) for comment in g.objects(subject=lobe, predicate=RDFS.comment)
+                     if (match := LOBE_OWNER_PATTERN.match(str(comment)))})
+    return {"lobe_owner": ", ".join(owners)} if owners else {}
+
 def process_class(cls, visited):
 
     if isinstance(cls, BNode):
@@ -190,6 +196,7 @@ for cls in g.subjects(predicate=RDF.type, object=OWL.Class):
         lobe_data = process_class(lobe, visited)
         if lobe_data:
             lobe_data.update(get_lobe_numbering(lobe))
+            lobe_data.update(get_lobe_owner(lobe))
             data.append(lobe_data)
 
     if cls != lobe:

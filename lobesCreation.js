@@ -54,6 +54,9 @@ function renderOntology(data) {
             ${lobe.thematic_area ? `
             <dt>Thematic area</dt>
             <dd>${lobe.thematic_area}</dd>` : ''}
+            ${lobe.lobe_owner ? `
+            <dt>Lobe owner</dt>
+            <dd>${lobe.lobe_owner}</dd>` : ''}
             <dt>Super Class Of :</dt>
             <dd>
                 <ul>
