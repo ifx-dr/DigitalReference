@@ -1314,7 +1314,8 @@ span.inline-list{
     .Intro { margin-bottom: 1rem; }
     .Bintro, .bigintro { margin: 0; }
     .Bintro li + li { margin-top: 1.5rem; }
-    .webvowl { height: min(700px, 70vh); height: min(700px, 70svh); }
+    /* At least 240px: in a short window (e.g. with DevTools open) WebVOWL would otherwise get a negative height */
+    .webvowl { height: clamp(240px, 70vh, 700px); height: clamp(240px, 70svh, 700px); }
     @media (hover: none) {
         .mappng:hover { transform: none; }
         .h2his:hover { letter-spacing: 0.6rem; }
@@ -1381,7 +1382,7 @@ span.inline-list{
     .Intro, .Map { font-size: 2rem; }
     .pindex { font-size: 1.05rem; }
     .mappng { width: 100%; }
-    .webvowl { height: 60vh; height: 60svh; }
+    .webvowl { height: max(240px, 60vh); height: max(240px, 60svh); }
 
     .infos { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; grid-auto-flow: row; }
     .metaa { font-size: 160%; }
